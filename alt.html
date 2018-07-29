@@ -1,0 +1,370 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>toy - small, simple, code oriented, modular c++ game engine</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/alt.css" />
+		<link rel="stylesheet" href="assets/css/prism.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+            <nav id="nav">
+                <ul>
+                    <li><img src="logo/toyinline.png" alt="" style="display: inline; height: 52px; margin-top: 5px; text-align: left;"/></li>
+                    <li></li>
+                    <li><a href="#overview" class="active">Overview</a></li>
+                    <li><a href="#components">Components</a></li>
+                    <li><a href="#examples">Examples</a></li>
+                    <li><a href="#highlights">Highlights</a></li>
+                    <li><a href="#snippets">Snippets</a></li>
+                    <li><a href="#support">Support us</a></li>
+                    <li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+                    <li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+                </ul>
+            </nav>
+
+            <div id="main">
+			<div style="background-image: url('editor0.png'); background-size:cover ">
+                <header id="header" class="alt">
+                    <p></p>
+                    <span class="logo"><img src="logo/toytext2.png" alt=""/></span>
+                    <p>The thin c++ game engine.</p>
+                    <br>
+                    <ul class="actions special">
+                        <li><a href="generic.html" class="button primary">Try it live !</a></li>
+                        <li><a href="generic.html" class="button">Support us</a></li>
+                    </ul>
+                </header>
+            </div>
+            
+            <div style="background-color: rgba(36, 127, 255, 1); height: 0.5em">
+            </div>
+            
+            <div style="background-color: rgba(230, 230, 230, 1); padding: 0.5em; text-align:center;">
+                <div class="container">
+                    <div class="row gtr-50 gtr-uniform">
+                        <div class="col-4 col-12-medium">
+                            <p>toy is a <strong>small, simple, code oriented, modular</strong> c++ game engine.</p>
+                        </div>
+                        <div class="col-8 col-12-medium">
+                            <span class="icon major fa-apple"></span>
+                            <span class="icon major fa-linux"></span>
+                            <span class="icon major fa-windows"></span>
+                            <span class="icon major fa-mobile"></span>
+                            <span class="icon major fa-android"></span>
+                            <span class="icon major fa-html5"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <section id="overview" class="main style1 special">
+                <div class="container">
+                    <div class="row gtr-100 gtr-uniform">
+                        <div class="col-3 col-6-medium col-12-small">
+                            <h3>Coding games first</h3>
+                            <p>The first concern of toy is to bring the <strong>thinnest and simplest</strong> stack of technology for making games <strong>directly from C++</strong>, instead of focusing on a monolithic editor, or insulating the user from the core systems.</p>
+                        </div>
+                        <div class="col-3 col-6-medium col-12-small">
+                            <h3>Versatile</h3>
+                            <p>Through direct control over <strong>expressive rendering and user interface systems</strong>, toy is perfect to build <strong>games with atypical constraints</strong>: complex user interface / rendering schemes, procedural generation..</p>
+                        </div>
+                        <div class="col-3 col-6-medium col-12-small">
+                            <h3>Fast paced</h3>
+                            <p>Designed for <strong>quick iterations</strong> and experimentation, entirely <strong>scriptable</strong>, toy provides a <strong>fully programmable 3d renderer</strong>, with direct access to shaders, materials and render paths.</p>
+                        </div>
+                        <div class="col-3 col-6-medium col-12-small">
+                            <h3>Technological stack</h3>
+                            <p>As a collection of game programming <strong>building blocks</strong>, toy aims to foster an ecosystem of simple reusable components for <strong>building your own game technology</strong>.</p>
+                        </div>
+                        <!--<div class="off-2 col-8 col-12-medium col-12-small">
+                            <h3>Open-source ecosystem</h3>
+                            <p>
+                            The only guarantee for an open-source project to strive in the long-term, is if it is part of, and relies on, an <strong>ecosystem of robust and heavily specialized community-backed libraries</strong>.
+                            <br>To ensure that, toy goes the opposite way of <strong>monolithic open-source engines</strong>, by providing separate <strong>focused libraries</strong> to that ecosystem, and by using already available libraries in this ecosystem, avoiding NIH syndrome as much as possible.
+                            <br>In doing this, toy bets on the <strong>convergence of technical solutions</strong> rather than on its dissemination.
+                            </p>
+                        </div>-->
+                    </div>
+                </div>
+            </section>
+            
+            <section id="components" class="main style1 special">
+                <div class="container">
+                    <header class="major">
+                        <h1>Thin reusable c++ components</h1>
+                    </header>
+                    <div class="row gtr-50 gtr-uniform">
+                        <div class="col-3 col-6-medium col-12-small">
+                            <span class="image fit"><img src="scripting.png" alt="" /></span>
+                            <h3>Immediate UI</h3>
+                            <p class="minor">A simple expressive user interface API is the fundamental block for writing any robust game or application.<br>toy offers the best-in-class : immediate-mode widget declarations, fully automatic layout, css-like skinning, image-based skinning, style sheets, various input widgets, docking windows and tabs.</p>
+                        </div>
+                        <div class="col-3 col-6-medium col-12-small">
+                            <span class="image fit"><img src="scripting.png" alt="" /></span>
+                            <h3>Immediate Rendering</h3>
+                            <p class="minor">Immediate-mode rendering graph declaration, with the following basic primitives: meshes, models, shaders, programs, materials, skeletons, animations, render targets, filters, render passes, render pipelines.</p>
+                        </div>
+                        <div class="col-3 col-6-medium col-12-small">
+                            <span class="image fit"><img src="editor.png" alt="" /></span>
+                            <h3>Zero-cost scripting</h3>
+                            <p class="minor">Reflection automatically extends your game core code for seamless scripting via text-based languages (lua, Wren), and a node visual-scripting language, including interfaces for editing these.<br>toy scripting component is so lean, it can be added to the game itself, for live scripting or for an in-game console.</p>
+                        </div>
+                        <div class="col-3 col-6-medium col-12-small">
+                            <span class="image fit"><img src="scripting.png" alt="" /></span>
+                            <h3>Lean Tools</h3>
+                            <p class="minor">Lightweight UI components that can be added anywhere : full object inspector, object graph outliner, script editor, node-based visual scripting editor, prefab editor, particles editor, and more.</p>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row gtr-50 gtr-uniform">
+                        <div class="col-3 col-6-medium col-12-small">
+                            <span class="image fit"><img src="editor.png" alt="" /></span>
+                            <h3>Sound</h3>
+                            <p class="minor">Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                        </div>
+                        <div class="col-3 col-6-medium col-12-small">
+                            <span class="image fit"><img src="scripting.png" alt="" /></span>
+                            <h3>Entities</h3>
+                            <p class="minor">Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                        </div>
+                        <div class="col-3 col-6-medium col-12-small">
+                            <span class="image fit"><img src="scripting.png" alt="" /></span>
+                            <h3>Physics</h3>
+                            <p class="minor">Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                        </div>
+                        <div class="col-3 col-6-medium col-12-small">
+                            <span class="image fit"><img src="scripting.png" alt="" /></span>
+                            <h3>Navmesh</h3>
+                            <p class="minor">Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="examples" class="main special">
+                <header class="major">
+                    <h1>Examples</h1>
+                </header>
+                <!--<div class="content">-->
+                <div class="row gtr-50 gtr-uniform">
+                    <div class="col-6 col-12-medium">
+                        <span class="image fit"><img src="game.png" alt="" /></span>
+                    </div>
+                    <div class="col-6 col-12-medium">
+                        <span class="image fit"><img src="space.png" alt="" /></span>
+                    </div>
+                    <div class="col-6 col-12-medium">
+                        <span class="image fit"><img src="rts.png" alt="" /></span>
+                    </div>
+                    <div class="col-6 col-12-medium">
+                        <span class="image fit"><img src="editor2.png" alt="" /></span>
+                    </div>
+                </div>
+                <!--</div>-->
+            </section>
+            
+            <section id="highlights" class="main special">
+                <div class="container">
+                    <header class="major">
+                        <h1>Highlights</h1>
+                    </header>
+                    <div class="row gtr-100 gtr-uniform">
+                        <div class="col-3 col-12-medium">
+                            <p class="content"><span class="icon minor fa-bullseye"></span><strong>simple and lightweight</strong></p>
+                            <p class="content">simplicity is the ultimate aim and philosophy behind toy. the codebase is about one-tenth the size of competing engines, and toy is so light, the whole editor runs flawlessly in your browser !</p>
+                        </div>
+                        <div class="col-3 col-12-medium">
+                            <p class="content"><span class="icon minor fa-code"></span><strong>game code first</strong></p>
+                            <p class="content">toy is first and foremost meant to build games in native c++ code, in direct contact with the core systems. this allows for much greater control than typical scripting in-engine.</p>
+                        </div>
+                        <div class="col-3 col-12-medium">
+                            <p class="content"><span class="icon minor fa-microchip"></span><strong>modular</strong></p>
+                            <p class="content">each functionality is enclosed in a small, simple, easy to understand code building block. most of these blocks lie in the underlying mud library.</p>
+                        </div>
+                        <div class="col-3 col-12-medium">
+                            <p class="content"><span class="icon minor fa-puzzle-piece"></span><strong>extensible</strong></p>
+                            <p class="content">as a collection of modules, toy is a perfect fit to build your own game technology, keeping full control over the components you use, the application design and the control flow.</p>
+                        </div>
+                        <div class="col-3 col-12-medium">
+                            <p class="content"><span class="icon minor fa-rocket"></span><strong>versatile</strong></p>
+                            <p class="content">toy is designed from the start with complex games in mind, such as strategy or role playing games, by giving full control over its powerful user interface and rendering systems.</p>
+                        </div>
+                        <div class="col-3 col-12-medium">
+                            <p class="content"><span class="icon minor fa-wrench"></span><strong>thin zero-cost tools</strong></p>
+                            <p class="content">reflection automatically extends your game core code for seamless scripting, editing, inspection of your game objects, types and procedures in the built-in tools/editor.</p>
+                        </div>
+                        <div class="col-3 col-12-medium">
+                            <p class="content"><span class="icon minor fa-search"></span><strong>educative</strong></p>
+                            <p class="content">toy aims to provide simplest technical solutions to typical game programming problems, to be easily studied and understood, hoping to be a driver of education on game development topics.</p>
+                        </div>
+                        <div class="col-3 col-12-medium">
+                            <p class="content"><span class="icon minor fa-angle-double-right"></span><strong>fast iteration</strong></p>
+                            <p class="content">coupling seamless bindings of both built-in systems and game code to various scripting languages, hot-reload of native code, and immediate UI and rendering, toy provides fast iteration speeds.</p>
+                        </div>
+                        <!--<div class="col-3 col-12-medium">
+                            <p class="content"><span class="icon minor fa-cogs"></span><strong>custom tools</strong></p>
+                            <p class="content">the modularity coupled with the beauty of the reflection and ui system, makes writing your own tools one of the strikingly easy things enabled by toy.</p>
+                        </div>-->
+                    </div>
+                </div>
+            </section>
+            
+            <section id="snippets" class="main style1 special">
+                <div class="container">
+                    <header class="major">
+                        <h1>Snippets</h1>
+                    </header>
+                            
+                            
+                            
+                            
+                    <div class="row gtr-100 gtr-uniform">
+                        
+                        <div class="col-6 col-12-medium">
+                            <h3>Creating the App</h3>
+                            <p></p>
+                        </div>
+                        <div class="col-6 col-12-medium">
+<pre><code class="language-cpp">class MyGame : public GameModule
+{
+public:
+    virtual void init(GameShell& app, Game& game) {}
+    
+    virtual void start(GameShell& app, Game& game) {}
+    
+    virtual void pump(GameShell& app, Game& game) {}
+    
+    virtual void scene(GameShell& app, GameScene& scene) {}
+};
+
+int main()
+{
+    GameShell app(TOY_RESOURCE_PATH, argc, argv);
+
+    GameModule module;
+    app.run_game(module);
+}
+</code></pre>
+                        </div>
+                        
+                        <div class="col-6 col-12-medium">
+                            <h3>Rendering a cube</h3>
+                            <p></p>
+                        </div>
+                        <div class="col-6 col-12-medium">
+<pre><code class="language-cpp">class MyGame : public GameModule
+{
+public:
+    virtual void pump(GameShell& app, Game& game)
+    {
+        Viewer& viewer = ui::scene_viewer(parent);
+        Gnode& scene = scene.m_graph.begin();
+        gfx::shape(scene, Cube(1.f), Symbol(Colour::Pink));
+    }
+};
+</code></pre>
+                        </div>
+                        
+                        
+                        <div class="col-6 col-12-medium">
+                            <h3>Defining an Entity type</h3>
+                            <p></p>
+                        </div>
+                        <div class="col-6 col-12-medium">   
+<pre><code class="language-cpp">class Human : public Complex
+{
+public:
+	Human(Id id, Entity& parent, const vec3& position);
+
+	Entity m_entity;
+	Movable m_movable;
+};</code></pre>
+                        </div>
+                        
+                        
+                        <div class="col-6 col-12-medium">
+                            <h3>Drawing an Entity</h3>
+                            <p></p>
+                        </div>
+                        <div class="col-6 col-12-medium">   
+<pre><code class="language-cpp">void paint_monster(Gnode& parent, Monster& monster)
+{
+	gfx::shape(parent, Cube(1.f), Symbol(Colour::Pink));
+}
+
+class MyGame : public GameModule
+{
+public:
+    virtual void scene(GameShell& app, GameScene& scene)
+    {
+        static OmniVision vision = { *scene.m_game.m_world };
+        scene.entity_painter<Monster>("Monsters", vision.m_store, paint_monster);
+    }
+};</code></pre>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            
+            <section id="support" class="main special">
+                <div class="container">
+                    <header class="major">
+                        <h1>Support</h1>
+                    </header>
+                    <div class="row gtr-100 gtr-uniform">
+                        <div class="off-2 col-8 col-12-medium">
+                            <p>toy needs your support : anything can help ! donate to our patreon, star us on github, follow us on tweeter, spread the word !</p>
+                            <br>
+                            <ul class="icons">
+                                <li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+                                <li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <header class="major">
+                        <h2>Supported by</h2>
+                    </header>
+                    <div class="row gtr-100 gtr-uniform">
+                        <div class="col-3">
+                            <img src="logo_placeholder.png">
+                        </div>
+                        <div class="col-3">
+                            <img src="logo_placeholder.png">
+                        </div>
+                        <div class="col-3">
+                            <img src="logo_placeholder.png">
+                        </div>
+                        <div class="col-3">
+                            <img src="logo_placeholder.png">
+                        </div>
+                        <div class="off-3 col-6 col-12-medium">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <footer id="footer">
+                <p class="copyright">&copy; Hugo Amiard. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+            </footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/prism.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
