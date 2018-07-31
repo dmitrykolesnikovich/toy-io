@@ -118,9 +118,10 @@ input, select, textarea {
 	body, input, select, textarea {
 		/*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
         font-family: "Cabin", Helvetica, sans-serif;
+        font-family: Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
         /*font-family: "Lato", Helvetica, Arial, sans-serif;*/
 		font-size: 16pt;
-		font-weight: 100;
+		font-weight: 400;
 		line-height: 1.45;
 	}
 
@@ -161,6 +162,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 700;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -180,7 +182,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 1.5;
 		letter-spacing: -0.025em;
 	}
@@ -288,6 +290,11 @@ input, select, textarea {
 
 	blockquote {
 		border-left-color: rgba(255, 255, 255, 0.35);
+	}
+
+	code {
+		background: rgba(255, 255, 255, 0.075);
+		border-color: rgba(255, 255, 255, 0.35);
 	}
 
 	hr {
@@ -2095,7 +2102,7 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 300;
+		font-weight: 400;
 		height: 2.75em;
 		line-height: 2.75em;
 		min-width: 9.25em;
@@ -2320,7 +2327,7 @@ input, select, textarea {
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-weight: 300;
+			font-weight: 400;
 			padding-left: 2.4em;
 			padding-right: 0.75em;
 			position: relative;
@@ -3469,3 +3476,37 @@ input, select, textarea {
 			}
 
 		}
+        
+/* Docs */
+
+    .doc {
+        text-align: left;
+        font-size: 14pt;
+        font-family: Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+        font-weight: 500;
+    }
+    
+    .doc p,
+    .doc ul {
+        margin: 0 0 1em 0;
+    }
+    
+    .doc code {
+		border-radius: 8px;
+		border: solid 1px;
+		font-family: "Courier New", monospace;
+		font-size: 0.9em;
+		margin: 0 0.25em;
+		padding: 0.25em 0.65em;
+	}
+    
+	.doc code {
+		background: rgba(255, 255, 255, 0.075);
+		border-color: rgba(255, 255, 255, 0.35);
+	}
+
+    
+    #main .doc code {
+        background: rgba(222, 222, 222, 0.25);
+        border-color: #dddddd;
+    }

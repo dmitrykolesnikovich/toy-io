@@ -120,7 +120,7 @@
         </script>
         <script>
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'ex_space.wasm.txt', true)
+        xhr.open('GET', 'ex_space.wasm', true)
         xhr.responseType = 'arraybuffer';
         xhr.onload = function() {
           Module.wasmBinary = xhr.response;

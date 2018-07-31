@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>toy - small, simple, code oriented, modular c++ game engine</title>
+		<title>toy - the thin c++ game engine</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/alt.css" />
@@ -19,28 +19,26 @@
                 <ul>
                     <li><img src="logo/toyinline.png" alt="" style="display: inline; height: 52px; margin-top: 5px; text-align: left;"/></li>
                     <li></li>
-                    <li><a href="#overview" class="active">Overview</a></li>
                     <li><a href="#components">Components</a></li>
                     <li><a href="#examples">Examples</a></li>
                     <li><a href="#highlights">Highlights</a></li>
                     <li><a href="#snippets">Snippets</a></li>
-                    <li><a href="#support">Support us</a></li>
                     <li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
                     <li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
-                    <li><a href="https://www.patreon.com/bsf"><img class="ui image" src="images/become_a_patron_button.png"></a></li>
+                    <li><a href="https://www.patreon.com/toyengine"><img class="ui image" src="images/patreon.png"></a></li>
                 </ul>
             </nav>
 
             <div id="main">
-			<div style="background-image: url('editor0.png'); background-size:cover ">
+			<div style="background-image: url('images/main.png'); background-size:cover ">
                 <header id="header" class="alt">
                     <p></p>
                     <span class="logo"><img src="logo/toytext2.png" alt=""/></span>
                     <p>The thin c++ game engine.</p>
                     <br>
                     <ul class="actions special">
-                        <li><a href="generic.html" class="button primary">Try it live !</a></li>
-                        <li><a href="generic.html" class="button">Support us</a></li>
+                        <li><a href="https://hugoam.github.io/toy-io/examples/ex_editor.html" class="button primary">Try it live !</a></li>
+                        <li><a href="https://www.patreon.com/toyengine" class="button">Support us</a></li>
                     </ul>
                 </header>
             </div>
@@ -104,47 +102,90 @@
                     </header>
                     <div class="row gtr-50 gtr-uniform">
                         <div class="col-3 col-6-medium col-12-small">
-                            <span class="image fit"><img src="scripting.png" alt="" /></span>
-                            <h3>Immediate UI</h3>
-                            <p class="minor">A simple expressive user interface API is the fundamental block for writing any robust game or application.<br>toy offers the best-in-class : immediate-mode widget declarations, fully automatic layout, css-like skinning, image-based skinning, style sheets, various input widgets, docking windows and tabs.</p>
+                            <span class="image fit"><img src="images/ui.png" alt="" /></span>
+                            <h4 style="text-align: left;">user interface</h4>
+                            <ul style="font-size: 0.8em; text-align: left;">
+                            <li>immediate-mode widget declarations</li>
+                            <li>fully automatic layout</li>
+                            <li>css-like skinning</li>
+                            <li>image-based skinning</li>
+                            <li>style sheets</li>
+                            <li>varied input widgets</li>
+                            <li>docking system</li>
+                            </ul>
                         </div>
                         <div class="col-3 col-6-medium col-12-small">
-                            <span class="image fit"><img src="scripting.png" alt="" /></span>
-                            <h3>Immediate Rendering</h3>
-                            <p class="minor">Immediate-mode rendering graph declaration, with the following basic primitives: meshes, models, shaders, programs, materials, skeletons, animations, render targets, filters, render passes, render pipelines.</p>
+                            <span class="image fit"><img src="images/rendering.png" alt="" /></span>
+                            <h4 style="text-align: left;">renderer</h4>
+                            <ul style="font-size: 0.8em; text-align: left;">
+                            <li>immediate-mode rendering graph declaration</li>
+                            <li>simple meshes and models</li>
+                            <li>shaders, programs and materials</li>
+                            <li>skeletal animations and skinning</li>
+                            <li>pluggable filters, render passes and render pipelines</li>
+                            <li>OBJ and glTF model importers</li>
+                            </ul>
                         </div>
                         <div class="col-3 col-6-medium col-12-small">
-                            <span class="image fit"><img src="editor.png" alt="" /></span>
-                            <h3>Zero-cost scripting</h3>
-                            <p class="minor">Reflection automatically extends your game core code for seamless scripting via text-based languages (lua, Wren), and a node visual-scripting language, including interfaces for editing these.<br>toy scripting component is so lean, it can be added to the game itself, for live scripting or for an in-game console.</p>
+                            <span class="image fit"><img src="images/scripting.png" alt="" /></span>
+                            <h4 style="text-align: left;">zero-cost scripting</h4>
+                            <ul style="font-size: 0.8em; text-align: left;">
+                            <li>automatic binding of c++ game code</li>
+                            <li>textual languages: lua</li>
+                            <li>upcoming languages: Wren, C#</li>
+                            <li>nodal visual scripting language</li>
+                            <li>editors for both text and visual scripts</li>
+                            </ul>
                         </div>
                         <div class="col-3 col-6-medium col-12-small">
-                            <span class="image fit"><img src="scripting.png" alt="" /></span>
-                            <h3>Lean Tools</h3>
-                            <p class="minor">Lightweight UI components that can be added anywhere : full object inspector, object graph outliner, script editor, node-based visual scripting editor, prefab editor, particles editor, and more.</p>
-                        </div>
-                    </div>
-                    <br><br>
-                    <div class="row gtr-50 gtr-uniform">
-                        <div class="col-3 col-6-medium col-12-small">
-                            <span class="image fit"><img src="editor.png" alt="" /></span>
-                            <h3>Sound</h3>
-                            <p class="minor">Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-                        </div>
-                        <div class="col-3 col-6-medium col-12-small">
-                            <span class="image fit"><img src="scripting.png" alt="" /></span>
-                            <h3>Entities</h3>
-                            <p class="minor">Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span class="image fit"><img src="images/tools.png" alt="" /></span>
+                            <h4 style="text-align: left;">modular zero-cost tools</h4>
+                            <ul style="font-size: 0.8em; text-align: left;">
+                            <li>automatic serialization of c++ game classes</li>
+                            <li>generic object inspector</li>
+                            <li>generic graph outliner</li>
+                            <li>text-based script editor</li>
+                            <li>node-based visual script editor</li>
+                            <li>prefab editor</li>
+                            <li>particles editor</li>
+                            </ul>
                         </div>
                         <div class="col-3 col-6-medium col-12-small">
-                            <span class="image fit"><img src="scripting.png" alt="" /></span>
-                            <h3>Physics</h3>
-                            <p class="minor">Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span class="image fit"><img src="images/sound.png" alt="" /></span>
+                            <h4 style="text-align: left;">sound</h4>
+                            <ul style="font-size: 0.8em; text-align: left;">
+                            <li>immediate-mode sounds declaration in scene graph</li>
+                            <li>3d sound and listener spatialization</li>
+                            <li>ogg static and stream sound support</li>
+                            </ul>
                         </div>
                         <div class="col-3 col-6-medium col-12-small">
-                            <span class="image fit"><img src="scripting.png" alt="" /></span>
-                            <h3>Navmesh</h3>
-                            <p class="minor">Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span class="image fit"><img src="images/pbr.png" alt="" /></span>
+                            <h4 style="text-align: left;">PBR pipeline</h4>
+                            <ul style="font-size: 0.8em; text-align: left;">
+                            <li>renderer extension</li>
+                            <li>physically based material model</li>
+                            <li>cascaded shadow maps</li>
+                            <li>reflection probes (WIP)</li>
+                            <li>HDR pipeline, glow, tonemapping</li>
+                            </ul>
+                        </div>
+                        <div class="col-3 col-6-medium col-12-small">
+                            <span class="image fit"><img src="images/physics.png" alt="" /></span>
+                            <h4 style="text-align: left;">physics</h4>
+                            <ul style="font-size: 0.8em; text-align: left;">
+                            <li>bullet physics integration</li>
+                            <li>rigid body simulation</li>
+                            <li>raycasts, convex sweeps scene queries</li>
+                            </ul>
+                        </div>
+                        <div class="col-3 col-6-medium col-12-small">
+                            <span class="image fit"><img src="images/navmesh.png" alt="" /></span>
+                            <h4 style="text-align: left;">navmesh</h4>
+                            <ul style="font-size: 0.8em; text-align: left;">
+                            <li>recast tiled navmesh generation</li>
+                            <li>detour pathfinding queries</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -157,16 +198,16 @@
                 <!--<div class="content">-->
                 <div class="row gtr-50 gtr-uniform">
                     <div class="col-6 col-12-medium">
-                        <span class="image fit"><img src="game.png" alt="" /></span>
+                        <a href="https://hugoam.github.io/toy-io/examples/ex_platform.html" class="image fit"><img src="game.png" alt="" /></a>
                     </div>
                     <div class="col-6 col-12-medium">
-                        <span class="image fit"><img src="space.png" alt="" /></span>
+                        <a href="https://hugoam.github.io/toy-io/examples/ex_space.html" class="image fit"><img src="space.png" alt="" /></a>
                     </div>
                     <div class="col-6 col-12-medium">
-                        <span class="image fit"><img src="rts.png" alt="" /></span>
+                        <a href="https://hugoam.github.io/toy-io/examples/ex_blocks.html" class="image fit"><img src="rts.png" alt="" /></a>
                     </div>
                     <div class="col-6 col-12-medium">
-                        <span class="image fit"><img src="editor2.png" alt="" /></span>
+                        <a href="https://hugoam.github.io/toy-io/examples/ex_editor.html" class="image fit"><img src="editor2.png" alt="" /></a>
                     </div>
                 </div>
                 <!--</div>-->
@@ -229,9 +270,17 @@
                             
                     <div class="row gtr-100 gtr-uniform">
                         
-                        <div class="col-6 col-12-medium">
+                        <div class="doc col-6 col-12-medium">
                             <h3>Creating the App</h3>
-                            <p></p>
+                            <p>That's it for the minimal toy game : we have a running app, with a black screen :)
+                            The <code>GameModule</code> interface provides four main hooks for writing your game logic:</p>
+                            <ul>
+                            <li><code>init()</code> is called when initializing the game</li>
+                            <li><code>start()</code> is called when the game session is started</li>
+                            <li><code>pump()</code> is called on each frame</li>
+                            <li><code>scene()</code> is called everytime a scene is created</li>
+                            </ul>
+                            <p>Note: <code>GameModule</code> and <code>GameShell</code> are merely helper class: you aren't in any way constrained to use them. If you want complete control over your application flow, you can borrow the setup logic from the <a href="/hugoam/toy/blob/master/src/shell/Shell.cpp"><code>Shell.cpp</code></a> file, and setup a working application in a couple dozen lines of code.</p>
                         </div>
                         <div class="col-6 col-12-medium">
 <pre><code class="language-cpp">class MyGame : public GameModule
@@ -256,18 +305,30 @@ int main()
 </code></pre>
                         </div>
                         
-                        <div class="col-6 col-12-medium">
+                        <div class="doc col-6 col-12-medium">
                             <h3>Rendering a cube</h3>
-                            <p></p>
+                            <p>Rendering objects is simply a matter of creating a <code>Scene</code>, a <code>Viewer</code>, and submitting some geometry to the <code>Scene</code>.</p>
+                            <ul>
+                            <li>initialize the UI graph by calling <code>begin()</code> on the ui root</li>
+                            <li>add a <code>Viewer</code> to the UI graph by calling <code>scene_viewer()</code></li>
+                            <li>initialize the render graph by calling <code>begin()</code> on the scene</li>
+                            <li>add a <code>Cube</code> to the render graph by calling <code>shape()</code></li>
+                            </ul>
+                            <p>Note: The <code>scene_viewer()</code> function declares a special kind of <code>Viewer</code> that holds its own <code>Scene</code> inside. If you created a <code>Scene</code> separately, just call the <code>viewer()</code> function instead.</p>
                         </div>
                         <div class="col-6 col-12-medium">
 <pre><code class="language-cpp">class MyGame : public GameModule
 {
 public:
+    virtual void init(GameShell& app, Game& game) {}
+    
+    virtual void start(GameShell& app, Game& game) {}
+    
     virtual void pump(GameShell& app, Game& game)
     {
-        Viewer& viewer = ui::scene_viewer(parent);
-        Gnode& scene = scene.m_graph.begin();
+        Widget& ui = app.m_ui.begin();
+        Viewer& viewer = ui::scene_viewer(ui);
+        Gnode& scene = viewer.m_scene.begin();
         gfx::shape(scene, Cube(1.f), Symbol(Colour::Pink));
     }
 };
@@ -275,15 +336,22 @@ public:
                         </div>
                         
                         
-                        <div class="col-6 col-12-medium">
+                        <div class="doc col-6 col-12-medium">
                             <h3>Defining an Entity type</h3>
-                            <p></p>
+                            <p>An <code>Entity</code> in toy is a spatial object with children. It's convenient to define game objects types composed around an <code>Entity</code> as well as other components:</p>
+                            <ul>
+                            <li>an <code>Entity</code> component has a position, a rotation, and a list of children</li>
+                            <li>a <code>Movable</code> component has a linear and angular velocity</li>
+                            </ul>
                         </div>
                         <div class="col-6 col-12-medium">   
 <pre><code class="language-cpp">class Human : public Complex
 {
 public:
-	Human(Id id, Entity& parent, const vec3& position);
+	Human(Id id, Entity& parent, const vec3& position)
+        : m_entity(id, parent, position)
+        , m_movable(m_entity)
+    {}
 
 	Entity m_entity;
 	Movable m_movable;
