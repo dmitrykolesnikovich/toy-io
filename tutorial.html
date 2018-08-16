@@ -141,7 +141,7 @@ Gfx.shape(node, Cube.new(), Symbol.new(Colour.White))
     <p>Let's create more cubes, in a loop, by passing different colors and positions to the<code>node()</code> and <code>draw()</code> functions.</p>
 <pre><code class="block language-wren">for (i in 0...50) {
     var colour = Colour.hsl(i / 50, 1, 0.5)
-    var node = Gfx.node(graph, null, Vec3.new(i, i, i))
+    var node = Gfx.node(graph, null, Vec3.new(i - 25))
     Gfx.draw(node, Cube.new(Vec3.new(1)), Symbol.new(colour))
 }
 </code><button class="overlay paste">paste</button></pre>
@@ -891,13 +891,13 @@ var game = MyGame.new(module)
                         text = m[1];
                         progressElement.value = parseInt(m[2])*100;
                         progressElement.max = parseInt(m[4])*100;
-                        progressElement.hidden = false;
-                        spinnerElement.hidden = false;
+                        progressElement.style.display = 'block';
+                        spinnerElement.style.display = 'block';
                     } else {
                         progressElement.value = null;
                         progressElement.max = null;
-                        progressElement.hidden = true;
-                        if (!text) spinnerElement.hidden = true;
+                        progressElement.style.display = 'none';
+                        if (!text) spinnerElementstyle.display = 'none';
                     }
                 },
                 totalDependencies: 0,
