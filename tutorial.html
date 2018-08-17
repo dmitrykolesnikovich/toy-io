@@ -74,9 +74,9 @@
 
 <div id="section_0" class="row gtr-100 gtr-uniform" style="hidden: true;">       
 <div class="doc col-12">
-    <h3>Wren language support</h3>
-    <p>Here is the culmination of the last week of work, which I've spent on adding <strong>another language</strong> to program toy. Unlike the previous language, lua, <strong>Wren is class-based</strong>, while sharing many of the advantages that make lua such a great scripting language for games.</p>
+    <p>I've spent the last week adding the <strong>Wren language</strong> to program toy. Unlike lua, <strong>Wren is class-based</strong>, while sharing many of the advantages that make lua such a great scripting language for games. I'm thrilled to finally have this feature because it opens up a world of possibilities for game programming learning material, directly consumable on the web.</p>
     <p>This tutorial will teach you the fundamentals of setting up a <strong>simple yet fully working game</strong> using toy. Thanks to how portable toy is, you will do all this right here, on this web page :)</p>
+    <p>You are free to write directly in the script editor, or to use the <code>paste</code> button of each snippet which will insert the code at the current cursor position inside the editor.</p>
     <h3>Creating the App</h3>
     <p>The code on the right is your starting point: it setups the minimal toy game, a running app, with a black screen :)
     The <code>GameModule</code> interface provides five main hooks for writing your game logic:</p>
@@ -153,16 +153,16 @@ Gfx.shape(node, Cube.new(), Symbol.new(Colour.White))
 <div class="doc col-12">
     <h3>Make it random</h3>
     <p>Wren provides a built-in <code>Random</code> number generator, on which you call the <code>float()</code> or <code>int()</code> functions to generate numbers in the given range. First, create it.</p>
-<pre><code class="block language-wren">var rand = Random.new()</code>
-<button class="overlay paste">paste</button></pre>
+<pre><code class="block language-wren">var rand = Random.new()
+</code><button class="overlay paste">paste</button></pre>
     <p>Then, inside the loop, let's create random attributes and feed these to the <code>node()</code> and <code>draw()</code> functions.</p>
 <pre><code class="block language-wren">var position = Vec3.new(rand.float(-50, 50), rand.float(0, 20), rand.float(-50, 50))
 var extents = Vec3.new(rand.float(1, 5))
 var colour = Colour.hsl(rand.float(0, 1), 1, 0.5)
 </code><button class="overlay paste">paste</button></pre>
     <p>You will also need to import the <code>Random</code> object. It lies in a built-in Wren module called <code>random</code></p>
-<pre><code class="block language-wren">import "random" for Random</code>
-<button class="overlay paste">paste</button></pre>
+<pre><code class="block language-wren">import "random" for Random
+</code><button class="overlay paste">paste</button></pre>
 </div>
 </div>
 
@@ -228,8 +228,8 @@ var game = MyGame.new(module)
 </code><button class="overlay paste">paste</button></pre>
     <p>Let's add the above definition to the top of our script: we define an Entity with two components: an <code>Entity</code>, and a <code>Movable</code>. This is enough to formalize spatial objects that can also move.</p>
     <p>We also need to bind this new class, somewhere near the end:</p>
-<pre><code class="block language-wren">Body.bind()</code>
-<button class="overlay paste">paste</button></pre>
+<pre><code class="block language-wren">Body.bind()
+</code><button class="overlay paste">paste</button></pre>
 </div>
 </div>
 
