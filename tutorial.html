@@ -74,7 +74,7 @@
 
 <div id="section_0" class="row gtr-100 gtr-uniform" style="hidden: true;">       
 <div class="doc col-12">
-    <p>I've spent the last week adding the <strong>Wren language</strong> to program toy. Unlike lua, <strong>Wren is class-based</strong>, while sharing many of the advantages that make lua such a great scripting language for games. I'm thrilled to finally have this feature because it opens up a world of possibilities for game programming learning material, directly consumable on the web.</p>
+    <p>The last week was spent adding the <strong>Wren language</strong> to program toy. Unlike lua, <strong>Wren is class-based</strong>, while sharing many of the advantages that make lua such a great scripting language for games. It's thrilling to finally have this feature because it opens up a world of possibilities for game programming learning material, directly consumable on the web.</p>
     <p>This tutorial will teach you the fundamentals of setting up a <strong>simple yet fully working game</strong> using toy. Thanks to how portable toy is, you will do all this right here, on this web page :)</p>
     <p>You are free to write directly in the script editor, or to use the <code>paste</code> button of each snippet which will insert the code at the current cursor position inside the editor.</p>
     <h3>Creating the App</h3>
@@ -100,10 +100,7 @@
 </div>
 <div class="doc col-12">
     <h3>Reload the game</h3>
-    <p>Press <code>reload</code>. You will get an error: the symbol <code>Ui</code> is not yet defined. It is found in the <code>mud</code> module, which you have to add to the imports of your script:</p>
-<pre><code class="block language-wren">import "mud" for Ui
-</code><button class="overlay paste">paste</button></pre>
-    <p>Reload again: nothing changed! You created an empty black viewport. Just to be sure there is a viewer, try this:</p>
+    <p>Press <code>reload</code>. You created an empty black viewport. Just to be sure there is a viewer, try this:</p>
 <pre><code class="block language-wren">viewer.viewport.clear_colour = Colour.Red
 </code><button class="overlay paste">paste</button></pre>
 </div>
@@ -123,9 +120,7 @@
 <pre><code class="block language-wren">var node = Gfx.node(graph)
 Gfx.shape(node, Cube.new(), Symbol.new(Colour.White))
 </code><button class="overlay paste">paste</button></pre>
-    <p>Press <code>reload</code>. Another error ? We need to add the missing symbol names we just used to the <code>mud</code> import line.</p>
-<pre><code class="block language-wren">import "mud" for Colour, Cube, Symbol, Ui, Gfx
-</code><button class="overlay paste">paste</button></pre>
+    <p>Press <code>reload</code>. Now you have a white cube in the middle of the viewport.</p>
 </div>
 </div>
 
@@ -159,9 +154,6 @@ Gfx.shape(node, Cube.new(), Symbol.new(Colour.White))
 <pre><code class="block language-wren">var position = Vec3.new(rand.float(-50, 50), rand.float(0, 20), rand.float(-50, 50))
 var extents = Vec3.new(rand.float(1, 5))
 var colour = Colour.hsl(rand.float(0, 1), 1, 0.5)
-</code><button class="overlay paste">paste</button></pre>
-    <p>You will also need to import the <code>Random</code> object. It lies in a built-in Wren module called <code>random</code></p>
-<pre><code class="block language-wren">import "random" for Random
 </code><button class="overlay paste">paste</button></pre>
 </div>
 </div>
@@ -255,11 +247,6 @@ game.world = GWorld.world
 
 <div id="section_8" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
-    <h3>Import the symbols</h3>
-    <p>Let's not forget to import the newly used symbols:</p>
-<pre><code class="block language-wren">import "mud" for ScriptClass, Complex // ...
-import "toy" for DefaultWorld, Entity, Movable
-</code><button class="overlay paste">paste</button></pre>
     <h3>Check that it compiles</h3>
     <p>Let's hit <code>reload</code>: it should compile, but the result should be the same as before! We are still rendering arbitrary shapes in the <code>pump()</code> handler, but we want to render our newly created <code>Entities</code>!</p>
 </div>
@@ -432,7 +419,7 @@ var game = MyGame.new(module)
     static bind() { __cls = ScriptClass.new("Body", [Entity.type, Movable.type, Solid.type]) }
 }
 </code><button class="overlay paste">paste</button></pre>
-    <p>Press <code>reload</code>. Fix the missing import error (<code>Solid</code> is in the toy module). Press <code>reload</code> again. Your bodies will now fall downwards!</p>
+    <p>Press <code>reload</code>. Your bodies will now fall downwards!</p>
 </div>
 </div>
 
@@ -897,7 +884,7 @@ var game = MyGame.new(module)
                         progressElement.value = null;
                         progressElement.max = null;
                         progressElement.style.display = 'none';
-                        if (!text) spinnerElementstyle.display = 'none';
+                        if (!text) spinnerElement.style.display = 'none';
                     }
                 },
                 totalDependencies: 0,
