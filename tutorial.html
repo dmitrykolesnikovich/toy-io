@@ -487,14 +487,19 @@ var game = MyGame.new(module)
 <div id="section_17" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
     <h3>Rendering the Terrain object</h3>
-    <p>Finally, we need to add some rendering logic: again, like for the <code>Bodies</code>, we simply render its shape, with a predefined grey colour:</p>
-<pre><code class="block language-wren">var terrain = Gfx.node(graph, GTerrain, GTerrain.entity.position, GTerrain.entity.rotation)
-Gfx.shape(terrain, GTerrain.quad, Symbol.new(Colour.new(0.3, 1)))
-</code><button class="overlay paste">paste</button></pre>
-    <p>To render it with a PBR material like the cubes, the code is slightly different:</p>
+    <p>Finally, we need to add some rendering logic: again, like for the <code>Bodies</code>, we simply render its shape, with a predefined grey pbr material:</p>
 <pre><code class="block language-wren">var terrain = Gfx.node(graph, GTerrain, GTerrain.entity.position, GTerrain.entity.rotation)
 var material = Gfx.pbr_material(app.gfx, "ground", Colour.new(0.3, 1))
 Gfx.shape(terrain, GTerrain.quad, Symbol.new(Colour.White), 0, material)       
+</code><button class="overlay paste">paste</button></pre>
+    <h3>Alternate cubes and spheres</h3>
+    <p>Now that we have physics enabled, it will be more fun with different types of shapes. Let's modify the creation loop slightly, to alternate between <code>Cubes</code> and <code>Spheres</code>:</p>
+<pre><code class="block language-wren">for (i in 0...100) {
+    var position = Vec3.new(rand.float(-50, 50), rand.float(0, 20), rand.float(-50, 50))
+    var colour = Colour.hsl(rand.float(0, 1), 1, 0.5)
+    var shape = i % 2 == 0 ? Cube.new(Vec3.new(rand.float(1, 5))) : Sphere.new(rand.float(1, 5))
+    GBodies.add(Body.new(0, GWorld.world.origin, position, shape, colour))
+}   
 </code><button class="overlay paste">paste</button></pre>
 </div>
 </div>
@@ -558,11 +563,11 @@ foreign class MyGame {
         GTerrain = Terrain.new(0, GWorld.world.origin, 100)
         
         var rand = Random.new()
-        for (i in 0...50) {
+        for (i in 0...100) {
             var position = Vec3.new(rand.float(-50, 50), rand.float(0, 20), rand.float(-50, 50))
             var colour = Colour.hsl(rand.float(0, 1), 1, 0.5)
-            var size = Vec3.new(rand.float(1, 5))
-            GBodies.add(Body.new(0, GWorld.world.origin, position, Cube.new(size), colour))
+            var shape = i % 2 == 0 ? Cube.new(Vec3.new(rand.float(1, 5))) : Sphere.new(rand.float(1, 5))
+            GBodies.add(Body.new(0, GWorld.world.origin, position, shape, colour))
         }
         
         GScene = app.add_scene()
@@ -764,11 +769,11 @@ foreign class MyGame {
         GBodies.add(GAgent)
         
         var rand = Random.new()
-        for (i in 0...50) {
+        for (i in 0...100) {
             var position = Vec3.new(rand.float(-50, 50), rand.float(0, 20), rand.float(-50, 50))
             var colour = Colour.hsl(rand.float(0, 1), 1, 0.5)
-            var size = Vec3.new(rand.float(1, 5))
-            GBodies.add(Body.new(0, GWorld.world.origin, position, Cube.new(size), colour))
+            var shape = i % 2 == 0 ? Cube.new(Vec3.new(rand.float(1, 5))) : Sphere.new(rand.float(1, 5))
+            GBodies.add(Body.new(0, GWorld.world.origin, position, shape, colour))
         }
         
         GScene = app.add_scene()
