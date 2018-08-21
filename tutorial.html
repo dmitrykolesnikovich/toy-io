@@ -59,10 +59,12 @@
         <div class="left-half">
             <div class="main" style="height: 100%;">
             
-                <nav id="nav" style="height: 3.5em; padding: 0.25em">
+                <nav id="nav" style="height: 3.5em; padding: 0.4em">
                     <ul>
-                        <li><a href="https://toyengine.io"><img src="logo/toyengine.png" alt="" style="display: inline; height: 52px; margin-top: 5px; text-align: left;"/></a/</li>
-                        <li><a href="https://www.patreon.com/toyengine"><img class="ui image" src="images/patreon.png"></a></li>
+                        <li><a href="https://toyengine.io"><img class="image" src="logo/toyengine.png" alt="" style="display: inline; text-align: left;"/></a/</li>
+                        <li><a href="https://github.com/hugoam/toy"><span class="icon minor fa-github"></span></a></li>
+                        <li><a href="https://twitter.com/hugoamnov"><span class="icon minor fa-twitter"></span></a></li>
+                        <li><a href="https://www.patreon.com/toyengine"><img class="image" src="images/patreon_small.png"></a></li>
                     </ul>
                 </nav>
 
@@ -72,11 +74,24 @@
                             <h2>Live tutorial</h2>
                         </header>
 
-<div id="section_0" class="row gtr-100 gtr-uniform" style="hidden: true;">       
+<div id="section_0" class="row gtr-100 gtr-uniform">       
 <div class="doc col-12">
     <p>The last week was spent adding the <strong>Wren language</strong> to program toy. Unlike lua, <strong>Wren is class-based</strong>, while sharing many of the advantages that make lua such a great scripting language for games. It's thrilling to finally have this feature because it opens up a world of possibilities for game programming learning material, directly consumable on the web.</p>
     <p>This tutorial will teach you the fundamentals of setting up a <strong>simple yet fully working game</strong> using toy. Thanks to how portable toy is, you will do all this right here, on this web page :)</p>
-    <p>You are free to write directly in the script editor, or to use the <code>paste</code> button of each snippet which will insert the code at the current cursor position inside the editor.</p>
+    <p>You are free to write directly in the script editor, or to use the <code>paste</code> button of each snippet which will insert the code at the current cursor position inside the editor. Using the browser copy function with <code>Ctrl+V</code> will also put it in the editor clipboard, so you can the paste it.</p>
+    <p>This tutorial aims to <strong>familiarize yourself with toy user API</strong>, as well as demonstrate the potential for live interactive learning material, and how toy can help achieve that. It uses Wren, but all the functions and classes used here are just a 1:1 mapping of the C++ API. Please keep in mind this is also a proof of concept, which will be further refined and perfected in future iterations.</p>
+</div>
+</div>
+
+<div id="section_1" class="row gtr-100 gtr-uniform" style="display: none;">       
+<div class="doc col-12">
+    <p>This tutorial is divided into four successive parts: if you don't want to actually complete it, but just want to see the example code in action, you can preview each part by clicking on the <code>paste</code> button below, and pressing <code>reload</code> in the editor panel.</p>
+    <ul>
+    <li>part 1 - draw a viewport, control the camera and render randomly colored cubes <button class="button pasterecap" style="color: black !important;">paste code</button></li>
+    <li>part 2 - define an entity type, and create a world filled with randomly colored entities <button class="button pasterecap" style="color: black !important;">paste code</button></li>
+    <li>part 3 - add physics to our entities, and create a terrain object <button class="button pasterecap" style="color: black !important;">paste code</button></li>
+    <li>part 4 - define an agent type whose movement can be controlled, and add a controller to command it <button class="button pasterecap" style="color: black !important;">paste code</button></li>
+    </ul>
     <h3>Creating the App</h3>
     <p>The code on the right is your starting point: it setups the minimal toy game, a running app, with a black screen :)
     The <code>GameModule</code> interface provides five main hooks for writing your game logic:</p>
@@ -90,29 +105,29 @@
 </div>
 </div>
 
-<div id="section_1" class="row gtr-50 gtr-uniform" style="display: none;">
+<div id="section_2" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
     <h3>Creating a viewer</h3>
-    <p>The first thing we will do is creating a <code>Viewer</code> in the UI hierarchy of our app. To do this, add the following in the body of the <code>pump()</code> function.</p>
+    <p>The first thing we will do is creating a <code>Viewer</code> in the UI hierarchy of our app. The <code>ui::scene_viewer</code> function declares a special kind of <code>Viewer</code> that contains its own <code>Scene</code>. Call it in the body of the <code>pump()</code> function:</p>
 <pre><code class="block language-wren">var viewer = Ui.scene_viewer(ui)
-</code><button class="overlay paste">paste</span></pre>
+</code><button class="overlay paste">paste</button></pre>
     <p>Note: In Wren, everything is an object, and every function is a method, so this is actually a static method on the <code>Ui</code> class. In C++, it's a regular function.</p>
 </div>
 <div class="doc col-12">
-    <h3>Reload the game</h3>
-    <p>Press <code>reload</code>. You created an empty black viewport. Just to be sure there is a viewer, try this:</p>
+    <h3>Starting to draw</h3>
+    <p>Next, we want to draw some geometry to the viewport. First, we need to initialize the scene graph using <code>Scene::begin()</code>.</p>
+<pre><code class="block language-wren">var graph = viewer.scene.begin()
+</code><button class="overlay paste">paste</button></pre>
+    <p>Press <code>reload</code>. You created an empty black viewport. Just to be sure there is a viewer, you can try this:</p>
 <pre><code class="block language-wren">viewer.viewport.clear_colour = Colour.Red
 </code><button class="overlay paste">paste</button></pre>
 </div>
 </div>
 
-<div id="section_2" class="row gtr-50 gtr-uniform" style="display: none;">
+<div id="section_3" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
     <h3>Drawing a cube</h3>
-    <p>Next, we want to draw some geometry to the viewport. First, we need to initialize the scene graph using <code>Scene::begin()</code>.</p>
-<pre><code class="block language-wren">var graph = viewer.scene.begin()
-</code><button class="overlay paste">paste</button></pre>
-    <p>Once the graph is initialized, we can start actually drawing geometry. Add these to the <code>paint()</code> function:</p>
+    <p>Now that our scene graph is initialized, we can start actually drawing geometry. Add these to the <code>pump()</code> function after creating the viewer:</p>
     <ul>
     <li>declare a node in the graph, which holds the transform, by calling <code>gfx::node()</code>, passing the parent, an object (null), and a position</li>
     <li>declare a shape as a child of this node, by calling<code>gfx::shape()</code> passing the parent, the shape, and a symbol holding the shape colours</li>
@@ -121,10 +136,15 @@
 Gfx.shape(node, Cube.new(), Symbol.new(Colour.White))
 </code><button class="overlay paste">paste</button></pre>
     <p>Press <code>reload</code>. Now you have a white cube in the middle of the viewport.</p>
+    <p>You can try passing a different <code>Colour</code>, or a different <code>Cube</code> created with a size argument of type <code>Vec3</code>:</p>
+<pre><code class="block language-wren">Colour.new(0.3, 0.8, 0.1)
+</code><button class="overlay paste">paste</button></pre>
+<pre><code class="block language-wren">Cube.new(Vec3.new(1, 2, 0.5))
+</code><button class="overlay paste">paste</button></pre>
 </div>
 </div>
 
-<div id="section_3" class="row gtr-50 gtr-uniform" style="display: none;">
+<div id="section_4" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
     <h3>Controlling the camera</h3>
     <p>The simplest way is to call <code>ui::orbit_controller</code>, which takes a <code>Viewer</code> and controls its camera. It's the simplest controller: it handles input to make the camera orbit around a fixed center point, when pressing <code>Middle Mouse Button</code>.</p>
@@ -144,26 +164,30 @@ Gfx.shape(node, Cube.new(), Symbol.new(Colour.White))
 </div>
 </div>
 
-<div id="section_4" class="row gtr-50 gtr-uniform" style="display: none;">
+<div id="section_5" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
     <h3>Make it random</h3>
     <p>Wren provides a built-in <code>Random</code> number generator, on which you call the <code>float()</code> or <code>int()</code> functions to generate numbers in the given range. First, create it.</p>
 <pre><code class="block language-wren">var rand = Random.new()
 </code><button class="overlay paste">paste</button></pre>
-    <p>Then, inside the loop, let's create random attributes and feed these to the <code>node()</code> and <code>draw()</code> functions.</p>
+    <p>Then, inside the loop, let's create random <code>position</code>, <code>extents</code> and <code>colour</code> for each of our cubes.</p>
 <pre><code class="block language-wren">var position = Vec3.new(rand.float(-50, 50), rand.float(0, 20), rand.float(-50, 50))
 var extents = Vec3.new(rand.float(1, 5))
 var colour = Colour.hsl(rand.float(0, 1), 1, 0.5)
 </code><button class="overlay paste">paste</button></pre>
+    <p>You have to also modify the calls to the <code>node()</code> and <code>draw()</code> functions to use the attributes we created:</p>
+<pre><code class="block language-wren">var node = Gfx.node(graph, null, position)
+Gfx.draw(node, Cube.new(extents), Symbol.new(colour))
+</code><button class="overlay paste">paste</button></pre>
 </div>
 </div>
 
-<div id="section_5" class="row gtr-50 gtr-uniform" style="display: none;">
+<div id="section_6" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
     <h3>First part recap</h3>
     <p>By now, you should have a code similar to the following:</p>
-<pre style="overflow: auto; max-height: 40em;"><code class="block language-wren">import "random" for Random
-import "mud" for Vec3, Colour, Cube, Symbol, Ui, Gfx
+<pre style="overflow: auto; max-height: 40em;"><code id="recap_0" class="block language-wren">import "random" for Random
+import "toy" for ScriptClass, Vec2, Vec3, Complex, Colour, Cube, Sphere, Quad, Symbol, Ui, Gfx, BackgroundMode, DefaultWorld, Entity, Movable, Solid, CollisionShape, GameMode, OrbitMode
 
 foreign class MyGame {
     static new(module) { __constructor.call(MyGame, module) }
@@ -201,97 +225,85 @@ var game = MyGame.new(module)
 </div>
 </div>
 
-<div id="section_6" class="row gtr-50 gtr-uniform" style="display: none;">
+<div id="section_7" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
     <h3>Defining an Entity</h3>
     <p>Until now, we were directly declaring pure graphical shapes. To design a game, it's convenient to define some <code>Entity</code> types.</p>
 <pre><code class="block language-wren">class Body {
-    construct new(id, parent, position) {
+    construct new(id, parent, position, shape, colour) {
         _complex = Complex.new(id, __cls.type)
         _entity = Entity.new(id, _complex, parent, position)
-        _movable = Movable.new(_entity)
-        _complex.setup([_entity, _movable])
+        _shape = shape
+        _colour = colour
+        _complex.setup([_entity])
     }
     
-    entity { _entity }
-    
-    static bind() { __cls = ScriptClass.new("Body", [Entity.type, Movable.type]) }
+    static bind() { __cls = ScriptClass.new("Body", [Entity.type]) }
 }
 </code><button class="overlay paste">paste</button></pre>
-    <p>Let's add the above definition to the top of our script: we define an Entity with two components: an <code>Entity</code>, and a <code>Movable</code>. This is enough to formalize spatial objects that can also move.</p>
-    <p>We also need to bind this new class, somewhere near the end:</p>
+    <p>Let's add the above definition to the top of our script: we define an Entity with only one component: an <code>Entity</code>, which holds the 3d transform, and a list of children. This is enough to formalize the simplest spatial objects.</p>
+    <p>We also need to bind this new class, somewhere near the end of the script:</p>
 <pre><code class="block language-wren">Body.bind()
-</code><button class="overlay paste">paste</button></pre>
-</div>
-</div>
-
-<div id="section_7" class="row gtr-50 gtr-uniform" style="display: none;">
-<div class="doc col-12">
-    <h3>Creating a World, a Scene, and Entities</h3>
-    <p>Instead of directly declaring pure graphical shapes, we will now render proper Entities. To do this, we need: a <code>World</code> to contain the entities, a <code>Scene</code> to render them, and a list of entities:</p>
-<pre><code class="block language-wren">var GWorld = null
-var GScene = null
-var GBodies = []
-</code><button class="overlay paste">paste</button></pre>
-    <p>We will create all these inside the <code>start()</code> function. First, let's create the game world:</p>
-<pre><code class="block language-wren">GWorld = DefaultWorld.new("Example")
-game.world = GWorld.world
-</code><button class="overlay paste">paste</button></pre>
-    <p>Then, let's create our game Entities using the newly defined <code>Body</code> class, as children of the <code>World</code> origin.</p>
-<pre><code class="block language-wren">GBodies.add(Body.new(0, GWorld.world.origin, Vec3.new(0)))</code><button class="overlay paste">paste</button></pre>
-    <p>Finally we need to add a scene to the game, which we will render in our viewport.</p>
-<pre><code class="block language-wren">GScene = app.add_scene()
 </code><button class="overlay paste">paste</button></pre>
 </div>
 </div>
 
 <div id="section_8" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
-    <h3>Check that it compiles</h3>
-    <p>Let's hit <code>reload</code>: it should compile, but the result should be the same as before! We are still rendering arbitrary shapes in the <code>pump()</code> handler, but we want to render our newly created <code>Entities</code>!</p>
+    <h3>Accessing fields</h3>
+    <p>In Wren, fields cannot be accessed directly, they need to be exposed through getters. We will need to access these three fields to render our entities, so add this code to the <code>Body</code> class:</p>
+<pre><code class="block language-wren">entity { _entity }
+shape { _shape }
+colour { _colour }
+</code><button class="overlay paste">paste</button></pre>
+</div>
+<div class="doc col-12">
+    <h3>Setting up our globals</h3>
+    <p>Instead of directly declaring pure graphical shapes, we will now render proper Entities. To do this, we need: a <code>World</code> to contain the entities, a <code>Scene</code> to render them, and a list of entities. We will declare them as global variables: add these declarations anywhere in the script, outside of any class:</p>
+<pre><code class="block language-wren">var GWorld = null
+var GScene = null
+var GBodies = []
+</code><button class="overlay paste">paste</button></pre>
+    <p>Note: in Wren, global variables need to start with an uppercase letter to be accessible from inside class methods.</p>
 </div>
 </div>
-
 
 <div id="section_9" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
-    <h3>Rendering the Scene</h3>
-    <p>Because the scene is now managed by the application, instead of creating a <code>scene_viewer()</code>, which contains its own <code>Scene</code>, we create a simple <code>viewer()</code> and pass it the scene to render. Let's replace the code inside <code>pump()</code> with this:</p>
-<pre><code class="block language-wren">var viewer = Ui.viewer(ui, GScene.scene)
-var orbit = Ui.orbit_controller(viewer, 0, -0.37, 100.0)
+    <h3>Creating the World</h3>
+    <p>We will create all these inside the <code>start()</code> function. First, let's create the game world:</p>
+<pre><code class="block language-wren">GWorld = DefaultWorld.new("Example")
+game.world = GWorld.world
 </code><button class="overlay paste">paste</button></pre>
-    <p>The rendering of this scene will now be handled by the application: it will call the <code>paint()</code> handler. We need to move the actual rendering code inside <code>paint()</code>:</p>
-<pre><code class="block language-wren">for(body in GBodies) {
-    var node = Gfx.node(graph, body, body.entity.position, body.entity.rotation)
-    Gfx.shape(node, Cube.new(), Symbol.new(Colour.White))
+</div>
+<div class="doc col-12">
+    <h3>Create the entities</h3>
+    <p>We can now create an array of <code>Bodies</code> parented to the <code>World</code> we just created, and use the same random logic we used to draw cubes in the first part of the tutorial, only now we pass the attributes <code>position</code>, <code>shape</code> and <code>colour</code> to the <code>Body</code> constructor:</p>
+<pre><code class="block language-wren">var rand = Random.new()
+for (i in 0...50) {
+    var position = Vec3.new(rand.float(-50, 50), rand.float(0, 20), rand.float(-50, 50))
+    var colour = Colour.hsl(rand.float(0, 1), 1, 0.5)
+    var shape = Cube.new(Vec3.new(rand.float(1, 5)))
+    
+    GBodies.add(Body.new(0, GWorld.world.origin, position, shape, colour))
 }
-</code><button class="overlay paste">paste</button></pre>
-    <p>We can also add a radiance environment and a sun light at the beginning of our <code>paint()</code> handler:</p>
-<pre><code class="block language-wren">Gfx.radiance(graph, "radiance/tiber_1_1k.hdr", BackgroundMode.Radiance)
-Gfx.sun_light(graph, 0, 0.37)
 </code><button class="overlay paste">paste</button></pre>
 </div>
 </div>
 
 <div id="section_10" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
-    <h3>Adding fields to the Entity</h3>
-    <p>How to store shapes and colours on each of our <code>Bodies</code>? Let's add two fields to our <code>Body</code> Entity, to store both its shape and the colour: this needs to be added to our class:</p>
-<pre><code class="block language-wren">class Body {
-    construct new(id, parent, position, shape, colour) {
-        // ...
-        _shape = shape
-        _colour = colour
-    }
-
-    // ...
-    shape { _shape }
-    colour { _colour }
-    // ...
-}
+    <h3>Creating a Scene</h3>
+    <p>Finally we need to add a scene to the game, which we will render in our viewport. Add this to the end of the <code>start()</code> handler:</p>
+<pre><code class="block language-wren">GScene = app.add_scene()
 </code><button class="overlay paste">paste</button></pre>
-    <p>Now we can modify our rendering code to render each <code>Body</code> using the <code>Shape</code> and <code>Colour</code> stored in its fields:</p>
-<pre><code class="block language-wren">for(body in GBodies) {
+    <p>Because the scene is now managed by the application, instead of creating a <code>scene_viewer()</code>, which contains its own <code>Scene</code>, we create a simple <code>viewer()</code> and pass it the scene to render. Let's replace the code inside <code>pump()</code> with this:</p>
+<pre><code class="block language-wren">var viewer = Ui.viewer(ui, GScene.scene)
+var orbit = Ui.orbit_controller(viewer, 0, -0.37, 100.0)
+</code><button class="overlay paste">paste</button></pre>
+    <h3>Rendering the Scene</h3>
+    <p>The rendering of this scene will now be handled by the application: it will call the <code>paint()</code> handler. Let's add this very simple rendering code inside <code>paint()</code>:</p>
+<pre><code class="block language-wren">for (body in GBodies) {
     var self = Gfx.node(graph, body, body.entity.position, body.entity.rotation)
     Gfx.shape(self, body.shape, Symbol.new(body.colour))
 }
@@ -301,19 +313,22 @@ Gfx.sun_light(graph, 0, 0.37)
 
 <div id="section_11" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
-    <h3>Put the randomness back in</h3>
-    <p>The last step is to update the creation code inside <code>start()</code>. We can now create an array of <code>Bodies</code> and use the random logic from the first part of the tutorial, to fill in each <code>Body</code> attributes: position, shape and colour:</p>
-<pre><code class="block language-wren">var rand = Random.new()
-for (i in 0...50) {
-    var position = Vec3.new(rand.float(-50, 50), rand.float(0, 20), rand.float(-50, 50))
-    var colour = Colour.hsl(rand.float(0, 1), 1, 0.5)
-    var shape = Cube.new(Vec3.new(rand.float(1, 5)))
-    
-    GBodies.add(Body.new(0, GWorld.world.origin, position, shape, colour))
-}</code><button class="overlay paste">paste</button></pre>
-    <p>You can also create <code>Spheres</code> instead of <code>Cubes</code>:</p>
-<pre><code class="block language-wren">var shape = Sphere.new(rand.float(1, 5))
+    <h3>Visual enhancements</h3>
+    <p>We can add a radiance environment and a sun light at the beginning of our <code>paint()</code> handler:</p>
+<pre><code class="block language-wren">Gfx.radiance(graph, "radiance/tiber_1_1k.hdr", BackgroundMode.Radiance)
+Gfx.sun_light(graph, 0, 0.37)
 </code><button class="overlay paste">paste</button></pre>
+</div>
+<div class="doc col-12">
+    <h3>Physically based materials</h3>
+    <p>We can also render our cubes with a physically based material instead of the default unshaded one. To do this, we call <code>Gfx::pbr_material</code>, which expects the name of the material, and the colour. We will slightly modify the rendering loop and make it like this:</p>
+<pre><code class="block language-wren">for (body in GBodies) {
+    var node = Gfx.node(graph, body, body.entity.position, body.entity.rotation)
+    var material = Gfx.pbr_material(app.gfx, "body %(body.entity.id)", body.colour)
+    Gfx.shape(node, body.shape, Symbol.new(Colour.White), 0, material)
+}
+</code><button class="overlay paste">paste</button></pre>
+    <p>We are using Wren's builtin <code>%()</code> operator, which is used to add a formatted value inside of a string literal, to create a material identifier unique to our body.</p>
 </div>
 </div>
 
@@ -329,25 +344,23 @@ for (i in 0...50) {
 <div class="doc col-12">
     <h3>Second part recap</h3>
     <p>By now, you should have a code similar to the following:</p>
-<pre style="overflow: auto; max-height: 40em;"><code class="block language-wren">import "random" for Random
-import "mud" for ScriptClass, Vec3, Complex, Colour, Cube, Symbol, Ui, Gfx, BackgroundMode
-import "toy" for DefaultWorld, Entity, Movable
+<pre style="overflow: auto; max-height: 40em;"><code id="recap_1" class="block language-wren">import "random" for Random
+import "toy" for ScriptClass, Vec2, Vec3, Complex, Colour, Cube, Sphere, Quad, Symbol, Ui, Gfx, BackgroundMode, DefaultWorld, Entity, Movable, Solid, CollisionShape, GameMode, OrbitMode
 
 class Body {
     construct new(id, parent, position, shape, colour) {
         _complex = Complex.new(id, __cls.type)
         _entity = Entity.new(id, _complex, parent, position)
-        _movable = Movable.new(_entity)
         _shape = shape
         _colour = colour
-        _complex.setup([_entity, _movable])
+        _complex.setup([_entity])
     }
     
     entity { _entity }
     shape { _shape }
     colour { _colour }
     
-    static bind() { __cls = ScriptClass.new("Body", [Entity.type, Movable.type]) }
+    static bind() { __cls = ScriptClass.new("Body", [Entity.type]) }
 }
 
 var GWorld = null
@@ -387,9 +400,10 @@ foreign class MyGame {
         Gfx.radiance(graph, "radiance/tiber_1_1k.hdr", BackgroundMode.Radiance)
         Gfx.sun_light(graph, 0, 0.37)
         
-        for(body in GBodies) {
+        for (body in GBodies) {
             var node = Gfx.node(graph, body, body.entity.position, body.entity.rotation)
-            Gfx.shape(node, body.shape, Symbol.new(body.colour))
+            var material = Gfx.pbr_material(app.gfx, "body %(body.entity.id)", body.colour)
+            Gfx.shape(node, body.shape, Symbol.new(Colour.White), 0, material)
         }
     }
 }
@@ -408,14 +422,19 @@ var game = MyGame.new(module)
     <p>Let's add one more component to our <code>Body</code> class. The <code>Solid</code> component adds rigid body physics to an <code>Entity</code>. It expects a <code>CollisionShape</code>, which we construct from a <code>Shape</code>, a flag to specify whether it's <code>static</code>, and its <code>mass</code>.</p>
 <pre><code class="block language-wren">class Body {
     construct new(id, parent, position, shape, colour) {
-        // add this line
+        // add these lines
+        _movable = Movable.new(_entity)
         _solid = Solid.new(_entity, CollisionShape.new(shape), false, 1.0)
         // ...
-        // modify this line: we need to add that new component to the Entity
+        // modify this line: we need to add that new components to the Entity
         _complex.setup([_entity, _movable, _solid])
     }
     
-    // modify this line: we need to register that component in our Entity class
+    // ...
+    // add a getter for the solid component, we will need it later
+    solid { _solid }
+    
+    // modify this line: we need to register all the components in our Entity class
     static bind() { __cls = ScriptClass.new("Body", [Entity.type, Movable.type, Solid.type]) }
 }
 </code><button class="overlay paste">paste</button></pre>
@@ -454,28 +473,38 @@ var game = MyGame.new(module)
 <div id="section_16" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
     <h3>Bind the Terrain class</h3>
+    <p>Like the other classes, we need to bind our <code>Terrain</code> class to register its type.</p>
 <pre><code class="block language-wren">Terrain.bind()</code><button class="overlay paste">paste</button></pre>
     <h3>Creating the Terrain object</h3>
     <p>Let's declare a <code>GTerrain</code> global variable next to our other globals, to hold the terrain object.</p>
 <pre><code class="block language-wren">var GTerrain = null</code><button class="overlay paste">paste</button></pre>
     <p>Let's create the terrain object, with a <code>size</code> of <code>100</code>, in the body of <code>start()</code> handler:</p>
 <pre><code class="block language-wren">GTerrain = Terrain.new(0, GWorld.world.origin, 100)</code><button class="overlay paste">paste</button></pre>
-</div>
-<div class="doc col-12">
-    <h3>Rendering the Terrain object</h3>
-    <p>Finally, we need to add some rendering logic: again, like for the <code>Bodies</code>, we simply render its shape, with a predefined grey colour:</p>
-<pre><code class="block language-wren">var terrain = Gfx.node(graph, GTerrain, GTerrain.entity.position, GTerrain.entity.rotation)
-Gfx.shape(terrain, GTerrain.quad, Symbol.new(Colour.new(0.3, 1)))</code><button class="overlay paste">paste</button></pre>
+    <p>Press <code>reload</code>. The objects will now fall downwards but be stopped by the invisible <code>Terrain</code> object! We need to render it too.</p>
 </div>
 </div>
 
 <div id="section_17" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
+    <h3>Rendering the Terrain object</h3>
+    <p>Finally, we need to add some rendering logic: again, like for the <code>Bodies</code>, we simply render its shape, with a predefined grey colour:</p>
+<pre><code class="block language-wren">var terrain = Gfx.node(graph, GTerrain, GTerrain.entity.position, GTerrain.entity.rotation)
+Gfx.shape(terrain, GTerrain.quad, Symbol.new(Colour.new(0.3, 1)))
+</code><button class="overlay paste">paste</button></pre>
+    <p>To render it with a PBR material like the cubes, the code is slightly different:</p>
+<pre><code class="block language-wren">var terrain = Gfx.node(graph, GTerrain, GTerrain.entity.position, GTerrain.entity.rotation)
+var material = Gfx.pbr_material(app.gfx, "ground", Colour.new(0.3, 1))
+Gfx.shape(terrain, GTerrain.quad, Symbol.new(Colour.White), 0, material)       
+</code><button class="overlay paste">paste</button></pre>
+</div>
+</div>
+
+<div id="section_18" class="row gtr-50 gtr-uniform" style="display: none;">
+<div class="doc col-12">
     <h3>Third part recap</h3>
     <p>By now, you should have a code similar to the following:</p>
-<pre style="overflow: auto; max-height: 40em;"><code class="block language-wren">import "random" for Random
-import "mud" for ScriptClass, Vec3, Complex, Colour, Cube, Sphere, Quad, Symbol, Ui, Gfx, BackgroundMode
-import "toy" for DefaultWorld, Entity, Movable, Solid, CollisionShape
+<pre style="overflow: auto; max-height: 40em;"><code id="recap_2" class="block language-wren">import "random" for Random
+import "toy" for ScriptClass, Vec2, Vec3, Complex, Colour, Cube, Sphere, Quad, Symbol, Ui, Gfx, BackgroundMode, DefaultWorld, Entity, Movable, Solid, CollisionShape, GameMode, OrbitMode
 
 class Body {
     construct new(id, parent, position, shape, colour) {
@@ -489,6 +518,7 @@ class Body {
     }
     
     entity { _entity }
+    solid { _solid }
     shape { _shape }
     colour { _colour }
     
@@ -550,11 +580,13 @@ foreign class MyGame {
         Gfx.sun_light(graph, 0, 0.37)
         
         var terrain = Gfx.node(graph, GTerrain, GTerrain.entity.position, GTerrain.entity.rotation)
-        Gfx.shape(terrain, GTerrain.quad, Symbol.new(Colour.new(0.3, 1)))
+        var material = Gfx.pbr_material(app.gfx, "ground", Colour.new(0.3, 1))
+        Gfx.shape(terrain, GTerrain.quad, Symbol.new(Colour.White), 0, material)
         
-        for(body in GBodies) {
+        for (body in GBodies) {
             var node = Gfx.node(graph, body, body.entity.position, body.entity.rotation)
-            Gfx.shape(node, body.shape, Symbol.new(body.colour))
+            var material = Gfx.pbr_material(app.gfx, "body %(body.entity.id)", body.colour)
+            Gfx.shape(node, body.shape, Symbol.new(Colour.White), 0, material)
         }
     }
 }
@@ -568,7 +600,7 @@ var game = MyGame.new(module)
 </div>
 </div>
 
-<div id="section_18" class="row gtr-50 gtr-uniform" style="display: none;">
+<div id="section_19" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
     <h3>Defining an Agent class</h3>
     <p>To allow the user to control an object, let's add one more class: an <code>Agent</code>, which is a special kind of <code>Body</code>, with additional logic so that its movement can be controlled.</p>
@@ -591,7 +623,7 @@ var game = MyGame.new(module)
 </div>
 </div>
 
-<div id="section_19" class="row gtr-50 gtr-uniform" style="display: none;">
+<div id="section_20" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
     <h3>Adding the movement logic</h3>
     <p>Each frame, we will use the previously defined fields to modify the velocity of the actual simulated physics object. Let's add an <code>update()</code> function that we will call each frame to do the following:</p>
@@ -615,43 +647,31 @@ var game = MyGame.new(module)
 </div>
 </div>
 
-<div id="section_20" class="row gtr-50 gtr-uniform" style="display: none;">
+<div id="section_21" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
     <h3>Create the player Agent</h3>
-    <p>Create another global variable <code>GAgent</code> near the other ones to hold our player agent. Then add this code to create it, in the body of the <code>start()</code> handler.</p>
+    <p>Create another global variable <code>GAgent</code> near the other ones to hold our player agent.</p>
+<pre><code class="block language-wren">GAgent = null
+</code><button class="overlay paste">paste</button></pre>
+    <p>Then add this code to create it, in the body of the <code>start()</code> handler:</p>
 <pre><code class="block language-wren">GAgent = Agent.new(0, GWorld.world.origin, Vec3.new(0), Cube.new(), Colour.White)
 </code><button class="overlay paste">paste</button></pre>
-    <h3>Rendering the Agent</h3>
-    <p>To render our <code>Agent</code> separately from the other <code>Bodies</code>, let's factor out the code to render a body in a function <code>paint_body()</code> in our game class:</p>
-<pre><code class="block language-wren">paint_body(app, graph, body) {
-    var node = Gfx.node(graph, body, body.entity.position, body.entity.rotation)
-    Gfx.shape(node, body.shape, Symbol.new(body.colour))
-}
-</code><button class="overlay paste">paste</button></pre>
-    <p>Then let's call it from inside the <code>paint()</code> handler.</p>
-<pre><code class="block language-wren">paint_body(app, graph, GAgent)
-for(body in GBodies) {
-    paint_body(app, graph, body)
-}
+    <p>By just appending it to our list of bodies, we ensure it will be rendered with the other bodies:</p>
+<pre><code class="block language-wren">GBodies.add(GAgent)
 </code><button class="overlay paste">paste</button></pre>
 </div>
 </div>
 
 
-<div id="section_21" class="row gtr-50 gtr-uniform" style="display: none;">
+<div id="section_22" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
     <h3>Handling the input/control logic</h3>
     <p>To correctly handle input to control our object, we have to add three things inside the <code>pump()</code> handler right after creating the viewer:</p>
     <ul>
-    <li>take keyboard control of the viewer if the game is playing and we don't have modal control yet</li>
     <li>call <code>hybrid_controller</code> with <code>ThirdPerson</code> mode: it handles the mouse <code>Agent</code> aiming angle for us</li>
     <li>call <code>velocity_controller</code>, to map the arrow keys to update the <code>force</code> and <code>torque</code> accordingly</li>
     </ul>
-<pre><code class="block language-wren">if(game.mode == GameMode.Play && !viewer.modal()) {
-    viewer.take_modal(62)
-}
-
-Ui.hybrid_controller(viewer, OrbitMode.ThirdPerson, GAgent.entity, GAgent.aiming, GAgent.angles)
+<pre><code class="block language-wren">Ui.hybrid_controller(viewer, OrbitMode.ThirdPerson, GAgent.entity, GAgent.aiming, GAgent.angles)
 Ui.velocity_controller(viewer, GAgent.force, GAgent.torque, 20)
 </code><button class="overlay paste">paste</button></pre>
     <p>Finally we need to call the <code>update()</code> function we implemented on our <code>Agent</code> class, to apply the forces to the physical object.</p>
@@ -659,14 +679,12 @@ Ui.velocity_controller(viewer, GAgent.force, GAgent.torque, 20)
 </div>
 </div>
 
-<div id="section_22" class="row gtr-50 gtr-uniform" style="display: none;">
+<div id="section_23" class="row gtr-50 gtr-uniform" style="display: none;">
 <div class="doc col-12">
     <h3>Fourth part recap</h3>
     <p>By now, you should have a code similar to the following:</p>
-<pre style="overflow: auto; max-height: 40em;"><code class="block language-wren">import "random" for Random
-import "mud" for ScriptClass, Vec2, Vec3, Complex, Colour, Cube, Sphere, Quad, Symbol, Ui, Gfx, BackgroundMode
-import "toy" for DefaultWorld, Entity, Movable, Solid, CollisionShape, GameMode
-import "ui" for OrbitMode
+<pre style="overflow: auto; max-height: 40em;"><code id="recap_3" class="block language-wren">import "random" for Random
+import "toy" for ScriptClass, Complex, Vec2, Vec3, Colour, Cube, Sphere, Quad, Symbol, Ui, Gfx, BackgroundMode, DefaultWorld, Entity, Movable, Solid, CollisionShape, GameMode, OrbitMode
 
 class Body {
     construct new(id, parent, position, shape, colour) {
@@ -743,6 +761,7 @@ foreign class MyGame {
         
         GTerrain = Terrain.new(0, GWorld.world.origin, 100)
         GAgent = Agent.new(0, GWorld.world.origin, Vec3.new(0), Cube.new(), Colour.White)
+        GBodies.add(GAgent)
         
         var rand = Random.new()
         for (i in 0...50) {
@@ -758,10 +777,6 @@ foreign class MyGame {
     pump(app, game, ui) {
         var viewer = Ui.viewer(ui, GScene.scene)
 
-        if(game.mode == GameMode.Play && !viewer.modal()) {
-            viewer.take_modal(62)
-        }
-        
         Ui.hybrid_controller(viewer, OrbitMode.ThirdPerson, GAgent.entity, GAgent.aiming, GAgent.angles)
         Ui.velocity_controller(viewer, GAgent.force, GAgent.torque, 20)
 
@@ -778,17 +793,11 @@ foreign class MyGame {
         var material = Gfx.pbr_material(app.gfx, "ground", Colour.new(0.3, 1))
         Gfx.shape(terrain, GTerrain.quad, Symbol.new(Colour.White), 0, material)
         
-        paint_body(app, graph, GAgent)
-        
-        for(body in GBodies) {
-            paint_body(app, graph, body)
+        for (body in GBodies) {
+            var node = Gfx.node(graph, body, body.entity.position, body.entity.rotation)
+            var material = Gfx.pbr_material(app.gfx, "body %(body.entity.id)", body.colour)
+            Gfx.shape(node, body.shape, Symbol.new(Colour.White), 0, material)
         }
-    }
-    
-    paint_body(app, graph, body) {
-        var node = Gfx.node(graph, body, body.entity.position, body.entity.rotation)
-        var material = Gfx.pbr_material(app.gfx, "body %(body.entity.id)", body.colour)
-        Gfx.shape(node, body.shape, Symbol.new(Colour.White), 0, material)
     }
 }
 
@@ -811,37 +820,49 @@ var game = MyGame.new(module)
             </div>
         </div>
         <div class="right-half">
-            <canvas class="emscripten app" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+            <canvas class="emscripten app" id="canvas" tabindex="0" oncontextmenu="event.preventDefault()"></canvas>
             <figure style="overflow:visible;" id="spinner"><div class="spinner"></div></figure>
             <div class="emscripten">
                 <progress value="0" max="100" id="progress" hidden=1></progress>    
             </div>
         </div>
         <script type='text/javascript'>
-            var progressElement = document.getElementById('progress');
-            var spinnerElement = document.getElementById('spinner');
+            var canvas = document.getElementById('canvas');
+            var progress = document.getElementById('progress');
+            var spinner = document.getElementById('spinner');
             var Module = {
                 preRun: [function() {
                 
+                    var copy = Module.cwrap('copy', null, ['string']);
                     var paste = Module.cwrap('paste', null, ['string']);
                     
-                    function handlePaste (e) {
-                        e.stopPropagation();
-                        e.preventDefault();
-
+                    function handleCopy (e) {
                         var clipboardData = e.clipboardData || window.clipboardData;
-                        var text = clipboardData.getData('Text');
-
-                        paste(text);
+                        var text = window.getSelection().toString();
+                        copy(text);
+                        canvas.focus();
                     }
 
-                    document.addEventListener('paste', handlePaste);
+                    //document.addEventListener('paste', handleCopy);
+                    document.addEventListener('copy', handleCopy);
                     
                     var paste_buttons = document.getElementsByClassName("paste");
                     for (i = 0; i < paste_buttons.length; i++) {
                         paste_buttons[i].addEventListener('click', function() {
                             var text = this.previousSibling.innerText
                             Module.ccall('paste', null, ['string'], [text]);
+                            canvas.focus();
+                        });
+                    }
+                    
+                    var paste_recap_buttons = document.getElementsByClassName("pasterecap");
+                    for (i = 0; i < paste_recap_buttons.length; i++) {
+                        paste_recap_buttons[i].recap_index = i;
+                        paste_recap_buttons[i].addEventListener('click', function() {
+                            var recap = document.getElementById('recap_' + this.recap_index.toString());
+                            var text = recap.innerText;
+                            Module.ccall('paste', null, ['string'], [text]);
+                            canvas.focus();
                         });
                     }
                 }],
@@ -866,6 +887,7 @@ var game = MyGame.new(module)
                     // application robust, you may want to override this behavior before shipping!
                     // See http://www.khronos.org/registry/webgl/specs/latest/1.0/#5.15.2
                     canvas.addEventListener("webglcontextlost", function(e) { alert('WebGL context lost. You will need to reload the page.'); e.preventDefault(); }, false);
+                    canvas.focus();
                     return canvas;
                 })(),
                 setStatus: function(text) {
@@ -876,15 +898,15 @@ var game = MyGame.new(module)
                     if (m && now - Date.now() < 30) return; // if this is a progress update, skip it if too soon
                     if (m) {
                         text = m[1];
-                        progressElement.value = parseInt(m[2])*100;
-                        progressElement.max = parseInt(m[4])*100;
-                        progressElement.style.display = 'block';
-                        spinnerElement.style.display = 'block';
+                        progress.value = parseInt(m[2])*100;
+                        progress.max = parseInt(m[4])*100;
+                        progress.style.display = 'block';
+                        spinner.style.display = 'block';
                     } else {
-                        progressElement.value = null;
-                        progressElement.max = null;
-                        progressElement.style.display = 'none';
-                        if (!text) spinnerElement.style.display = 'none';
+                        progress.value = null;
+                        progress.max = null;
+                        progress.style.display = 'none';
+                        if (!text) spinner.style.display = 'none';
                     }
                 },
                 totalDependencies: 0,
@@ -896,14 +918,16 @@ var game = MyGame.new(module)
             Module.setStatus('Downloading...');
             window.onerror = function() {
                 Module.setStatus('Exception thrown, see JavaScript console');
-                spinnerElement.style.display = 'none';
+                spinner.style.display = 'none';
                 Module.setStatus = function(text) {
                     if (text) Module.printErr('[post-exception status] ' + text);
                 };
             };
             
+            canvas.focus();
+            
             var sections = [];
-            for (i = 0; i < 23; i++) {
+            for (i = 0; i < 24; i++) {
                 var section = document.getElementById('section_' + i.toString());
                 sections.push(section);
             }
@@ -919,10 +943,11 @@ var game = MyGame.new(module)
             
             var next = document.getElementById('next');
             next.addEventListener("click", function() {
-                if(section_index < 22) {
+                if(section_index < 23) {
                     section_index++;
                 }
                 showSection(sections[section_index]);
+                canvas.focus();
             });
             
             var prev = document.getElementById('prev');
@@ -931,12 +956,9 @@ var game = MyGame.new(module)
                     section_index--;
                 }
                 showSection(sections[section_index]);
+                canvas.focus();
             });
             
-            var paste_buttons = document.getElementsByClassName("example");
-            for (i = 0; i < paste_buttons.length; i++) {
-                paste_buttons[i].style.backgroundColor = "red";
-            }
         </script>
         <script type='text/javascript'>
             var xhr = new XMLHttpRequest();
