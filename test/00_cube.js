@@ -200,7 +200,7 @@ Module['FS_createPath']('/data/textures', 'spherical', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 392348, "filename": "/data/interface/fonts/Consolas-Bold.ttf"}, {"start": 392348, "audio": 0, "end": 846080, "filename": "/data/interface/fonts/Consolas.ttf"}, {"start": 846080, "audio": 0, "end": 1253848, "filename": "/data/interface/fonts/DejaVuSans.ttf"}, {"start": 1253848, "audio": 0, "end": 1363796, "filename": "/data/interface/fonts/Inconsolata-Bold.ttf"}, {"start": 1363796, "audio": 0, "end": 1460760, "filename": "/data/interface/fonts/Inconsolata-Regular.ttf"}, {"start": 1460760, "audio": 0, "end": 1465110, "filename": "/data/interface/fonts/OFL.txt"}, {"start": 1465110, "audio": 0, "end": 1520142, "filename": "/data/interface/fonts/VeraMono-Bold-Italic.ttf"}, {"start": 1520142, "audio": 0, "end": 1569194, "filename": "/data/interface/fonts/VeraMono-Bold.ttf"}, {"start": 1569194, "audio": 0, "end": 1623702, "filename": "/data/interface/fonts/VeraMono-Italic.ttf"}, {"start": 1623702, "audio": 0, "end": 1672926, "filename": "/data/interface/fonts/VeraMono.ttf"}, {"start": 1672926, "audio": 0, "end": 1679150, "filename": "/data/interface/styles/blendish.yml"}, {"start": 1679150, "audio": 0, "end": 1680179, "filename": "/data/interface/styles/blendish_clear.yml"}, {"start": 1680179, "audio": 0, "end": 1680766, "filename": "/data/interface/styles/blendish_dark.yml"}, {"start": 1680766, "audio": 0, "end": 1686943, "filename": "/data/interface/styles/minimal.yml"}, {"start": 1686943, "audio": 0, "end": 1691930, "filename": "/data/interface/styles/mygui.yml"}, {"start": 1691930, "audio": 0, "end": 1696065, "filename": "/data/interface/styles/turbobadger.yml"}, {"start": 1696065, "audio": 0, "end": 1701574, "filename": "/data/interface/styles/vector.yml"}, {"start": 1701574, "audio": 0, "end": 1716650, "filename": "/data/interface/uisprites/arrow_down.png"}, {"start": 1716650, "audio": 0, "end": 1719594, "filename": "/data/interface/uisprites/arrow_down_15.png"}, {"start": 1719594, "audio": 0, "end": 1734701, "filename": "/data/interface/uisprites/arrow_left.png"}, {"start": 1734701, "audio": 0, "end": 1737645, "filename": "/data/interface/uisprites/arrow_left_15.png"}, {"start": 1737645, "audio": 0, "end": 1752747, "filename": "/data/interface/uisprites/arrow_right.png"}, {"start": 1752747, "audio": 0, "end": 1755690, "filename": "/data/interface/uisprites/arrow_right_15.png"}, {"start": 1755690, "audio": 0, "end": 1770761, "filename": "/data/interface/uisprites/arrow_up.png"}, {"start": 1770761, "audio": 0, "end": 1773694, "filename": "/data/interface/uisprites/arrow_up_15.png"}, {"start": 1773694, "audio": 0, "end": 1788935, "filename": "/data/interface/uisprites/back_view.png"}, {"start": 1788935, "audio": 0, "end": 1791878, "filename": "/data/interface/uisprites/blendish_check.png"}, {"start": 1791878, "audio": 0, "end": 1794856, "filename": "/data/interface/uisprites/blendish_updown.png"}, {"start": 1794856, "audio": 0, "end": 1810370, "filename": "/data/interface/uisprites/block.png"}, {"start": 1810370, "audio": 0, "end": 1825549, "filename": "/data/interface/uisprites/bottom_view.png"}, {"start": 1825549, "audio": 0, "end": 1840923, "filename": "/data/interface/uisprites/camera.png"}, {"start": 1840923, "audio": 0, "end": 1856135, "filename": "/data/interface/uisprites/camera_.png"}, {"start": 1856135, "audio": 0, "end": 1858963, "filename": "/data/interface/uisprites/caret.png"}, {"start": 1858963, "audio": 0, "end": 1861800, "filename": "/data/interface/uisprites/caret_white.png"}, {"start": 1861800, "audio": 0, "end": 1879196, "filename": "/data/interface/uisprites/check_15.png"}, {"start": 1879196, "audio": 0, "end": 1894426, "filename": "/data/interface/uisprites/circle.png"}, {"start": 1894426, "audio": 0, "end": 1912925, "filename": "/data/interface/uisprites/class.png"}, {"start": 1912925, "audio": 0, "end": 1930311, "filename": "/data/interface/uisprites/close.png"}, {"start": 1930311, "audio": 0, "end": 1948149, "filename": "/data/interface/uisprites/close_15.png"}, {"start": 1948149, "audio": 0, "end": 1964176, "filename": "/data/interface/uisprites/copy.png"}, {"start": 1964176, "audio": 0, "end": 1979920, "filename": "/data/interface/uisprites/crate.png"}, {"start": 1979920, "audio": 0, "end": 1994996, "filename": "/data/interface/uisprites/drop_down.png"}, {"start": 1994996, "audio": 0, "end": 2010382, "filename": "/data/interface/uisprites/edit.png"}, {"start": 2010382, "audio": 0, "end": 2028211, "filename": "/data/interface/uisprites/editor.png"}, {"start": 2028211, "audio": 0, "end": 2045476, "filename": "/data/interface/uisprites/empty.png"}, {"start": 2045476, "audio": 0, "end": 2048282, "filename": "/data/interface/uisprites/empty_15.png"}, {"start": 2048282, "audio": 0, "end": 2068082, "filename": "/data/interface/uisprites/energy.png"}, {"start": 2068082, "audio": 0, "end": 2086850, "filename": "/data/interface/uisprites/energy64.png"}, {"start": 2086850, "audio": 0, "end": 2102120, "filename": "/data/interface/uisprites/entity.png"}, {"start": 2102120, "audio": 0, "end": 2104957, "filename": "/data/interface/uisprites/expandbox_separator.png"}, {"start": 2104957, "audio": 0, "end": 2107778, "filename": "/data/interface/uisprites/expandbox_sides.png"}, {"start": 2107778, "audio": 0, "end": 2110718, "filename": "/data/interface/uisprites/file_15.png"}, {"start": 2110718, "audio": 0, "end": 2113698, "filename": "/data/interface/uisprites/file_20.png"}, {"start": 2113698, "audio": 0, "end": 2116655, "filename": "/data/interface/uisprites/folder_15.png"}, {"start": 2116655, "audio": 0, "end": 2119633, "filename": "/data/interface/uisprites/folder_20.png"}, {"start": 2119633, "audio": 0, "end": 2134855, "filename": "/data/interface/uisprites/front_view.png"}, {"start": 2134855, "audio": 0, "end": 2154672, "filename": "/data/interface/uisprites/function.png"}, {"start": 2154672, "audio": 0, "end": 2172494, "filename": "/data/interface/uisprites/game.png"}, {"start": 2172494, "audio": 0, "end": 2187937, "filename": "/data/interface/uisprites/gfx.png"}, {"start": 2187937, "audio": 0, "end": 2203627, "filename": "/data/interface/uisprites/handle.png"}, {"start": 2203627, "audio": 0, "end": 2219313, "filename": "/data/interface/uisprites/handle_x.png"}, {"start": 2219313, "audio": 0, "end": 2239253, "filename": "/data/interface/uisprites/health.png"}, {"start": 2239253, "audio": 0, "end": 2258081, "filename": "/data/interface/uisprites/health64.png"}, {"start": 2258081, "audio": 0, "end": 2273394, "filename": "/data/interface/uisprites/heap.png"}, {"start": 2273394, "audio": 0, "end": 2291379, "filename": "/data/interface/uisprites/human.png"}, {"start": 2291379, "audio": 0, "end": 2306861, "filename": "/data/interface/uisprites/inspect.png"}, {"start": 2306861, "audio": 0, "end": 2324756, "filename": "/data/interface/uisprites/interactmode.png"}, {"start": 2324756, "audio": 0, "end": 2340069, "filename": "/data/interface/uisprites/lamp.png"}, {"start": 2340069, "audio": 0, "end": 2355266, "filename": "/data/interface/uisprites/left_view.png"}, {"start": 2355266, "audio": 0, "end": 2370579, "filename": "/data/interface/uisprites/light.png"}, {"start": 2370579, "audio": 0, "end": 2388408, "filename": "/data/interface/uisprites/luascript.png"}, {"start": 2388408, "audio": 0, "end": 2409337, "filename": "/data/interface/uisprites/material.png"}, {"start": 2409337, "audio": 0, "end": 2430233, "filename": "/data/interface/uisprites/model.png"}, {"start": 2430233, "audio": 0, "end": 2433430, "filename": "/data/interface/uisprites/mousepointer.png"}, {"start": 2433430, "audio": 0, "end": 2436536, "filename": "/data/interface/uisprites/move_20.png"}, {"start": 2436536, "audio": 0, "end": 2442727, "filename": "/data/interface/uisprites/ogrehead.png"}, {"start": 2442727, "audio": 0, "end": 2445989, "filename": "/data/interface/uisprites/options.png"}, {"start": 2445989, "audio": 0, "end": 2461132, "filename": "/data/interface/uisprites/origin.png"}, {"start": 2461132, "audio": 0, "end": 2482301, "filename": "/data/interface/uisprites/particles.png"}, {"start": 2482301, "audio": 0, "end": 2497467, "filename": "/data/interface/uisprites/place.png"}, {"start": 2497467, "audio": 0, "end": 2515489, "filename": "/data/interface/uisprites/play.png"}, {"start": 2515489, "audio": 0, "end": 2536445, "filename": "/data/interface/uisprites/prefab.png"}, {"start": 2536445, "audio": 0, "end": 2557420, "filename": "/data/interface/uisprites/program.png"}, {"start": 2557420, "audio": 0, "end": 2572735, "filename": "/data/interface/uisprites/quadrant.png"}, {"start": 2572735, "audio": 0, "end": 2591107, "filename": "/data/interface/uisprites/redo.png"}, {"start": 2591107, "audio": 0, "end": 2594094, "filename": "/data/interface/uisprites/resize_diag_left_20.png"}, {"start": 2594094, "audio": 0, "end": 2597079, "filename": "/data/interface/uisprites/resize_diag_right_20.png"}, {"start": 2597079, "audio": 0, "end": 2600098, "filename": "/data/interface/uisprites/resize_h_20.png"}, {"start": 2600098, "audio": 0, "end": 2603110, "filename": "/data/interface/uisprites/resize_v_20.png"}, {"start": 2603110, "audio": 0, "end": 2619716, "filename": "/data/interface/uisprites/right_view.png"}, {"start": 2619716, "audio": 0, "end": 2637780, "filename": "/data/interface/uisprites/rotate.png"}, {"start": 2637780, "audio": 0, "end": 2655794, "filename": "/data/interface/uisprites/scale.png"}, {"start": 2655794, "audio": 0, "end": 2673623, "filename": "/data/interface/uisprites/script.png"}, {"start": 2673623, "audio": 0, "end": 2688938, "filename": "/data/interface/uisprites/sector.png"}, {"start": 2688938, "audio": 0, "end": 2704350, "filename": "/data/interface/uisprites/star.png"}, {"start": 2704350, "audio": 0, "end": 2707735, "filename": "/data/interface/uisprites/styleedit.png"}, {"start": 2707735, "audio": 0, "end": 2728713, "filename": "/data/interface/uisprites/texture.png"}, {"start": 2728713, "audio": 0, "end": 2744227, "filename": "/data/interface/uisprites/tileblock.png"}, {"start": 2744227, "audio": 0, "end": 2759329, "filename": "/data/interface/uisprites/toggle_closed.png"}, {"start": 2759329, "audio": 0, "end": 2774405, "filename": "/data/interface/uisprites/toggle_open.png"}, {"start": 2774405, "audio": 0, "end": 2791697, "filename": "/data/interface/uisprites/top_view.png"}, {"start": 2791697, "audio": 0, "end": 2830185, "filename": "/data/interface/uisprites/toy.png"}, {"start": 2830185, "audio": 0, "end": 2889946, "filename": "/data/interface/uisprites/toybig.png"}, {"start": 2889946, "audio": 0, "end": 2907973, "filename": "/data/interface/uisprites/translate.png"}, {"start": 2907973, "audio": 0, "end": 2923359, "filename": "/data/interface/uisprites/ui.png"}, {"start": 2923359, "audio": 0, "end": 2926744, "filename": "/data/interface/uisprites/uieditor.png"}, {"start": 2926744, "audio": 0, "end": 2945114, "filename": "/data/interface/uisprites/undo.png"}, {"start": 2945114, "audio": 0, "end": 2963455, "filename": "/data/interface/uisprites/value.png"}, {"start": 2963455, "audio": 0, "end": 2981284, "filename": "/data/interface/uisprites/visualscript.png"}, {"start": 2981284, "audio": 0, "end": 2996696, "filename": "/data/interface/uisprites/world.png"}, {"start": 2996696, "audio": 0, "end": 3022127, "filename": "/data/interface/uisprites/graphic/blue.png"}, {"start": 3022127, "audio": 0, "end": 3044647, "filename": "/data/interface/uisprites/graphic/blue_empty_off.png"}, {"start": 3044647, "audio": 0, "end": 3067412, "filename": "/data/interface/uisprites/graphic/blue_empty_on.png"}, {"start": 3067412, "audio": 0, "end": 3090308, "filename": "/data/interface/uisprites/graphic/blue_off.png"}, {"start": 3090308, "audio": 0, "end": 3115864, "filename": "/data/interface/uisprites/graphic/blue_on.png"}, {"start": 3115864, "audio": 0, "end": 3147053, "filename": "/data/interface/uisprites/graphic/knob.png"}, {"start": 3147053, "audio": 0, "end": 3177190, "filename": "/data/interface/uisprites/graphic/knob_off.png"}, {"start": 3177190, "audio": 0, "end": 3208379, "filename": "/data/interface/uisprites/graphic/knob_on.png"}, {"start": 3208379, "audio": 0, "end": 3231644, "filename": "/data/interface/uisprites/graphic/red_off.png"}, {"start": 3231644, "audio": 0, "end": 3257821, "filename": "/data/interface/uisprites/graphic/red_on.png"}, {"start": 3257821, "audio": 0, "end": 3280655, "filename": "/data/interface/uisprites/graphic/white_off.png"}, {"start": 3280655, "audio": 0, "end": 3305720, "filename": "/data/interface/uisprites/graphic/white_on.png"}, {"start": 3305720, "audio": 0, "end": 3308940, "filename": "/data/interface/uisprites/mygui/arrow_down.png"}, {"start": 3308940, "audio": 0, "end": 3312195, "filename": "/data/interface/uisprites/mygui/arrow_down_hovered.png"}, {"start": 3312195, "audio": 0, "end": 3315449, "filename": "/data/interface/uisprites/mygui/arrow_down_pressed.png"}, {"start": 3315449, "audio": 0, "end": 3318662, "filename": "/data/interface/uisprites/mygui/arrow_left.png"}, {"start": 3318662, "audio": 0, "end": 3321920, "filename": "/data/interface/uisprites/mygui/arrow_left_hovered.png"}, {"start": 3321920, "audio": 0, "end": 3325169, "filename": "/data/interface/uisprites/mygui/arrow_left_pressed.png"}, {"start": 3325169, "audio": 0, "end": 3328384, "filename": "/data/interface/uisprites/mygui/arrow_right.png"}, {"start": 3328384, "audio": 0, "end": 3331648, "filename": "/data/interface/uisprites/mygui/arrow_right_hovered.png"}, {"start": 3331648, "audio": 0, "end": 3334904, "filename": "/data/interface/uisprites/mygui/arrow_right_pressed.png"}, {"start": 3334904, "audio": 0, "end": 3338106, "filename": "/data/interface/uisprites/mygui/arrow_up.png"}, {"start": 3338106, "audio": 0, "end": 3341352, "filename": "/data/interface/uisprites/mygui/arrow_up_hovered.png"}, {"start": 3341352, "audio": 0, "end": 3344592, "filename": "/data/interface/uisprites/mygui/arrow_up_pressed.png"}, {"start": 3344592, "audio": 0, "end": 3347558, "filename": "/data/interface/uisprites/mygui/button.png"}, {"start": 3347558, "audio": 0, "end": 3350552, "filename": "/data/interface/uisprites/mygui/button_active.png"}, {"start": 3350552, "audio": 0, "end": 3353813, "filename": "/data/interface/uisprites/mygui/button_hovered.png"}, {"start": 3353813, "audio": 0, "end": 3356807, "filename": "/data/interface/uisprites/mygui/button_pressed.png"}, {"start": 3356807, "audio": 0, "end": 3359757, "filename": "/data/interface/uisprites/mygui/checkbox.png"}, {"start": 3359757, "audio": 0, "end": 3363220, "filename": "/data/interface/uisprites/mygui/checkbox_active.png"}, {"start": 3363220, "audio": 0, "end": 3366904, "filename": "/data/interface/uisprites/mygui/checkbox_active_hovered.png"}, {"start": 3366904, "audio": 0, "end": 3370389, "filename": "/data/interface/uisprites/mygui/checkbox_active_pressed.png"}, {"start": 3370389, "audio": 0, "end": 3373638, "filename": "/data/interface/uisprites/mygui/checkbox_hovered.png"}, {"start": 3373638, "audio": 0, "end": 3376606, "filename": "/data/interface/uisprites/mygui/checkbox_pressed.png"}, {"start": 3376606, "audio": 0, "end": 3380207, "filename": "/data/interface/uisprites/mygui/closebutton.png"}, {"start": 3380207, "audio": 0, "end": 3383884, "filename": "/data/interface/uisprites/mygui/closebutton_hovered.png"}, {"start": 3383884, "audio": 0, "end": 3387485, "filename": "/data/interface/uisprites/mygui/closebutton_pressed.png"}, {"start": 3387485, "audio": 0, "end": 3390405, "filename": "/data/interface/uisprites/mygui/editbox.png"}, {"start": 3390405, "audio": 0, "end": 3393329, "filename": "/data/interface/uisprites/mygui/editbox_active.png"}, {"start": 3393329, "audio": 0, "end": 3396496, "filename": "/data/interface/uisprites/mygui/editbox_active_hovered.png"}, {"start": 3396496, "audio": 0, "end": 3399653, "filename": "/data/interface/uisprites/mygui/editbox_hovered.png"}, {"start": 3399653, "audio": 0, "end": 3402577, "filename": "/data/interface/uisprites/mygui/editbox_pressed.png"}, {"start": 3402577, "audio": 0, "end": 3405501, "filename": "/data/interface/uisprites/mygui/frame.png"}, {"start": 3405501, "audio": 0, "end": 3408363, "filename": "/data/interface/uisprites/mygui/frame_assym.png"}, {"start": 3408363, "audio": 0, "end": 3411287, "filename": "/data/interface/uisprites/mygui/frame_dark.png"}, {"start": 3411287, "audio": 0, "end": 3414209, "filename": "/data/interface/uisprites/mygui/frame_transparent.png"}, {"start": 3414209, "audio": 0, "end": 3417109, "filename": "/data/interface/uisprites/mygui/frame_transparent_alt.png"}, {"start": 3417109, "audio": 0, "end": 3420667, "filename": "/data/interface/uisprites/mygui/radiobutton.png"}, {"start": 3420667, "audio": 0, "end": 3424354, "filename": "/data/interface/uisprites/mygui/radiobutton_active.png"}, {"start": 3424354, "audio": 0, "end": 3428156, "filename": "/data/interface/uisprites/mygui/radiobutton_active_hovered.png"}, {"start": 3428156, "audio": 0, "end": 3431836, "filename": "/data/interface/uisprites/mygui/radiobutton_active_pressed.png"}, {"start": 3431836, "audio": 0, "end": 3435330, "filename": "/data/interface/uisprites/mygui/radiobutton_hovered.png"}, {"start": 3435330, "audio": 0, "end": 3438247, "filename": "/data/interface/uisprites/mygui/scrollerknoby.png"}, {"start": 3438247, "audio": 0, "end": 3441377, "filename": "/data/interface/uisprites/mygui/scrollerknoby_hovered.png"}, {"start": 3441377, "audio": 0, "end": 3444310, "filename": "/data/interface/uisprites/mygui/scrollerknoby_pressed.png"}, {"start": 3444310, "audio": 0, "end": 3447248, "filename": "/data/interface/uisprites/mygui/sliderknobx.png"}, {"start": 3447248, "audio": 0, "end": 3450209, "filename": "/data/interface/uisprites/mygui/sliderknobx_hovered.png"}, {"start": 3450209, "audio": 0, "end": 3453162, "filename": "/data/interface/uisprites/mygui/sliderknobx_pressed.png"}, {"start": 3453162, "audio": 0, "end": 3456088, "filename": "/data/interface/uisprites/mygui/sliderknoby.png"}, {"start": 3456088, "audio": 0, "end": 3459040, "filename": "/data/interface/uisprites/mygui/sliderknoby_hovered.png"}, {"start": 3459040, "audio": 0, "end": 3461978, "filename": "/data/interface/uisprites/mygui/sliderknoby_pressed.png"}, {"start": 3461978, "audio": 0, "end": 3464915, "filename": "/data/interface/uisprites/mygui/sliderx.png"}, {"start": 3464915, "audio": 0, "end": 3467825, "filename": "/data/interface/uisprites/mygui/sliderx_bis.png"}, {"start": 3467825, "audio": 0, "end": 3470770, "filename": "/data/interface/uisprites/mygui/tab.png"}, {"start": 3470770, "audio": 0, "end": 3473905, "filename": "/data/interface/uisprites/mygui/tab_button.png"}, {"start": 3473905, "audio": 0, "end": 3477086, "filename": "/data/interface/uisprites/mygui/tab_button_active.png"}, {"start": 3477086, "audio": 0, "end": 3480630, "filename": "/data/interface/uisprites/mygui/tab_button_active_hovered.png"}, {"start": 3480630, "audio": 0, "end": 3484095, "filename": "/data/interface/uisprites/mygui/tab_button_hovered.png"}, {"start": 3484095, "audio": 0, "end": 3487005, "filename": "/data/interface/uisprites/mygui/tableheader.png"}, {"start": 3487005, "audio": 0, "end": 3489935, "filename": "/data/interface/uisprites/mygui/windowbody.png"}, {"start": 3489935, "audio": 0, "end": 3492859, "filename": "/data/interface/uisprites/mygui/windowbody_black.png"}, {"start": 3492859, "audio": 0, "end": 3496207, "filename": "/data/interface/uisprites/mygui/windowheader.png"}, {"start": 3496207, "audio": 0, "end": 3499484, "filename": "/data/interface/uisprites/mygui/windowheader_dark.png"}, {"start": 3499484, "audio": 0, "end": 3502761, "filename": "/data/interface/uisprites/mygui/windowheader_darker.png"}, {"start": 3502761, "audio": 0, "end": 3506152, "filename": "/data/interface/uisprites/mygui/windowheader_var.png"}, {"start": 3506152, "audio": 0, "end": 3507338, "filename": "/data/interface/uisprites/tbb/arrow_down.png"}, {"start": 3507338, "audio": 0, "end": 3508504, "filename": "/data/interface/uisprites/tbb/arrow_left.png"}, {"start": 3508504, "audio": 0, "end": 3509683, "filename": "/data/interface/uisprites/tbb/arrow_right.png"}, {"start": 3509683, "audio": 0, "end": 3510854, "filename": "/data/interface/uisprites/tbb/arrow_up.png"}, {"start": 3510854, "audio": 0, "end": 3512649, "filename": "/data/interface/uisprites/tbb/button.png"}, {"start": 3512649, "audio": 0, "end": 3514188, "filename": "/data/interface/uisprites/tbb/button_flat_outline.png"}, {"start": 3514188, "audio": 0, "end": 3517282, "filename": "/data/interface/uisprites/tbb/button_flat_pressed.png"}, {"start": 3517282, "audio": 0, "end": 3519091, "filename": "/data/interface/uisprites/tbb/button_grouped_x_first_down.png"}, {"start": 3519091, "audio": 0, "end": 3520887, "filename": "/data/interface/uisprites/tbb/button_grouped_x_first_up.png"}, {"start": 3520887, "audio": 0, "end": 3522677, "filename": "/data/interface/uisprites/tbb/button_grouped_x_last_down.png"}, {"start": 3522677, "audio": 0, "end": 3524495, "filename": "/data/interface/uisprites/tbb/button_grouped_x_last_up.png"}, {"start": 3524495, "audio": 0, "end": 3526007, "filename": "/data/interface/uisprites/tbb/button_grouped_x_middle.png"}, {"start": 3526007, "audio": 0, "end": 3527568, "filename": "/data/interface/uisprites/tbb/button_grouped_x_middle_pressed.png"}, {"start": 3527568, "audio": 0, "end": 3529359, "filename": "/data/interface/uisprites/tbb/button_pressed.png"}, {"start": 3529359, "audio": 0, "end": 3532693, "filename": "/data/interface/uisprites/tbb/checkbox.png"}, {"start": 3532693, "audio": 0, "end": 3536899, "filename": "/data/interface/uisprites/tbb/checkbox_active.png"}, {"start": 3536899, "audio": 0, "end": 3540022, "filename": "/data/interface/uisprites/tbb/checkbox_pressed.png"}, {"start": 3540022, "audio": 0, "end": 3541479, "filename": "/data/interface/uisprites/tbb/container.png"}, {"start": 3541479, "audio": 0, "end": 3543287, "filename": "/data/interface/uisprites/tbb/editfield.png"}, {"start": 3543287, "audio": 0, "end": 3546100, "filename": "/data/interface/uisprites/tbb/empty.png"}, {"start": 3546100, "audio": 0, "end": 3547131, "filename": "/data/interface/uisprites/tbb/fadeout_x.png"}, {"start": 3547131, "audio": 0, "end": 3548102, "filename": "/data/interface/uisprites/tbb/fadeout_y.png"}, {"start": 3548102, "audio": 0, "end": 3550990, "filename": "/data/interface/uisprites/tbb/focus_tabbutton_left.png"}, {"start": 3550990, "audio": 0, "end": 3552087, "filename": "/data/interface/uisprites/tbb/focus_tabbutton_top.png"}, {"start": 3552087, "audio": 0, "end": 3555093, "filename": "/data/interface/uisprites/tbb/frame.png"}, {"start": 3555093, "audio": 0, "end": 3558707, "filename": "/data/interface/uisprites/tbb/frame_shadow.png"}, {"start": 3558707, "audio": 0, "end": 3562426, "filename": "/data/interface/uisprites/tbb/icon48.png"}, {"start": 3562426, "audio": 0, "end": 3563890, "filename": "/data/interface/uisprites/tbb/item.png"}, {"start": 3563890, "audio": 0, "end": 3565353, "filename": "/data/interface/uisprites/tbb/item_hovered.png"}, {"start": 3565353, "audio": 0, "end": 3566817, "filename": "/data/interface/uisprites/tbb/item_selected.png"}, {"start": 3566817, "audio": 0, "end": 3583240, "filename": "/data/interface/uisprites/tbb/plug_knob.png"}, {"start": 3583240, "audio": 0, "end": 3585262, "filename": "/data/interface/uisprites/tbb/radio.png"}, {"start": 3585262, "audio": 0, "end": 3587116, "filename": "/data/interface/uisprites/tbb/radio_mark.png"}, {"start": 3587116, "audio": 0, "end": 3588725, "filename": "/data/interface/uisprites/tbb/radio_pressed.png"}, {"start": 3588725, "audio": 0, "end": 3589834, "filename": "/data/interface/uisprites/tbb/resizer.png"}, {"start": 3589834, "audio": 0, "end": 3591163, "filename": "/data/interface/uisprites/tbb/scroll_bg_x.png"}, {"start": 3591163, "audio": 0, "end": 3592477, "filename": "/data/interface/uisprites/tbb/scroll_bg_y.png"}, {"start": 3592477, "audio": 0, "end": 3594276, "filename": "/data/interface/uisprites/tbb/scroll_fg_x.png"}, {"start": 3594276, "audio": 0, "end": 3596217, "filename": "/data/interface/uisprites/tbb/scroll_fg_y.png"}, {"start": 3596217, "audio": 0, "end": 3599160, "filename": "/data/interface/uisprites/tbb/slider_bg_x.png"}, {"start": 3599160, "audio": 0, "end": 3602112, "filename": "/data/interface/uisprites/tbb/slider_bg_y.png"}, {"start": 3602112, "audio": 0, "end": 3604165, "filename": "/data/interface/uisprites/tbb/slider_handle.png"}, {"start": 3604165, "audio": 0, "end": 3605702, "filename": "/data/interface/uisprites/tbb/tab_button_bottom_active.png"}, {"start": 3605702, "audio": 0, "end": 3607112, "filename": "/data/interface/uisprites/tbb/tab_button_bottom_inactive.png"}, {"start": 3607112, "audio": 0, "end": 3608588, "filename": "/data/interface/uisprites/tbb/tab_button_left_active.png"}, {"start": 3608588, "audio": 0, "end": 3609937, "filename": "/data/interface/uisprites/tbb/tab_button_left_inactive.png"}, {"start": 3609937, "audio": 0, "end": 3611465, "filename": "/data/interface/uisprites/tbb/tab_button_right_active.png"}, {"start": 3611465, "audio": 0, "end": 3612870, "filename": "/data/interface/uisprites/tbb/tab_button_right_inactive.png"}, {"start": 3612870, "audio": 0, "end": 3614236, "filename": "/data/interface/uisprites/tbb/tab_button_top.png"}, {"start": 3614236, "audio": 0, "end": 3615717, "filename": "/data/interface/uisprites/tbb/tab_button_top_active.png"}, {"start": 3615717, "audio": 0, "end": 3617106, "filename": "/data/interface/uisprites/tbb/toggle_section_icon.png"}, {"start": 3617106, "audio": 0, "end": 3618496, "filename": "/data/interface/uisprites/tbb/toggle_section_icon_active.png"}, {"start": 3618496, "audio": 0, "end": 3619877, "filename": "/data/interface/uisprites/tbb/toggle_section_icon_middle.png"}, {"start": 3619877, "audio": 0, "end": 3621953, "filename": "/data/interface/uisprites/tbb/window.png"}, {"start": 3621953, "audio": 0, "end": 3623427, "filename": "/data/interface/uisprites/tbb/window_close.png"}, {"start": 3623427, "audio": 0, "end": 3624935, "filename": "/data/interface/uisprites/tbb/window_close_pressed.png"}, {"start": 3624935, "audio": 0, "end": 3625943, "filename": "/data/interface/uisprites/tbb/window_mover_bg_tile.png"}, {"start": 3625943, "audio": 0, "end": 3627375, "filename": "/data/interface/uisprites/tbb/window_mover_overlay.png"}, {"start": 3627375, "audio": 0, "end": 3643657, "filename": "/data/interface/uisprites/tbb/window_selected.png"}, {"start": 3643657, "audio": 0, "end": 3660507, "filename": "/data/shaders/bgfx_compute.sh"}, {"start": 3660507, "audio": 0, "end": 3678162, "filename": "/data/shaders/bgfx_shader.sh"}, {"start": 3678162, "audio": 0, "end": 3681426, "filename": "/data/shaders/common.sh"}, {"start": 3681426, "audio": 0, "end": 3685173, "filename": "/data/shaders/convert.sh"}, {"start": 3685173, "audio": 0, "end": 3686505, "filename": "/data/shaders/cubic.sh"}, {"start": 3686505, "audio": 0, "end": 3687620, "filename": "/data/shaders/custom_program_fs.sc"}, {"start": 3687620, "audio": 0, "end": 3687803, "filename": "/data/shaders/custom_program_vs.sc"}, {"start": 3687803, "audio": 0, "end": 3688003, "filename": "/data/shaders/debug_fs.sc"}, {"start": 3688003, "audio": 0, "end": 3688221, "filename": "/data/shaders/debug_vs.sc"}, {"start": 3688221, "audio": 0, "end": 3688491, "filename": "/data/shaders/depth.sh"}, {"start": 3688491, "audio": 0, "end": 3688582, "filename": "/data/shaders/depth_fs.sc"}, {"start": 3688582, "audio": 0, "end": 3689268, "filename": "/data/shaders/depth_vs.sc"}, {"start": 3689268, "audio": 0, "end": 3691963, "filename": "/data/shaders/encode.sh"}, {"start": 3691963, "audio": 0, "end": 3692937, "filename": "/data/shaders/fresnel_fs.sc"}, {"start": 3692937, "audio": 0, "end": 3693247, "filename": "/data/shaders/fresnel_vs.sc"}, {"start": 3693247, "audio": 0, "end": 3694536, "filename": "/data/shaders/geometry_vs.sc"}, {"start": 3694536, "audio": 0, "end": 3695048, "filename": "/data/shaders/modelview.sh"}, {"start": 3695048, "audio": 0, "end": 3695399, "filename": "/data/shaders/particle_fs.sc"}, {"start": 3695399, "audio": 0, "end": 3695626, "filename": "/data/shaders/particle_vs.sc"}, {"start": 3695626, "audio": 0, "end": 3695732, "filename": "/data/shaders/picking_id_fs.sc"}, {"start": 3695732, "audio": 0, "end": 3696576, "filename": "/data/shaders/picking_id_vs.sc"}, {"start": 3696576, "audio": 0, "end": 3697313, "filename": "/data/shaders/shaderlib.sh"}, {"start": 3697313, "audio": 0, "end": 3698470, "filename": "/data/shaders/skeleton.sh"}, {"start": 3698470, "audio": 0, "end": 3699757, "filename": "/data/shaders/sky_color_banding_fix_fs.sc"}, {"start": 3699757, "audio": 0, "end": 3700488, "filename": "/data/shaders/sky_fs.sc"}, {"start": 3700488, "audio": 0, "end": 3702050, "filename": "/data/shaders/sky_landscape_fs.sc"}, {"start": 3702050, "audio": 0, "end": 3702483, "filename": "/data/shaders/sky_landscape_vs.sc"}, {"start": 3702483, "audio": 0, "end": 3704535, "filename": "/data/shaders/sky_vs.sc"}, {"start": 3704535, "audio": 0, "end": 3705065, "filename": "/data/shaders/skybox_fs.sc"}, {"start": 3705065, "audio": 0, "end": 3705810, "filename": "/data/shaders/skybox_vs.sc"}, {"start": 3705810, "audio": 0, "end": 3706983, "filename": "/data/shaders/spherical.sh"}, {"start": 3706983, "audio": 0, "end": 3708024, "filename": "/data/shaders/srgb.sh"}, {"start": 3708024, "audio": 0, "end": 3709603, "filename": "/data/shaders/star_fs.sc"}, {"start": 3709603, "audio": 0, "end": 3711213, "filename": "/data/shaders/star_nest_fs.sc"}, {"start": 3711213, "audio": 0, "end": 3711737, "filename": "/data/shaders/star_nest_vs.sc"}, {"start": 3711737, "audio": 0, "end": 3714323, "filename": "/data/shaders/tonemap.sh"}, {"start": 3714323, "audio": 0, "end": 3714769, "filename": "/data/shaders/triplanar.sh"}, {"start": 3714769, "audio": 0, "end": 3715094, "filename": "/data/shaders/unshaded_fs.sc"}, {"start": 3715094, "audio": 0, "end": 3715405, "filename": "/data/shaders/unshaded_vs.sc"}, {"start": 3715405, "audio": 0, "end": 3716625, "filename": "/data/shaders/varying.def.sc"}, {"start": 3716625, "audio": 0, "end": 3717525, "filename": "/data/shaders/filter/blend.sh"}, {"start": 3717525, "audio": 0, "end": 3718884, "filename": "/data/shaders/filter/blur.sh"}, {"start": 3718884, "audio": 0, "end": 3719935, "filename": "/data/shaders/filter/copy_fs.sc"}, {"start": 3719935, "audio": 0, "end": 3719965, "filename": "/data/shaders/filter/copy_vs.sc"}, {"start": 3719965, "audio": 0, "end": 3724027, "filename": "/data/shaders/filter/dof_blur_fs.sc"}, {"start": 3724027, "audio": 0, "end": 3724057, "filename": "/data/shaders/filter/dof_blur_vs.sc"}, {"start": 3724057, "audio": 0, "end": 3724739, "filename": "/data/shaders/filter/filter.sh"}, {"start": 3724739, "audio": 0, "end": 3725004, "filename": "/data/shaders/filter/filter_vs.sc"}, {"start": 3725004, "audio": 0, "end": 3725875, "filename": "/data/shaders/filter/gaussian_blur_fs.sc"}, {"start": 3725875, "audio": 0, "end": 3725906, "filename": "/data/shaders/filter/gaussian_blur_vs.sc"}, {"start": 3725906, "audio": 0, "end": 3726748, "filename": "/data/shaders/filter/glow.sh"}, {"start": 3726748, "audio": 0, "end": 3727219, "filename": "/data/shaders/filter/glow_bleed_fs.sc"}, {"start": 3727219, "audio": 0, "end": 3727249, "filename": "/data/shaders/filter/glow_bleed_vs.sc"}, {"start": 3727249, "audio": 0, "end": 3728599, "filename": "/data/shaders/filter/glow_fs.sc"}, {"start": 3728599, "audio": 0, "end": 3728629, "filename": "/data/shaders/filter/glow_vs.sc"}, {"start": 3728629, "audio": 0, "end": 3731611, "filename": "/data/shaders/filter/prefilter_envmap_fs.sc"}, {"start": 3731611, "audio": 0, "end": 3731792, "filename": "/data/shaders/filter/prefilter_envmap_vs.sc"}, {"start": 3731792, "audio": 0, "end": 3731927, "filename": "/data/shaders/filter/quad_fs.sc"}, {"start": 3731927, "audio": 0, "end": 3731957, "filename": "/data/shaders/filter/quad_vs.sc"}, {"start": 3731957, "audio": 0, "end": 3733524, "filename": "/data/shaders/filter/tonemap_fs.sc"}, {"start": 3733524, "audio": 0, "end": 3733555, "filename": "/data/shaders/filter/tonemap_vs.sc"}, {"start": 3733555, "audio": 0, "end": 3736677, "filename": "/data/shaders/pbr/fog.sh"}, {"start": 3736677, "audio": 0, "end": 3737154, "filename": "/data/shaders/pbr/fs_anisotropy.sh"}, {"start": 3737154, "audio": 0, "end": 3737374, "filename": "/data/shaders/pbr/fs_ao.sh"}, {"start": 3737374, "audio": 0, "end": 3738644, "filename": "/data/shaders/pbr/fs_depth.sh"}, {"start": 3738644, "audio": 0, "end": 3738877, "filename": "/data/shaders/pbr/fs_emission.sh"}, {"start": 3738877, "audio": 0, "end": 3739289, "filename": "/data/shaders/pbr/fs_normal.sh"}, {"start": 3739289, "audio": 0, "end": 3740619, "filename": "/data/shaders/pbr/geometry_fs.sc"}, {"start": 3740619, "audio": 0, "end": 3740644, "filename": "/data/shaders/pbr/geometry_vs.sc"}, {"start": 3740644, "audio": 0, "end": 3746430, "filename": "/data/shaders/pbr/light.sh"}, {"start": 3746430, "audio": 0, "end": 3752084, "filename": "/data/shaders/pbr/light_brdf.sh"}, {"start": 3752084, "audio": 0, "end": 3754474, "filename": "/data/shaders/pbr/light_cluster.sh"}, {"start": 3754474, "audio": 0, "end": 3758284, "filename": "/data/shaders/pbr/lights_fs.sc"}, {"start": 3758284, "audio": 0, "end": 3758314, "filename": "/data/shaders/pbr/lights_vs.sc"}, {"start": 3758314, "audio": 0, "end": 3760058, "filename": "/data/shaders/pbr/pbr.sh"}, {"start": 3760058, "audio": 0, "end": 3763607, "filename": "/data/shaders/pbr/pbr_fs.sc"}, {"start": 3763607, "audio": 0, "end": 3763632, "filename": "/data/shaders/pbr/pbr_vs.sc"}, {"start": 3763632, "audio": 0, "end": 3765052, "filename": "/data/shaders/pbr/radiance.sh"}, {"start": 3765052, "audio": 0, "end": 3770942, "filename": "/data/shaders/pbr/shadow.sh"}, {"start": 3770942, "audio": 0, "end": 3771111, "filename": "/data/textures/black.png"}, {"start": 3771111, "audio": 0, "end": 3786090, "filename": "/data/textures/empty.png"}, {"start": 3786090, "audio": 0, "end": 3801069, "filename": "/data/textures/normal.png"}, {"start": 3801069, "audio": 0, "end": 3801238, "filename": "/data/textures/white.png"}, {"start": 3801238, "audio": 0, "end": 3885590, "filename": "/data/textures/particles/billows.png"}, {"start": 3885590, "audio": 0, "end": 3973689, "filename": "/data/textures/particles/billows_b.png"}, {"start": 3973689, "audio": 0, "end": 4000714, "filename": "/data/textures/particles/burst.png"}, {"start": 4000714, "audio": 0, "end": 4028854, "filename": "/data/textures/particles/burst_2.png"}, {"start": 4028854, "audio": 0, "end": 4056323, "filename": "/data/textures/particles/burst_b.png"}, {"start": 4056323, "audio": 0, "end": 4085520, "filename": "/data/textures/particles/burst_b_2.png"}, {"start": 4085520, "audio": 0, "end": 4126448, "filename": "/data/textures/particles/flames.png"}, {"start": 4126448, "audio": 0, "end": 4168266, "filename": "/data/textures/particles/flames_b.png"}, {"start": 4168266, "audio": 0, "end": 4201635, "filename": "/data/textures/particles/flames_b_v.png"}, {"start": 4201635, "audio": 0, "end": 4235077, "filename": "/data/textures/particles/flames_v.png"}, {"start": 4235077, "audio": 0, "end": 4257902, "filename": "/data/textures/particles/geometric_b.png"}, {"start": 4257902, "audio": 0, "end": 4520114, "filename": "/data/textures/particles/particle.ktx"}, {"start": 4520114, "audio": 0, "end": 4550157, "filename": "/data/textures/particles/wave.png"}, {"start": 4550157, "audio": 0, "end": 4582211, "filename": "/data/textures/particles/wave_b.png"}, {"start": 4582211, "audio": 0, "end": 6343488, "filename": "/data/textures/radiance/tiber_1_1k.hdr"}, {"start": 6343488, "audio": 0, "end": 7178089, "filename": "/data/textures/spherical/grid.png"}], "remote_package_size": 7178089, "package_uuid": "3cdd91e5-27eb-4396-a197-6ce6f3ee68fc"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 392348, "filename": "/data/interface/fonts/Consolas-Bold.ttf"}, {"start": 392348, "audio": 0, "end": 846080, "filename": "/data/interface/fonts/Consolas.ttf"}, {"start": 846080, "audio": 0, "end": 1253848, "filename": "/data/interface/fonts/DejaVuSans.ttf"}, {"start": 1253848, "audio": 0, "end": 1363796, "filename": "/data/interface/fonts/Inconsolata-Bold.ttf"}, {"start": 1363796, "audio": 0, "end": 1460760, "filename": "/data/interface/fonts/Inconsolata-Regular.ttf"}, {"start": 1460760, "audio": 0, "end": 1465110, "filename": "/data/interface/fonts/OFL.txt"}, {"start": 1465110, "audio": 0, "end": 1520142, "filename": "/data/interface/fonts/VeraMono-Bold-Italic.ttf"}, {"start": 1520142, "audio": 0, "end": 1569194, "filename": "/data/interface/fonts/VeraMono-Bold.ttf"}, {"start": 1569194, "audio": 0, "end": 1623702, "filename": "/data/interface/fonts/VeraMono-Italic.ttf"}, {"start": 1623702, "audio": 0, "end": 1672926, "filename": "/data/interface/fonts/VeraMono.ttf"}, {"start": 1672926, "audio": 0, "end": 1679150, "filename": "/data/interface/styles/blendish.yml"}, {"start": 1679150, "audio": 0, "end": 1680179, "filename": "/data/interface/styles/blendish_clear.yml"}, {"start": 1680179, "audio": 0, "end": 1680766, "filename": "/data/interface/styles/blendish_dark.yml"}, {"start": 1680766, "audio": 0, "end": 1686943, "filename": "/data/interface/styles/minimal.yml"}, {"start": 1686943, "audio": 0, "end": 1691930, "filename": "/data/interface/styles/mygui.yml"}, {"start": 1691930, "audio": 0, "end": 1696065, "filename": "/data/interface/styles/turbobadger.yml"}, {"start": 1696065, "audio": 0, "end": 1701574, "filename": "/data/interface/styles/vector.yml"}, {"start": 1701574, "audio": 0, "end": 1716650, "filename": "/data/interface/uisprites/arrow_down.png"}, {"start": 1716650, "audio": 0, "end": 1719594, "filename": "/data/interface/uisprites/arrow_down_15.png"}, {"start": 1719594, "audio": 0, "end": 1734701, "filename": "/data/interface/uisprites/arrow_left.png"}, {"start": 1734701, "audio": 0, "end": 1737645, "filename": "/data/interface/uisprites/arrow_left_15.png"}, {"start": 1737645, "audio": 0, "end": 1752747, "filename": "/data/interface/uisprites/arrow_right.png"}, {"start": 1752747, "audio": 0, "end": 1755690, "filename": "/data/interface/uisprites/arrow_right_15.png"}, {"start": 1755690, "audio": 0, "end": 1770761, "filename": "/data/interface/uisprites/arrow_up.png"}, {"start": 1770761, "audio": 0, "end": 1773694, "filename": "/data/interface/uisprites/arrow_up_15.png"}, {"start": 1773694, "audio": 0, "end": 1788935, "filename": "/data/interface/uisprites/back_view.png"}, {"start": 1788935, "audio": 0, "end": 1791878, "filename": "/data/interface/uisprites/blendish_check.png"}, {"start": 1791878, "audio": 0, "end": 1794856, "filename": "/data/interface/uisprites/blendish_updown.png"}, {"start": 1794856, "audio": 0, "end": 1810370, "filename": "/data/interface/uisprites/block.png"}, {"start": 1810370, "audio": 0, "end": 1825549, "filename": "/data/interface/uisprites/bottom_view.png"}, {"start": 1825549, "audio": 0, "end": 1840923, "filename": "/data/interface/uisprites/camera.png"}, {"start": 1840923, "audio": 0, "end": 1856135, "filename": "/data/interface/uisprites/camera_.png"}, {"start": 1856135, "audio": 0, "end": 1858963, "filename": "/data/interface/uisprites/caret.png"}, {"start": 1858963, "audio": 0, "end": 1861800, "filename": "/data/interface/uisprites/caret_white.png"}, {"start": 1861800, "audio": 0, "end": 1879196, "filename": "/data/interface/uisprites/check_15.png"}, {"start": 1879196, "audio": 0, "end": 1894426, "filename": "/data/interface/uisprites/circle.png"}, {"start": 1894426, "audio": 0, "end": 1912925, "filename": "/data/interface/uisprites/class.png"}, {"start": 1912925, "audio": 0, "end": 1930311, "filename": "/data/interface/uisprites/close.png"}, {"start": 1930311, "audio": 0, "end": 1948149, "filename": "/data/interface/uisprites/close_15.png"}, {"start": 1948149, "audio": 0, "end": 1964176, "filename": "/data/interface/uisprites/copy.png"}, {"start": 1964176, "audio": 0, "end": 1979920, "filename": "/data/interface/uisprites/crate.png"}, {"start": 1979920, "audio": 0, "end": 1994996, "filename": "/data/interface/uisprites/drop_down.png"}, {"start": 1994996, "audio": 0, "end": 2010382, "filename": "/data/interface/uisprites/edit.png"}, {"start": 2010382, "audio": 0, "end": 2028211, "filename": "/data/interface/uisprites/editor.png"}, {"start": 2028211, "audio": 0, "end": 2045476, "filename": "/data/interface/uisprites/empty.png"}, {"start": 2045476, "audio": 0, "end": 2048282, "filename": "/data/interface/uisprites/empty_15.png"}, {"start": 2048282, "audio": 0, "end": 2068082, "filename": "/data/interface/uisprites/energy.png"}, {"start": 2068082, "audio": 0, "end": 2086850, "filename": "/data/interface/uisprites/energy64.png"}, {"start": 2086850, "audio": 0, "end": 2102120, "filename": "/data/interface/uisprites/entity.png"}, {"start": 2102120, "audio": 0, "end": 2104957, "filename": "/data/interface/uisprites/expandbox_separator.png"}, {"start": 2104957, "audio": 0, "end": 2107778, "filename": "/data/interface/uisprites/expandbox_sides.png"}, {"start": 2107778, "audio": 0, "end": 2110718, "filename": "/data/interface/uisprites/file_15.png"}, {"start": 2110718, "audio": 0, "end": 2113698, "filename": "/data/interface/uisprites/file_20.png"}, {"start": 2113698, "audio": 0, "end": 2116655, "filename": "/data/interface/uisprites/folder_15.png"}, {"start": 2116655, "audio": 0, "end": 2119633, "filename": "/data/interface/uisprites/folder_20.png"}, {"start": 2119633, "audio": 0, "end": 2134855, "filename": "/data/interface/uisprites/front_view.png"}, {"start": 2134855, "audio": 0, "end": 2154672, "filename": "/data/interface/uisprites/function.png"}, {"start": 2154672, "audio": 0, "end": 2172494, "filename": "/data/interface/uisprites/game.png"}, {"start": 2172494, "audio": 0, "end": 2187937, "filename": "/data/interface/uisprites/gfx.png"}, {"start": 2187937, "audio": 0, "end": 2203627, "filename": "/data/interface/uisprites/handle.png"}, {"start": 2203627, "audio": 0, "end": 2219313, "filename": "/data/interface/uisprites/handle_x.png"}, {"start": 2219313, "audio": 0, "end": 2239253, "filename": "/data/interface/uisprites/health.png"}, {"start": 2239253, "audio": 0, "end": 2258081, "filename": "/data/interface/uisprites/health64.png"}, {"start": 2258081, "audio": 0, "end": 2273394, "filename": "/data/interface/uisprites/heap.png"}, {"start": 2273394, "audio": 0, "end": 2291379, "filename": "/data/interface/uisprites/human.png"}, {"start": 2291379, "audio": 0, "end": 2306861, "filename": "/data/interface/uisprites/inspect.png"}, {"start": 2306861, "audio": 0, "end": 2324756, "filename": "/data/interface/uisprites/interactmode.png"}, {"start": 2324756, "audio": 0, "end": 2340069, "filename": "/data/interface/uisprites/lamp.png"}, {"start": 2340069, "audio": 0, "end": 2355266, "filename": "/data/interface/uisprites/left_view.png"}, {"start": 2355266, "audio": 0, "end": 2370579, "filename": "/data/interface/uisprites/light.png"}, {"start": 2370579, "audio": 0, "end": 2388408, "filename": "/data/interface/uisprites/luascript.png"}, {"start": 2388408, "audio": 0, "end": 2409337, "filename": "/data/interface/uisprites/material.png"}, {"start": 2409337, "audio": 0, "end": 2430233, "filename": "/data/interface/uisprites/model.png"}, {"start": 2430233, "audio": 0, "end": 2433430, "filename": "/data/interface/uisprites/mousepointer.png"}, {"start": 2433430, "audio": 0, "end": 2436536, "filename": "/data/interface/uisprites/move_20.png"}, {"start": 2436536, "audio": 0, "end": 2442727, "filename": "/data/interface/uisprites/ogrehead.png"}, {"start": 2442727, "audio": 0, "end": 2445989, "filename": "/data/interface/uisprites/options.png"}, {"start": 2445989, "audio": 0, "end": 2461132, "filename": "/data/interface/uisprites/origin.png"}, {"start": 2461132, "audio": 0, "end": 2482301, "filename": "/data/interface/uisprites/particles.png"}, {"start": 2482301, "audio": 0, "end": 2497467, "filename": "/data/interface/uisprites/place.png"}, {"start": 2497467, "audio": 0, "end": 2515489, "filename": "/data/interface/uisprites/play.png"}, {"start": 2515489, "audio": 0, "end": 2536445, "filename": "/data/interface/uisprites/prefab.png"}, {"start": 2536445, "audio": 0, "end": 2557420, "filename": "/data/interface/uisprites/program.png"}, {"start": 2557420, "audio": 0, "end": 2572735, "filename": "/data/interface/uisprites/quadrant.png"}, {"start": 2572735, "audio": 0, "end": 2591107, "filename": "/data/interface/uisprites/redo.png"}, {"start": 2591107, "audio": 0, "end": 2594094, "filename": "/data/interface/uisprites/resize_diag_left_20.png"}, {"start": 2594094, "audio": 0, "end": 2597079, "filename": "/data/interface/uisprites/resize_diag_right_20.png"}, {"start": 2597079, "audio": 0, "end": 2600098, "filename": "/data/interface/uisprites/resize_h_20.png"}, {"start": 2600098, "audio": 0, "end": 2603110, "filename": "/data/interface/uisprites/resize_v_20.png"}, {"start": 2603110, "audio": 0, "end": 2619716, "filename": "/data/interface/uisprites/right_view.png"}, {"start": 2619716, "audio": 0, "end": 2637780, "filename": "/data/interface/uisprites/rotate.png"}, {"start": 2637780, "audio": 0, "end": 2655794, "filename": "/data/interface/uisprites/scale.png"}, {"start": 2655794, "audio": 0, "end": 2673623, "filename": "/data/interface/uisprites/script.png"}, {"start": 2673623, "audio": 0, "end": 2688938, "filename": "/data/interface/uisprites/sector.png"}, {"start": 2688938, "audio": 0, "end": 2704350, "filename": "/data/interface/uisprites/star.png"}, {"start": 2704350, "audio": 0, "end": 2707735, "filename": "/data/interface/uisprites/styleedit.png"}, {"start": 2707735, "audio": 0, "end": 2728713, "filename": "/data/interface/uisprites/texture.png"}, {"start": 2728713, "audio": 0, "end": 2744227, "filename": "/data/interface/uisprites/tileblock.png"}, {"start": 2744227, "audio": 0, "end": 2759329, "filename": "/data/interface/uisprites/toggle_closed.png"}, {"start": 2759329, "audio": 0, "end": 2774405, "filename": "/data/interface/uisprites/toggle_open.png"}, {"start": 2774405, "audio": 0, "end": 2791697, "filename": "/data/interface/uisprites/top_view.png"}, {"start": 2791697, "audio": 0, "end": 2830185, "filename": "/data/interface/uisprites/toy.png"}, {"start": 2830185, "audio": 0, "end": 2889946, "filename": "/data/interface/uisprites/toybig.png"}, {"start": 2889946, "audio": 0, "end": 2907973, "filename": "/data/interface/uisprites/translate.png"}, {"start": 2907973, "audio": 0, "end": 2923359, "filename": "/data/interface/uisprites/ui.png"}, {"start": 2923359, "audio": 0, "end": 2926744, "filename": "/data/interface/uisprites/uieditor.png"}, {"start": 2926744, "audio": 0, "end": 2945114, "filename": "/data/interface/uisprites/undo.png"}, {"start": 2945114, "audio": 0, "end": 2963455, "filename": "/data/interface/uisprites/value.png"}, {"start": 2963455, "audio": 0, "end": 2981284, "filename": "/data/interface/uisprites/visualscript.png"}, {"start": 2981284, "audio": 0, "end": 2996696, "filename": "/data/interface/uisprites/world.png"}, {"start": 2996696, "audio": 0, "end": 3022127, "filename": "/data/interface/uisprites/graphic/blue.png"}, {"start": 3022127, "audio": 0, "end": 3044647, "filename": "/data/interface/uisprites/graphic/blue_empty_off.png"}, {"start": 3044647, "audio": 0, "end": 3067412, "filename": "/data/interface/uisprites/graphic/blue_empty_on.png"}, {"start": 3067412, "audio": 0, "end": 3090308, "filename": "/data/interface/uisprites/graphic/blue_off.png"}, {"start": 3090308, "audio": 0, "end": 3115864, "filename": "/data/interface/uisprites/graphic/blue_on.png"}, {"start": 3115864, "audio": 0, "end": 3147053, "filename": "/data/interface/uisprites/graphic/knob.png"}, {"start": 3147053, "audio": 0, "end": 3177190, "filename": "/data/interface/uisprites/graphic/knob_off.png"}, {"start": 3177190, "audio": 0, "end": 3208379, "filename": "/data/interface/uisprites/graphic/knob_on.png"}, {"start": 3208379, "audio": 0, "end": 3231644, "filename": "/data/interface/uisprites/graphic/red_off.png"}, {"start": 3231644, "audio": 0, "end": 3257821, "filename": "/data/interface/uisprites/graphic/red_on.png"}, {"start": 3257821, "audio": 0, "end": 3280655, "filename": "/data/interface/uisprites/graphic/white_off.png"}, {"start": 3280655, "audio": 0, "end": 3305720, "filename": "/data/interface/uisprites/graphic/white_on.png"}, {"start": 3305720, "audio": 0, "end": 3308940, "filename": "/data/interface/uisprites/mygui/arrow_down.png"}, {"start": 3308940, "audio": 0, "end": 3312195, "filename": "/data/interface/uisprites/mygui/arrow_down_hovered.png"}, {"start": 3312195, "audio": 0, "end": 3315449, "filename": "/data/interface/uisprites/mygui/arrow_down_pressed.png"}, {"start": 3315449, "audio": 0, "end": 3318662, "filename": "/data/interface/uisprites/mygui/arrow_left.png"}, {"start": 3318662, "audio": 0, "end": 3321920, "filename": "/data/interface/uisprites/mygui/arrow_left_hovered.png"}, {"start": 3321920, "audio": 0, "end": 3325169, "filename": "/data/interface/uisprites/mygui/arrow_left_pressed.png"}, {"start": 3325169, "audio": 0, "end": 3328384, "filename": "/data/interface/uisprites/mygui/arrow_right.png"}, {"start": 3328384, "audio": 0, "end": 3331648, "filename": "/data/interface/uisprites/mygui/arrow_right_hovered.png"}, {"start": 3331648, "audio": 0, "end": 3334904, "filename": "/data/interface/uisprites/mygui/arrow_right_pressed.png"}, {"start": 3334904, "audio": 0, "end": 3338106, "filename": "/data/interface/uisprites/mygui/arrow_up.png"}, {"start": 3338106, "audio": 0, "end": 3341352, "filename": "/data/interface/uisprites/mygui/arrow_up_hovered.png"}, {"start": 3341352, "audio": 0, "end": 3344592, "filename": "/data/interface/uisprites/mygui/arrow_up_pressed.png"}, {"start": 3344592, "audio": 0, "end": 3347558, "filename": "/data/interface/uisprites/mygui/button.png"}, {"start": 3347558, "audio": 0, "end": 3350552, "filename": "/data/interface/uisprites/mygui/button_active.png"}, {"start": 3350552, "audio": 0, "end": 3353813, "filename": "/data/interface/uisprites/mygui/button_hovered.png"}, {"start": 3353813, "audio": 0, "end": 3356807, "filename": "/data/interface/uisprites/mygui/button_pressed.png"}, {"start": 3356807, "audio": 0, "end": 3359757, "filename": "/data/interface/uisprites/mygui/checkbox.png"}, {"start": 3359757, "audio": 0, "end": 3363220, "filename": "/data/interface/uisprites/mygui/checkbox_active.png"}, {"start": 3363220, "audio": 0, "end": 3366904, "filename": "/data/interface/uisprites/mygui/checkbox_active_hovered.png"}, {"start": 3366904, "audio": 0, "end": 3370389, "filename": "/data/interface/uisprites/mygui/checkbox_active_pressed.png"}, {"start": 3370389, "audio": 0, "end": 3373638, "filename": "/data/interface/uisprites/mygui/checkbox_hovered.png"}, {"start": 3373638, "audio": 0, "end": 3376606, "filename": "/data/interface/uisprites/mygui/checkbox_pressed.png"}, {"start": 3376606, "audio": 0, "end": 3380207, "filename": "/data/interface/uisprites/mygui/closebutton.png"}, {"start": 3380207, "audio": 0, "end": 3383884, "filename": "/data/interface/uisprites/mygui/closebutton_hovered.png"}, {"start": 3383884, "audio": 0, "end": 3387485, "filename": "/data/interface/uisprites/mygui/closebutton_pressed.png"}, {"start": 3387485, "audio": 0, "end": 3390405, "filename": "/data/interface/uisprites/mygui/editbox.png"}, {"start": 3390405, "audio": 0, "end": 3393329, "filename": "/data/interface/uisprites/mygui/editbox_active.png"}, {"start": 3393329, "audio": 0, "end": 3396496, "filename": "/data/interface/uisprites/mygui/editbox_active_hovered.png"}, {"start": 3396496, "audio": 0, "end": 3399653, "filename": "/data/interface/uisprites/mygui/editbox_hovered.png"}, {"start": 3399653, "audio": 0, "end": 3402577, "filename": "/data/interface/uisprites/mygui/editbox_pressed.png"}, {"start": 3402577, "audio": 0, "end": 3405501, "filename": "/data/interface/uisprites/mygui/frame.png"}, {"start": 3405501, "audio": 0, "end": 3408363, "filename": "/data/interface/uisprites/mygui/frame_assym.png"}, {"start": 3408363, "audio": 0, "end": 3411287, "filename": "/data/interface/uisprites/mygui/frame_dark.png"}, {"start": 3411287, "audio": 0, "end": 3414209, "filename": "/data/interface/uisprites/mygui/frame_transparent.png"}, {"start": 3414209, "audio": 0, "end": 3417109, "filename": "/data/interface/uisprites/mygui/frame_transparent_alt.png"}, {"start": 3417109, "audio": 0, "end": 3420667, "filename": "/data/interface/uisprites/mygui/radiobutton.png"}, {"start": 3420667, "audio": 0, "end": 3424354, "filename": "/data/interface/uisprites/mygui/radiobutton_active.png"}, {"start": 3424354, "audio": 0, "end": 3428156, "filename": "/data/interface/uisprites/mygui/radiobutton_active_hovered.png"}, {"start": 3428156, "audio": 0, "end": 3431836, "filename": "/data/interface/uisprites/mygui/radiobutton_active_pressed.png"}, {"start": 3431836, "audio": 0, "end": 3435330, "filename": "/data/interface/uisprites/mygui/radiobutton_hovered.png"}, {"start": 3435330, "audio": 0, "end": 3438247, "filename": "/data/interface/uisprites/mygui/scrollerknoby.png"}, {"start": 3438247, "audio": 0, "end": 3441377, "filename": "/data/interface/uisprites/mygui/scrollerknoby_hovered.png"}, {"start": 3441377, "audio": 0, "end": 3444310, "filename": "/data/interface/uisprites/mygui/scrollerknoby_pressed.png"}, {"start": 3444310, "audio": 0, "end": 3447248, "filename": "/data/interface/uisprites/mygui/sliderknobx.png"}, {"start": 3447248, "audio": 0, "end": 3450209, "filename": "/data/interface/uisprites/mygui/sliderknobx_hovered.png"}, {"start": 3450209, "audio": 0, "end": 3453162, "filename": "/data/interface/uisprites/mygui/sliderknobx_pressed.png"}, {"start": 3453162, "audio": 0, "end": 3456088, "filename": "/data/interface/uisprites/mygui/sliderknoby.png"}, {"start": 3456088, "audio": 0, "end": 3459040, "filename": "/data/interface/uisprites/mygui/sliderknoby_hovered.png"}, {"start": 3459040, "audio": 0, "end": 3461978, "filename": "/data/interface/uisprites/mygui/sliderknoby_pressed.png"}, {"start": 3461978, "audio": 0, "end": 3464915, "filename": "/data/interface/uisprites/mygui/sliderx.png"}, {"start": 3464915, "audio": 0, "end": 3467825, "filename": "/data/interface/uisprites/mygui/sliderx_bis.png"}, {"start": 3467825, "audio": 0, "end": 3470770, "filename": "/data/interface/uisprites/mygui/tab.png"}, {"start": 3470770, "audio": 0, "end": 3473905, "filename": "/data/interface/uisprites/mygui/tab_button.png"}, {"start": 3473905, "audio": 0, "end": 3477086, "filename": "/data/interface/uisprites/mygui/tab_button_active.png"}, {"start": 3477086, "audio": 0, "end": 3480630, "filename": "/data/interface/uisprites/mygui/tab_button_active_hovered.png"}, {"start": 3480630, "audio": 0, "end": 3484095, "filename": "/data/interface/uisprites/mygui/tab_button_hovered.png"}, {"start": 3484095, "audio": 0, "end": 3487005, "filename": "/data/interface/uisprites/mygui/tableheader.png"}, {"start": 3487005, "audio": 0, "end": 3489935, "filename": "/data/interface/uisprites/mygui/windowbody.png"}, {"start": 3489935, "audio": 0, "end": 3492859, "filename": "/data/interface/uisprites/mygui/windowbody_black.png"}, {"start": 3492859, "audio": 0, "end": 3496207, "filename": "/data/interface/uisprites/mygui/windowheader.png"}, {"start": 3496207, "audio": 0, "end": 3499484, "filename": "/data/interface/uisprites/mygui/windowheader_dark.png"}, {"start": 3499484, "audio": 0, "end": 3502761, "filename": "/data/interface/uisprites/mygui/windowheader_darker.png"}, {"start": 3502761, "audio": 0, "end": 3506152, "filename": "/data/interface/uisprites/mygui/windowheader_var.png"}, {"start": 3506152, "audio": 0, "end": 3507338, "filename": "/data/interface/uisprites/tbb/arrow_down.png"}, {"start": 3507338, "audio": 0, "end": 3508504, "filename": "/data/interface/uisprites/tbb/arrow_left.png"}, {"start": 3508504, "audio": 0, "end": 3509683, "filename": "/data/interface/uisprites/tbb/arrow_right.png"}, {"start": 3509683, "audio": 0, "end": 3510854, "filename": "/data/interface/uisprites/tbb/arrow_up.png"}, {"start": 3510854, "audio": 0, "end": 3512649, "filename": "/data/interface/uisprites/tbb/button.png"}, {"start": 3512649, "audio": 0, "end": 3514188, "filename": "/data/interface/uisprites/tbb/button_flat_outline.png"}, {"start": 3514188, "audio": 0, "end": 3517282, "filename": "/data/interface/uisprites/tbb/button_flat_pressed.png"}, {"start": 3517282, "audio": 0, "end": 3519091, "filename": "/data/interface/uisprites/tbb/button_grouped_x_first_down.png"}, {"start": 3519091, "audio": 0, "end": 3520887, "filename": "/data/interface/uisprites/tbb/button_grouped_x_first_up.png"}, {"start": 3520887, "audio": 0, "end": 3522677, "filename": "/data/interface/uisprites/tbb/button_grouped_x_last_down.png"}, {"start": 3522677, "audio": 0, "end": 3524495, "filename": "/data/interface/uisprites/tbb/button_grouped_x_last_up.png"}, {"start": 3524495, "audio": 0, "end": 3526007, "filename": "/data/interface/uisprites/tbb/button_grouped_x_middle.png"}, {"start": 3526007, "audio": 0, "end": 3527568, "filename": "/data/interface/uisprites/tbb/button_grouped_x_middle_pressed.png"}, {"start": 3527568, "audio": 0, "end": 3529359, "filename": "/data/interface/uisprites/tbb/button_pressed.png"}, {"start": 3529359, "audio": 0, "end": 3532693, "filename": "/data/interface/uisprites/tbb/checkbox.png"}, {"start": 3532693, "audio": 0, "end": 3536899, "filename": "/data/interface/uisprites/tbb/checkbox_active.png"}, {"start": 3536899, "audio": 0, "end": 3540022, "filename": "/data/interface/uisprites/tbb/checkbox_pressed.png"}, {"start": 3540022, "audio": 0, "end": 3541479, "filename": "/data/interface/uisprites/tbb/container.png"}, {"start": 3541479, "audio": 0, "end": 3543287, "filename": "/data/interface/uisprites/tbb/editfield.png"}, {"start": 3543287, "audio": 0, "end": 3546100, "filename": "/data/interface/uisprites/tbb/empty.png"}, {"start": 3546100, "audio": 0, "end": 3547131, "filename": "/data/interface/uisprites/tbb/fadeout_x.png"}, {"start": 3547131, "audio": 0, "end": 3548102, "filename": "/data/interface/uisprites/tbb/fadeout_y.png"}, {"start": 3548102, "audio": 0, "end": 3550990, "filename": "/data/interface/uisprites/tbb/focus_tabbutton_left.png"}, {"start": 3550990, "audio": 0, "end": 3552087, "filename": "/data/interface/uisprites/tbb/focus_tabbutton_top.png"}, {"start": 3552087, "audio": 0, "end": 3555093, "filename": "/data/interface/uisprites/tbb/frame.png"}, {"start": 3555093, "audio": 0, "end": 3558707, "filename": "/data/interface/uisprites/tbb/frame_shadow.png"}, {"start": 3558707, "audio": 0, "end": 3562426, "filename": "/data/interface/uisprites/tbb/icon48.png"}, {"start": 3562426, "audio": 0, "end": 3563890, "filename": "/data/interface/uisprites/tbb/item.png"}, {"start": 3563890, "audio": 0, "end": 3565353, "filename": "/data/interface/uisprites/tbb/item_hovered.png"}, {"start": 3565353, "audio": 0, "end": 3566817, "filename": "/data/interface/uisprites/tbb/item_selected.png"}, {"start": 3566817, "audio": 0, "end": 3583240, "filename": "/data/interface/uisprites/tbb/plug_knob.png"}, {"start": 3583240, "audio": 0, "end": 3585262, "filename": "/data/interface/uisprites/tbb/radio.png"}, {"start": 3585262, "audio": 0, "end": 3587116, "filename": "/data/interface/uisprites/tbb/radio_mark.png"}, {"start": 3587116, "audio": 0, "end": 3588725, "filename": "/data/interface/uisprites/tbb/radio_pressed.png"}, {"start": 3588725, "audio": 0, "end": 3589834, "filename": "/data/interface/uisprites/tbb/resizer.png"}, {"start": 3589834, "audio": 0, "end": 3591163, "filename": "/data/interface/uisprites/tbb/scroll_bg_x.png"}, {"start": 3591163, "audio": 0, "end": 3592477, "filename": "/data/interface/uisprites/tbb/scroll_bg_y.png"}, {"start": 3592477, "audio": 0, "end": 3594276, "filename": "/data/interface/uisprites/tbb/scroll_fg_x.png"}, {"start": 3594276, "audio": 0, "end": 3596217, "filename": "/data/interface/uisprites/tbb/scroll_fg_y.png"}, {"start": 3596217, "audio": 0, "end": 3599160, "filename": "/data/interface/uisprites/tbb/slider_bg_x.png"}, {"start": 3599160, "audio": 0, "end": 3602112, "filename": "/data/interface/uisprites/tbb/slider_bg_y.png"}, {"start": 3602112, "audio": 0, "end": 3604165, "filename": "/data/interface/uisprites/tbb/slider_handle.png"}, {"start": 3604165, "audio": 0, "end": 3605702, "filename": "/data/interface/uisprites/tbb/tab_button_bottom_active.png"}, {"start": 3605702, "audio": 0, "end": 3607112, "filename": "/data/interface/uisprites/tbb/tab_button_bottom_inactive.png"}, {"start": 3607112, "audio": 0, "end": 3608588, "filename": "/data/interface/uisprites/tbb/tab_button_left_active.png"}, {"start": 3608588, "audio": 0, "end": 3609937, "filename": "/data/interface/uisprites/tbb/tab_button_left_inactive.png"}, {"start": 3609937, "audio": 0, "end": 3611465, "filename": "/data/interface/uisprites/tbb/tab_button_right_active.png"}, {"start": 3611465, "audio": 0, "end": 3612870, "filename": "/data/interface/uisprites/tbb/tab_button_right_inactive.png"}, {"start": 3612870, "audio": 0, "end": 3614236, "filename": "/data/interface/uisprites/tbb/tab_button_top.png"}, {"start": 3614236, "audio": 0, "end": 3615717, "filename": "/data/interface/uisprites/tbb/tab_button_top_active.png"}, {"start": 3615717, "audio": 0, "end": 3617106, "filename": "/data/interface/uisprites/tbb/toggle_section_icon.png"}, {"start": 3617106, "audio": 0, "end": 3618496, "filename": "/data/interface/uisprites/tbb/toggle_section_icon_active.png"}, {"start": 3618496, "audio": 0, "end": 3619877, "filename": "/data/interface/uisprites/tbb/toggle_section_icon_middle.png"}, {"start": 3619877, "audio": 0, "end": 3621953, "filename": "/data/interface/uisprites/tbb/window.png"}, {"start": 3621953, "audio": 0, "end": 3623427, "filename": "/data/interface/uisprites/tbb/window_close.png"}, {"start": 3623427, "audio": 0, "end": 3624935, "filename": "/data/interface/uisprites/tbb/window_close_pressed.png"}, {"start": 3624935, "audio": 0, "end": 3625943, "filename": "/data/interface/uisprites/tbb/window_mover_bg_tile.png"}, {"start": 3625943, "audio": 0, "end": 3627375, "filename": "/data/interface/uisprites/tbb/window_mover_overlay.png"}, {"start": 3627375, "audio": 0, "end": 3643657, "filename": "/data/interface/uisprites/tbb/window_selected.png"}, {"start": 3643657, "audio": 0, "end": 3660507, "filename": "/data/shaders/bgfx_compute.sh"}, {"start": 3660507, "audio": 0, "end": 3678162, "filename": "/data/shaders/bgfx_shader.sh"}, {"start": 3678162, "audio": 0, "end": 3681426, "filename": "/data/shaders/common.sh"}, {"start": 3681426, "audio": 0, "end": 3685173, "filename": "/data/shaders/convert.sh"}, {"start": 3685173, "audio": 0, "end": 3686505, "filename": "/data/shaders/cubic.sh"}, {"start": 3686505, "audio": 0, "end": 3687620, "filename": "/data/shaders/custom_program_fs.sc"}, {"start": 3687620, "audio": 0, "end": 3687803, "filename": "/data/shaders/custom_program_vs.sc"}, {"start": 3687803, "audio": 0, "end": 3688003, "filename": "/data/shaders/debug_fs.sc"}, {"start": 3688003, "audio": 0, "end": 3688221, "filename": "/data/shaders/debug_vs.sc"}, {"start": 3688221, "audio": 0, "end": 3688491, "filename": "/data/shaders/depth.sh"}, {"start": 3688491, "audio": 0, "end": 3688582, "filename": "/data/shaders/depth_fs.sc"}, {"start": 3688582, "audio": 0, "end": 3689268, "filename": "/data/shaders/depth_vs.sc"}, {"start": 3689268, "audio": 0, "end": 3691963, "filename": "/data/shaders/encode.sh"}, {"start": 3691963, "audio": 0, "end": 3692937, "filename": "/data/shaders/fresnel_fs.sc"}, {"start": 3692937, "audio": 0, "end": 3693247, "filename": "/data/shaders/fresnel_vs.sc"}, {"start": 3693247, "audio": 0, "end": 3694536, "filename": "/data/shaders/geometry_vs.sc"}, {"start": 3694536, "audio": 0, "end": 3695048, "filename": "/data/shaders/modelview.sh"}, {"start": 3695048, "audio": 0, "end": 3695399, "filename": "/data/shaders/particle_fs.sc"}, {"start": 3695399, "audio": 0, "end": 3695626, "filename": "/data/shaders/particle_vs.sc"}, {"start": 3695626, "audio": 0, "end": 3695732, "filename": "/data/shaders/picking_id_fs.sc"}, {"start": 3695732, "audio": 0, "end": 3696576, "filename": "/data/shaders/picking_id_vs.sc"}, {"start": 3696576, "audio": 0, "end": 3697313, "filename": "/data/shaders/shaderlib.sh"}, {"start": 3697313, "audio": 0, "end": 3698470, "filename": "/data/shaders/skeleton.sh"}, {"start": 3698470, "audio": 0, "end": 3699757, "filename": "/data/shaders/sky_color_banding_fix_fs.sc"}, {"start": 3699757, "audio": 0, "end": 3700488, "filename": "/data/shaders/sky_fs.sc"}, {"start": 3700488, "audio": 0, "end": 3702050, "filename": "/data/shaders/sky_landscape_fs.sc"}, {"start": 3702050, "audio": 0, "end": 3702483, "filename": "/data/shaders/sky_landscape_vs.sc"}, {"start": 3702483, "audio": 0, "end": 3704535, "filename": "/data/shaders/sky_vs.sc"}, {"start": 3704535, "audio": 0, "end": 3705065, "filename": "/data/shaders/skybox_fs.sc"}, {"start": 3705065, "audio": 0, "end": 3705810, "filename": "/data/shaders/skybox_vs.sc"}, {"start": 3705810, "audio": 0, "end": 3706983, "filename": "/data/shaders/spherical.sh"}, {"start": 3706983, "audio": 0, "end": 3708024, "filename": "/data/shaders/srgb.sh"}, {"start": 3708024, "audio": 0, "end": 3709603, "filename": "/data/shaders/star_fs.sc"}, {"start": 3709603, "audio": 0, "end": 3711213, "filename": "/data/shaders/star_nest_fs.sc"}, {"start": 3711213, "audio": 0, "end": 3711737, "filename": "/data/shaders/star_nest_vs.sc"}, {"start": 3711737, "audio": 0, "end": 3714323, "filename": "/data/shaders/tonemap.sh"}, {"start": 3714323, "audio": 0, "end": 3714769, "filename": "/data/shaders/triplanar.sh"}, {"start": 3714769, "audio": 0, "end": 3715094, "filename": "/data/shaders/unshaded_fs.sc"}, {"start": 3715094, "audio": 0, "end": 3715405, "filename": "/data/shaders/unshaded_vs.sc"}, {"start": 3715405, "audio": 0, "end": 3716625, "filename": "/data/shaders/varying.def.sc"}, {"start": 3716625, "audio": 0, "end": 3717525, "filename": "/data/shaders/filter/blend.sh"}, {"start": 3717525, "audio": 0, "end": 3718884, "filename": "/data/shaders/filter/blur.sh"}, {"start": 3718884, "audio": 0, "end": 3719935, "filename": "/data/shaders/filter/copy_fs.sc"}, {"start": 3719935, "audio": 0, "end": 3719965, "filename": "/data/shaders/filter/copy_vs.sc"}, {"start": 3719965, "audio": 0, "end": 3724027, "filename": "/data/shaders/filter/dof_blur_fs.sc"}, {"start": 3724027, "audio": 0, "end": 3724057, "filename": "/data/shaders/filter/dof_blur_vs.sc"}, {"start": 3724057, "audio": 0, "end": 3724739, "filename": "/data/shaders/filter/filter.sh"}, {"start": 3724739, "audio": 0, "end": 3725004, "filename": "/data/shaders/filter/filter_vs.sc"}, {"start": 3725004, "audio": 0, "end": 3725875, "filename": "/data/shaders/filter/gaussian_blur_fs.sc"}, {"start": 3725875, "audio": 0, "end": 3725906, "filename": "/data/shaders/filter/gaussian_blur_vs.sc"}, {"start": 3725906, "audio": 0, "end": 3726748, "filename": "/data/shaders/filter/glow.sh"}, {"start": 3726748, "audio": 0, "end": 3727219, "filename": "/data/shaders/filter/glow_bleed_fs.sc"}, {"start": 3727219, "audio": 0, "end": 3727249, "filename": "/data/shaders/filter/glow_bleed_vs.sc"}, {"start": 3727249, "audio": 0, "end": 3728599, "filename": "/data/shaders/filter/glow_fs.sc"}, {"start": 3728599, "audio": 0, "end": 3728629, "filename": "/data/shaders/filter/glow_vs.sc"}, {"start": 3728629, "audio": 0, "end": 3731611, "filename": "/data/shaders/filter/prefilter_envmap_fs.sc"}, {"start": 3731611, "audio": 0, "end": 3731792, "filename": "/data/shaders/filter/prefilter_envmap_vs.sc"}, {"start": 3731792, "audio": 0, "end": 3731927, "filename": "/data/shaders/filter/quad_fs.sc"}, {"start": 3731927, "audio": 0, "end": 3731957, "filename": "/data/shaders/filter/quad_vs.sc"}, {"start": 3731957, "audio": 0, "end": 3733524, "filename": "/data/shaders/filter/tonemap_fs.sc"}, {"start": 3733524, "audio": 0, "end": 3733555, "filename": "/data/shaders/filter/tonemap_vs.sc"}, {"start": 3733555, "audio": 0, "end": 3736677, "filename": "/data/shaders/pbr/fog.sh"}, {"start": 3736677, "audio": 0, "end": 3737154, "filename": "/data/shaders/pbr/fs_anisotropy.sh"}, {"start": 3737154, "audio": 0, "end": 3737374, "filename": "/data/shaders/pbr/fs_ao.sh"}, {"start": 3737374, "audio": 0, "end": 3738644, "filename": "/data/shaders/pbr/fs_depth.sh"}, {"start": 3738644, "audio": 0, "end": 3738877, "filename": "/data/shaders/pbr/fs_emission.sh"}, {"start": 3738877, "audio": 0, "end": 3739289, "filename": "/data/shaders/pbr/fs_normal.sh"}, {"start": 3739289, "audio": 0, "end": 3740619, "filename": "/data/shaders/pbr/geometry_fs.sc"}, {"start": 3740619, "audio": 0, "end": 3740644, "filename": "/data/shaders/pbr/geometry_vs.sc"}, {"start": 3740644, "audio": 0, "end": 3746430, "filename": "/data/shaders/pbr/light.sh"}, {"start": 3746430, "audio": 0, "end": 3752084, "filename": "/data/shaders/pbr/light_brdf.sh"}, {"start": 3752084, "audio": 0, "end": 3754474, "filename": "/data/shaders/pbr/light_cluster.sh"}, {"start": 3754474, "audio": 0, "end": 3758284, "filename": "/data/shaders/pbr/lights_fs.sc"}, {"start": 3758284, "audio": 0, "end": 3758314, "filename": "/data/shaders/pbr/lights_vs.sc"}, {"start": 3758314, "audio": 0, "end": 3760058, "filename": "/data/shaders/pbr/pbr.sh"}, {"start": 3760058, "audio": 0, "end": 3763607, "filename": "/data/shaders/pbr/pbr_fs.sc"}, {"start": 3763607, "audio": 0, "end": 3763632, "filename": "/data/shaders/pbr/pbr_vs.sc"}, {"start": 3763632, "audio": 0, "end": 3765052, "filename": "/data/shaders/pbr/radiance.sh"}, {"start": 3765052, "audio": 0, "end": 3770942, "filename": "/data/shaders/pbr/shadow.sh"}, {"start": 3770942, "audio": 0, "end": 3771111, "filename": "/data/textures/black.png"}, {"start": 3771111, "audio": 0, "end": 3786090, "filename": "/data/textures/empty.png"}, {"start": 3786090, "audio": 0, "end": 3801069, "filename": "/data/textures/normal.png"}, {"start": 3801069, "audio": 0, "end": 3801238, "filename": "/data/textures/white.png"}, {"start": 3801238, "audio": 0, "end": 3885590, "filename": "/data/textures/particles/billows.png"}, {"start": 3885590, "audio": 0, "end": 3973689, "filename": "/data/textures/particles/billows_b.png"}, {"start": 3973689, "audio": 0, "end": 4000714, "filename": "/data/textures/particles/burst.png"}, {"start": 4000714, "audio": 0, "end": 4028854, "filename": "/data/textures/particles/burst_2.png"}, {"start": 4028854, "audio": 0, "end": 4056323, "filename": "/data/textures/particles/burst_b.png"}, {"start": 4056323, "audio": 0, "end": 4085520, "filename": "/data/textures/particles/burst_b_2.png"}, {"start": 4085520, "audio": 0, "end": 4126448, "filename": "/data/textures/particles/flames.png"}, {"start": 4126448, "audio": 0, "end": 4168266, "filename": "/data/textures/particles/flames_b.png"}, {"start": 4168266, "audio": 0, "end": 4201635, "filename": "/data/textures/particles/flames_b_v.png"}, {"start": 4201635, "audio": 0, "end": 4235077, "filename": "/data/textures/particles/flames_v.png"}, {"start": 4235077, "audio": 0, "end": 4257902, "filename": "/data/textures/particles/geometric_b.png"}, {"start": 4257902, "audio": 0, "end": 4520114, "filename": "/data/textures/particles/particle.ktx"}, {"start": 4520114, "audio": 0, "end": 4550157, "filename": "/data/textures/particles/wave.png"}, {"start": 4550157, "audio": 0, "end": 4582211, "filename": "/data/textures/particles/wave_b.png"}, {"start": 4582211, "audio": 0, "end": 6343488, "filename": "/data/textures/radiance/tiber_1_1k.hdr"}, {"start": 6343488, "audio": 0, "end": 7178089, "filename": "/data/textures/spherical/grid.png"}], "remote_package_size": 7178089, "package_uuid": "03d4f5fd-6986-428f-a072-bb096b77139f"});
 
 })();
 
@@ -2007,8 +2007,8 @@ var ASM_CONSTS = [];
 
 STATIC_BASE = GLOBAL_BASE;
 
-STATICTOP = STATIC_BASE + 932720;
-/* global initializers */  __ATINIT__.push({ func: function() { __GLOBAL__I_000101() } }, { func: function() { __GLOBAL__sub_I_Sky_cpp() } }, { func: function() { __GLOBAL__sub_I_iostream_cpp() } }, { func: function() { ___emscripten_environ_constructor() } }, { func: function() { __GLOBAL__sub_I_builtin_types_cpp() } }, { func: function() { __GLOBAL__sub_I_builtin_functions_cpp() } }, { func: function() { __GLOBAL__sub_I_shaderc_spirv_cpp() } }, { func: function() { __GLOBAL__sub_I_Icosphere_cpp() } }, { func: function() { ___cxx_global_var_init_1823() } }, { func: function() { ___cxx_global_var_init_1797() } }, { func: function() { __GLOBAL__sub_I_Draw_cpp() } }, { func: function() { __GLOBAL__sub_I_ImporterGltf_cpp() } }, { func: function() { __GLOBAL__sub_I_Inspector_cpp() } }, { func: function() { __GLOBAL__sub_I_Styler_cpp() } }, { func: function() { __GLOBAL__sub_I_Type_cpp() } }, { func: function() { __GLOBAL__sub_I_Meta_cpp() } }, { func: function() { __GLOBAL__sub_I_ObjectPool_cpp() } }, { func: function() { __GLOBAL__sub_I_Math_cpp() } }, { func: function() { __GLOBAL__sub_I_Wren_cpp() } }, { func: function() { __GLOBAL__sub_I_Particles_cpp() } }, { func: function() { ___cxx_global_var_init_36() } }, { func: function() { ___cxx_global_var_init() } });
+STATICTOP = STATIC_BASE + 4373232;
+/* global initializers */  __ATINIT__.push({ func: function() { __GLOBAL__I_000101_5974() } }, { func: function() { __GLOBAL__I_000101() } }, { func: function() { __GLOBAL__I_000102() } }, { func: function() { __GLOBAL__I_000103() } }, { func: function() { __GLOBAL__I_000105() } }, { func: function() { __GLOBAL__sub_I_Styler_cpp() } }, { func: function() { __GLOBAL__sub_I_iostream_cpp() } }, { func: function() { ___emscripten_environ_constructor() } }, { func: function() { __GLOBAL__sub_I_TracyClient_cpp() } }, { func: function() { __GLOBAL__sub_I_builtin_types_cpp() } }, { func: function() { __GLOBAL__sub_I_builtin_functions_cpp() } }, { func: function() { __GLOBAL__sub_I_doc_cpp() } }, { func: function() { __GLOBAL__sub_I_SPVRemapper_cpp() } }, { func: function() { __GLOBAL__sub_I_shaderc_spirv_cpp() } }, { func: function() { __GLOBAL__sub_I_Inspector_cpp() } }, { func: function() { ___cxx_global_var_init_5393() } }, { func: function() { __GLOBAL__sub_I_Entity_cpp() } }, { func: function() { __GLOBAL__sub_I_Type_cpp() } }, { func: function() { __GLOBAL__sub_I_Meta_cpp() } }, { func: function() { __GLOBAL__sub_I_ObjectPool_cpp() } }, { func: function() { __GLOBAL__sub_I_Math_cpp() } }, { func: function() { __GLOBAL__sub_I_Anim_cpp() } }, { func: function() { __GLOBAL__sub_I_Wren_cpp() } }, { func: function() { __GLOBAL__sub_I_Particles_cpp() } }, { func: function() { __GLOBAL__sub_I_Draw_cpp() } }, { func: function() { __GLOBAL__sub_I_Sky_cpp() } }, { func: function() { ___cxx_global_var_init_36() } }, { func: function() { ___cxx_global_var_init_575() } }, { func: function() { __GLOBAL__sub_I_ImporterGltf_cpp() } }, { func: function() { ___cxx_global_var_init() } }, { func: function() { __GLOBAL__sub_I_Icosphere_cpp() } }, { func: function() { __GLOBAL__sub_I_Proto_cpp() } });
 
 
 
@@ -2016,7 +2016,7 @@ STATICTOP = STATIC_BASE + 932720;
 
 
 
-var STATIC_BUMP = 932720;
+var STATIC_BUMP = 4373232;
 Module["STATIC_BASE"] = STATIC_BASE;
 Module["STATIC_BUMP"] = STATIC_BUMP;
 
@@ -2059,974 +2059,6 @@ function copyTempDouble(ptr) {
 
 // {{PRE_LIBRARY}}
 
-
-  function __ZN3mud10MeshPacker13pack_verticesERNS_8MeshDataERKN3glm3matILi4ELi4EfLNS3_9qualifierE0EEE() {
-  err('missing function: _ZN3mud10MeshPacker13pack_verticesERNS_8MeshDataERKN3glm3matILi4ELi4EfLNS3_9qualifierE0EEE'); abort(-1);
-  }
-
-  function __ZN3mud10MeshPacker13vertex_formatEv() {
-  err('missing function: _ZN3mud10MeshPacker13vertex_formatEv'); abort(-1);
-  }
-
-  function __ZN3mud10MeshPacker17generate_tangentsEv() {
-  err('missing function: _ZN3mud10MeshPacker17generate_tangentsEv'); abort(-1);
-  }
-
-  function __ZN3mud10MeshPacker4bakeEbb() {
-  err('missing function: _ZN3mud10MeshPacker4bakeEbb'); abort(-1);
-  }
-
-  function __ZN3mud10MeshPackerC1Ev() {
-  err('missing function: _ZN3mud10MeshPackerC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud10RenderPassC2ERNS_9GfxSystemEPKcNS_8PassTypeE() {
-  err('missing function: _ZN3mud10RenderPassC2ERNS_9GfxSystemEPKcNS_8PassTypeE'); abort(-1);
-  }
-
-  function __ZN3mud10TextScriptC1EPKcNS_8LanguageERKNS_9SignatureE() {
-  err('missing function: _ZN3mud10TextScriptC1EPKcNS_8LanguageERKNS_9SignatureE'); abort(-1);
-  }
-
-  function __ZN3mud10mud_gfx_uiC1Ev() {
-  err('missing function: _ZN3mud10mud_gfx_uiC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud11Interpreter5flushEv() {
-  err('missing function: _ZN3mud11Interpreter5flushEv'); abort(-1);
-  }
-
-  function __ZN3mud11InterpreterC2Ev() {
-  err('missing function: _ZN3mud11InterpreterC2Ev'); abort(-1);
-  }
-
-  function __ZN3mud11as_operatorERNS_8FunctionE() {
-  err('missing function: _ZN3mud11as_operatorERNS_8FunctionE'); abort(-1);
-  }
-
-  function __ZN3mud11mud_gfx_objC1Ev() {
-  err('missing function: _ZN3mud11mud_gfx_objC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud11mud_gfx_pbrC1Ev() {
-  err('missing function: _ZN3mud11mud_gfx_pbrC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud11mud_procgenC1Ev() {
-  err('missing function: _ZN3mud11mud_procgenC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud12mud_gfx_gltfC1Ev() {
-  err('missing function: _ZN3mud12mud_gfx_gltfC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud12pipeline_pbrERNS_9GfxSystemERNS_8PipelineEb() {
-  err('missing function: _ZN3mud12pipeline_pbrERNS_9GfxSystemERNS_8PipelineEb'); abort(-1);
-  }
-
-  function __ZN3mud14AtomicFreeListC1EPvS1_mmm() {
-  err('missing function: _ZN3mud14AtomicFreeListC1EPvS1_mmm'); abort(-1);
-  }
-
-  function __ZN3mud15circle_verticesERKNS_9ProcShapeERKN3glm3vecILi3EfLNS3_9qualifierE0EEENS4_ILi2EfLS5_0EEENS_10SignedAxisEbRNS_8MeshDataEb() {
-  err('missing function: _ZN3mud15circle_verticesERKNS_9ProcShapeERKN3glm3vecILi3EfLNS3_9qualifierE0EEENS4_ILi2EfLS5_0EEENS_10SignedAxisEbRNS_8MeshDataEb'); abort(-1);
-  }
-
-  function __ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_5TorusERNS_8MeshDataE() {
-  err('missing function: _ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_5TorusERNS_8MeshDataE'); abort(-1);
-  }
-
-  function __ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_6CircleERNS_8MeshDataE() {
-  err('missing function: _ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_6CircleERNS_8MeshDataE'); abort(-1);
-  }
-
-  function __ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_7ArcLineERNS_8MeshDataE() {
-  err('missing function: _ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_7ArcLineERNS_8MeshDataE'); abort(-1);
-  }
-
-  function __ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_8EllipsisERNS_8MeshDataE() {
-  err('missing function: _ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_8EllipsisERNS_8MeshDataE'); abort(-1);
-  }
-
-  function __ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_5TorusE() {
-  err('missing function: _ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_5TorusE'); abort(-1);
-  }
-
-  function __ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_6CircleE() {
-  err('missing function: _ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_6CircleE'); abort(-1);
-  }
-
-  function __ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_7ArcLineE() {
-  err('missing function: _ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_7ArcLineE'); abort(-1);
-  }
-
-  function __ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_8EllipsisE() {
-  err('missing function: _ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_8EllipsisE'); abort(-1);
-  }
-
-  function __ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_5TorusERNS_8MeshDataE() {
-  err('missing function: _ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_5TorusERNS_8MeshDataE'); abort(-1);
-  }
-
-  function __ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_6CircleERNS_8MeshDataE() {
-  err('missing function: _ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_6CircleERNS_8MeshDataE'); abort(-1);
-  }
-
-  function __ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_7ArcLineERNS_8MeshDataE() {
-  err('missing function: _ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_7ArcLineERNS_8MeshDataE'); abort(-1);
-  }
-
-  function __ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_8EllipsisERNS_8MeshDataE() {
-  err('missing function: _ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_8EllipsisERNS_8MeshDataE'); abort(-1);
-  }
-
-  function __ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_5TorusE() {
-  err('missing function: _ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_5TorusE'); abort(-1);
-  }
-
-  function __ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_6CircleE() {
-  err('missing function: _ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_6CircleE'); abort(-1);
-  }
-
-  function __ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_7ArcLineE() {
-  err('missing function: _ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_7ArcLineE'); abort(-1);
-  }
-
-  function __ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_8EllipsisE() {
-  err('missing function: _ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_8EllipsisE'); abort(-1);
-  }
-
-  function __ZN3mud23generate_mikkt_tangentsENS_5arrayItEENS0_INS_11ShapeVertexEEE() {
-  err('missing function: _ZN3mud23generate_mikkt_tangentsENS_5arrayItEENS0_INS_11ShapeVertexEEE'); abort(-1);
-  }
-
-  function __ZN3mud2ui7dockbarERNS_6WidgetERNS_10DocksystemE() {
-  err('missing function: _ZN3mud2ui7dockbarERNS_6WidgetERNS_10DocksystemE'); abort(-1);
-  }
-
-  function __ZN3mud2ui8dockitemERNS_6DockerEPKcNS_5arrayItEEf() {
-  err('missing function: _ZN3mud2ui8dockitemERNS_6DockerEPKcNS_5arrayItEEf'); abort(-1);
-  }
-
-  function __ZN3mud4CallC1ERKNS_8CallableE() {
-  err('missing function: _ZN3mud4CallC1ERKNS_8CallableE'); abort(-1);
-  }
-
-  function __ZN3mud4CallC1ERKNS_8CallableENS_3RefE() {
-  err('missing function: _ZN3mud4CallC1ERKNS_8CallableENS_3RefE'); abort(-1);
-  }
-
-  function __ZN3mud4CallclENS_3RefE() {
-  err('missing function: _ZN3mud4CallclENS_3RefE'); abort(-1);
-  }
-
-  function __ZN3mud4CallclEv() {
-  err('missing function: _ZN3mud4CallclEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeI14glTFAttributesEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeI14glTFAttributesEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeI4glTFEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeI4glTFEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIN3glm3matILi4ELi4EfLNS1_9qualifierE0EEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIN3glm3matILi4ELi4EfLNS1_9qualifierE0EEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIN3glm3vecILi2EfLNS1_9qualifierE0EEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIN3glm3vecILi2EfLNS1_9qualifierE0EEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIN3glm3vecILi3EfLNS1_9qualifierE0EEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIN3glm3vecILi3EfLNS1_9qualifierE0EEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIN3glm3vecILi3EiLNS1_9qualifierE0EEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIN3glm3vecILi3EiLNS1_9qualifierE0EEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIN3glm3vecILi3EjLNS1_9qualifierE0EEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIN3glm3vecILi3EjLNS1_9qualifierE0EEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIN3glm5tquatIfLNS1_9qualifierE0EEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIN3glm5tquatIfLNS1_9qualifierE0EEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_10RotateToolEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_10RotateToolEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_10SphereRingEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_10SphereRingEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_10TextScriptEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_10TextScriptEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_10ValueTrackIN3glm3vecILi3EfLNS2_9qualifierE0EEEEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_10ValueTrackIN3glm3vecILi3EfLNS2_9qualifierE0EEEEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_10ValueTrackIN3glm5tquatIfLNS2_9qualifierE0EEEEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_10ValueTrackIN3glm5tquatIfLNS2_9qualifierE0EEEEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_10ValueTrackINS_6ColourEEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_10ValueTrackINS_6ColourEEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_10ValueTrackIfEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_10ValueTrackIfEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_10ValueTrackIjEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_10ValueTrackIjEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_11ConstructorEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_11ConstructorEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_11SceneViewerEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_11SceneViewerEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_11SpatialToolEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_11SpatialToolEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_11WidgetStateEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_11WidgetStateEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_12ProcessInputEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_12ProcessInputEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_12ProcessValueEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_12ProcessValueEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_12VisualScriptEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_12VisualScriptEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_13MaterialParamINS_6ColourEEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_13MaterialParamINS_6ColourEEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_13MaterialParamIfEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_13MaterialParamIfEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_13ProcessCreateEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_13ProcessCreateEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_13ProcessOutputEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_13ProcessOutputEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_13TranslateToolEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_13TranslateToolEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_14BlockParticlesEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_14BlockParticlesEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_14ProcessDisplayEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_14ProcessDisplayEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_15CopyConstructorEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_15CopyConstructorEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_15ProcessCallableEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_15ProcessCallableEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_16PbrMaterialBlockEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_16PbrMaterialBlockEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_17BaseMaterialBlockEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_17BaseMaterialBlockEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_17ParticleGeneratorEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_17ParticleGeneratorEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_21UnshadedMaterialBlockEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_21UnshadedMaterialBlockEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_3BoxEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_3BoxEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_3DimEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_3DimEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_3RefEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_3RefEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_3RigEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_3RigEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_3VarEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_3VarEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_4AabbEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_4AabbEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_4BoneEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_4BoneEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_4CallEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_4CallEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_4CubeEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_4CubeEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_4ItemEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_4ItemEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_4LineEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_4LineEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_4MeshEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_4MeshEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_4NoneEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_4NoneEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_4QuadEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_4QuadEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_4RectEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_4RectEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_4RingEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_4RingEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_5ClassEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_5ClassEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_5Grid2EEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_5Grid2EEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_5Grid3EEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_5Grid3EEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_5ImageEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_5ImageEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_5LightEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_5LightEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_5ModelEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_5ModelEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_5Node3EEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_5Node3EEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_5RangeIfEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_5RangeIfEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_5RangeIjEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_5RangeIjEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_5ShapeEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_5ShapeEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_5TorusEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_5TorusEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_6CameraEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_6CameraEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_6CircleEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_6CircleEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_6ColourEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_6ColourEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_6LayoutEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_6LayoutEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_6MemberEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_6MemberEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_6MethodEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_6MethodEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_6PointsEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_6PointsEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_6PrefabEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_6PrefabEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_6ScriptEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_6ScriptEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_6SphereEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_6SphereEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_6StaticEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_6StaticEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_6SystemEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_6SystemEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_6WidgetEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_6WidgetEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_7ArcLineEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_7ArcLineEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_7CreatorEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_7CreatorEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_7ProgramEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_7ProgramEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_8AnimatedEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_8AnimatedEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_8CallableEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_8CallableEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_8CylinderEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_8CylinderEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_8EllipsisEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_8EllipsisEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_8FunctionEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_8FunctionEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_8GeometryEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_8GeometryEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_8InkStyleEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_8InkStyleEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_8MaterialEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_8MaterialEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_8RedoToolEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_8RedoToolEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_8ShapeVarEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_8ShapeVarEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_8SpheroidEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_8SpheroidEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_8TriangleEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_8TriangleEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_8UndoToolEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_8UndoToolEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_8ViewToolEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_8ViewToolEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_9AnimationEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_9AnimationEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_9BlockCopyEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_9BlockCopyEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_9ImageSkinEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_9ImageSkinEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_9ParticlesEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_9ParticlesEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_9ScaleToolEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_9ScaleToolEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_9TransformEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_9TransformEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINS_9TypeClassEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINS_9TypeClassEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINSt3__212basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINSt3__212basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeINSt3__28functionIFvRNS_6MethodENS_3RefENS_5arrayINS_3VarEEEEEEEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeINSt3__28functionIFvRNS_6MethodENS_3RefENS_5arrayINS_3VarEEEEEEEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIPKcEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIPKcEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIbEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIbEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIdEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIdEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIfEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIfEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIhEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIhEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIiEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIiEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIjEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIjEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeImEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeImEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeItEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeItEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIvEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIvEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud4typeIyEERNS_4TypeEv() {
-  err('missing function: _ZN3mud4typeIyEERNS_4TypeEv'); abort(-1);
-  }
-
-  function __ZN3mud5ParamC1EPKcNS_3VarENS0_5FlagsE() {
-  err('missing function: _ZN3mud5ParamC1EPKcNS_3VarENS0_5FlagsE'); abort(-1);
-  }
-
-  function __ZN3mud6Render9next_passEPKcb() {
-  err('missing function: _ZN3mud6Render9next_passEPKcb'); abort(-1);
-  }
-
-  function __ZN3mud6RenderC1ERNS_8ViewportERNS_12RenderTargetERNS_11RenderFrameE() {
-  err('missing function: _ZN3mud6RenderC1ERNS_8ViewportERNS_12RenderTargetERNS_11RenderFrameE'); abort(-1);
-  }
-
-  function __ZN3mud6RenderD1Ev() {
-  err('missing function: _ZN3mud6RenderD1Ev'); abort(-1);
-  }
-
-  function __ZN3mud6ScriptC2ERNS_4TypeEPKcRKNS_9SignatureE() {
-  err('missing function: _ZN3mud6ScriptC2ERNS_4TypeEPKcRKNS_9SignatureE'); abort(-1);
-  }
-
-  function __ZN3mud6ScriptD2Ev() {
-  err('missing function: _ZN3mud6ScriptD2Ev'); abort(-1);
-  }
-
-  function __ZN3mud6Widget11mouse_eventENS_10DeviceTypeENS_9EventTypeENS_8InputModEb() {
-  err('missing function: _ZN3mud6Widget11mouse_eventENS_10DeviceTypeENS_9EventTypeENS_8InputModEb'); abort(-1);
-  }
-
-  function __ZN3mud6Widget11set_contentEPKc() {
-  err('missing function: _ZN3mud6Widget11set_contentEPKc'); abort(-1);
-  }
-
-  function __ZN3mud6Widget12parent_modalEv() {
-  err('missing function: _ZN3mud6Widget12parent_modalEv'); abort(-1);
-  }
-
-  function __ZN3mud6Widget12toggle_stateENS_11WidgetStateE() {
-  err('missing function: _ZN3mud6Widget12toggle_stateENS_11WidgetStateE'); abort(-1);
-  }
-
-  function __ZN3mud6Widget13control_eventERNS_10InputEventE() {
-  err('missing function: _ZN3mud6Widget13control_eventERNS_10InputEventE'); abort(-1);
-  }
-
-  function __ZN3mud6Widget13receive_eventERNS_10InputEventE() {
-  err('missing function: _ZN3mud6Widget13receive_eventERNS_10InputEventE'); abort(-1);
-  }
-
-  function __ZN3mud6Widget15propagate_eventERNS_10InputEventE() {
-  err('missing function: _ZN3mud6Widget15propagate_eventERNS_10InputEventE'); abort(-1);
-  }
-
-  function __ZN3mud6Widget2uiEv() {
-  err('missing function: _ZN3mud6Widget2uiEv'); abort(-1);
-  }
-
-  function __ZN3mud6Widget5layerEv() {
-  err('missing function: _ZN3mud6Widget5layerEv'); abort(-1);
-  }
-
-  function __ZN3mud6Widget8pinpointEN3glm3vecILi2EfLNS1_9qualifierE0EEE() {
-  err('missing function: _ZN3mud6Widget8pinpointEN3glm3vecILi2EfLNS1_9qualifierE0EEE'); abort(-1);
-  }
-
-  function __ZN3mud6Widget9key_eventENS_3KeyENS_9EventTypeENS_8InputModE() {
-  err('missing function: _ZN3mud6Widget9key_eventENS_3KeyENS_9EventTypeENS_8InputModE'); abort(-1);
-  }
-
-  function __ZN3mud6Widget9set_modalEPS0_j() {
-  err('missing function: _ZN3mud6Widget9set_modalEPS0_j'); abort(-1);
-  }
-
-  function __ZN3mud6Widget9ui_windowEv() {
-  err('missing function: _ZN3mud6Widget9ui_windowEv'); abort(-1);
-  }
-
-  function __ZN3mud6WidgetC1EPS0_Pv() {
-  err('missing function: _ZN3mud6WidgetC1EPS0_Pv'); abort(-1);
-  }
-
-  function __ZN3mud6WidgetC2EPS0_Pv() {
-  err('missing function: _ZN3mud6WidgetC2EPS0_Pv'); abort(-1);
-  }
-
-  function __ZN3mud6WidgetC2Ev() {
-  err('missing function: _ZN3mud6WidgetC2Ev'); abort(-1);
-  }
-
-  function __ZN3mud6WidgetD2Ev() {
-  err('missing function: _ZN3mud6WidgetD2Ev'); abort(-1);
-  }
-
-  function __ZN3mud6mud_uiC1Ev() {
-  err('missing function: _ZN3mud6mud_uiC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud7mud_ctxC1Ev() {
-  err('missing function: _ZN3mud7mud_ctxC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud7mud_gfxC1Ev() {
-  err('missing function: _ZN3mud7mud_gfxC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud8DrawPass11add_elementENS_11DrawElementE() {
-  err('missing function: _ZN3mud8DrawPass11add_elementENS_11DrawElementE'); abort(-1);
-  }
-
-  function __ZN3mud8DrawPass17begin_render_passERNS_6RenderE() {
-  err('missing function: _ZN3mud8DrawPass17begin_render_passERNS_6RenderE'); abort(-1);
-  }
-
-  function __ZN3mud8DrawPass18submit_render_passERNS_6RenderE() {
-  err('missing function: _ZN3mud8DrawPass18submit_render_passERNS_6RenderE'); abort(-1);
-  }
-
-  function __ZN3mud8DrawPassC2ERNS_9GfxSystemEPKcNS_8PassTypeE() {
-  err('missing function: _ZN3mud8DrawPassC2ERNS_9GfxSystemEPKcNS_8PassTypeE'); abort(-1);
-  }
-
-  function __ZN3mud8DrawPassD2Ev() {
-  err('missing function: _ZN3mud8DrawPassD2Ev'); abort(-1);
-  }
-
-  function __ZN3mud8GfxBlockC2ERNS_9GfxSystemERNS_4TypeE() {
-  err('missing function: _ZN3mud8GfxBlockC2ERNS_9GfxSystemERNS_4TypeE'); abort(-1);
-  }
-
-  function __ZN3mud8GfxBlockD2Ev() {
-  err('missing function: _ZN3mud8GfxBlockD2Ev'); abort(-1);
-  }
-
-  function __ZN3mud8Injector10injectpoolEv() {
-  err('missing function: _ZN3mud8Injector10injectpoolEv'); abort(-1);
-  }
-
-  function __ZN3mud8Injector6injectERNS_3VarE() {
-  err('missing function: _ZN3mud8Injector6injectERNS_3VarE'); abort(-1);
-  }
-
-  function __ZN3mud8Injector6injectERNS_4PoolE() {
-  err('missing function: _ZN3mud8Injector6injectERNS_4PoolE'); abort(-1);
-  }
-
-  function __ZN3mud8InjectorC1ERKNS_11ConstructorE() {
-  err('missing function: _ZN3mud8InjectorC1ERKNS_11ConstructorE'); abort(-1);
-  }
-
-  function __ZN3mud8Renderer4initEv() {
-  err('missing function: _ZN3mud8Renderer4initEv'); abort(-1);
-  }
-
-  function __ZN3mud8Renderer5frameERKNS_11RenderFrameE() {
-  err('missing function: _ZN3mud8Renderer5frameERKNS_11RenderFrameE'); abort(-1);
-  }
-
-  function __ZN3mud8Renderer6renderERNS_6RenderE() {
-  err('missing function: _ZN3mud8Renderer6renderERNS_6RenderE'); abort(-1);
-  }
-
-  function __ZN3mud8Renderer8add_passENSt3__210unique_ptrINS_10RenderPassENS1_14default_deleteIS3_EEEE() {
-  err('missing function: _ZN3mud8Renderer8add_passENSt3__210unique_ptrINS_10RenderPassENS1_14default_deleteIS3_EEEE'); abort(-1);
-  }
-
-  function __ZN3mud8RendererC2ERNS_9GfxSystemERNS_8PipelineE() {
-  err('missing function: _ZN3mud8RendererC2ERNS_9GfxSystemERNS_8PipelineE'); abort(-1);
-  }
-
-  function __ZN3mud8mud_geomC1Ev() {
-  err('missing function: _ZN3mud8mud_geomC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud8mud_langC1Ev() {
-  err('missing function: _ZN3mud8mud_langC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud8mud_mathC1Ev() {
-  err('missing function: _ZN3mud8mud_mathC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud8mud_poolC1Ev() {
-  err('missing function: _ZN3mud8mud_poolC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud8mud_reflC1Ev() {
-  err('missing function: _ZN3mud8mud_reflC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud8mud_srlzC1Ev() {
-  err('missing function: _ZN3mud8mud_srlzC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud8mud_toolC1Ev() {
-  err('missing function: _ZN3mud8mud_toolC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud8mud_treeC1Ev() {
-  err('missing function: _ZN3mud8mud_treeC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud8mud_typeC1Ev() {
-  err('missing function: _ZN3mud8mud_typeC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud9SignatureC1ERKNSt3__26vectorINS_5ParamENS1_9allocatorIS3_EEEERKNS_3VarE() {
-  err('missing function: _ZN3mud9SignatureC1ERKNSt3__26vectorINS_5ParamENS1_9allocatorIS3_EEEERKNS_3VarE'); abort(-1);
-  }
-
-  function __ZN3mud9mud_infraC1Ev() {
-  err('missing function: _ZN3mud9mud_infraC1Ev'); abort(-1);
-  }
-
-  function __ZN3mud9mud_protoC1Ev() {
-  err('missing function: _ZN3mud9mud_protoC1Ev'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt10BasicBlock12GetMergeInstEv() {
-  err('missing function: _ZN8spvtools3opt10BasicBlock12GetMergeInstEv'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt10BasicBlock12KillAllInstsEb() {
-  err('missing function: _ZN8spvtools3opt10BasicBlock12KillAllInstsEb'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt10BasicBlock15SplitBasicBlockEPNS0_9IRContextEjNS0_15InstructionList8iteratorE() {
-  err('missing function: _ZN8spvtools3opt10BasicBlock15SplitBasicBlockEPNS0_9IRContextEjNS0_15InstructionList8iteratorE'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt10BasicBlock16GetLoopMergeInstEv() {
-  err('missing function: _ZN8spvtools3opt10BasicBlock16GetLoopMergeInstEv'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt10BasicBlock21ForEachSuccessorLabelERKNSt3__28functionIFvPjEEE() {
-  err('missing function: _ZN8spvtools3opt10BasicBlock21ForEachSuccessorLabelERKNSt3__28functionIFvPjEEE'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt10BasicBlock24ForMergeAndContinueLabelERKNSt3__28functionIFvjEEE() {
-  err('missing function: _ZN8spvtools3opt10BasicBlock24ForMergeAndContinueLabelERKNSt3__28functionIFvjEEE'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt11Instruction12InsertBeforeEONSt3__210unique_ptrIS1_NS2_14default_deleteIS1_EEEE() {
-  err('missing function: _ZN8spvtools3opt11Instruction12InsertBeforeEONSt3__210unique_ptrIS1_NS2_14default_deleteIS1_EEEE'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt11Instruction12InsertBeforeEONSt3__26vectorINS2_10unique_ptrIS1_NS2_14default_deleteIS1_EEEENS2_9allocatorIS7_EEEE() {
-  err('missing function: _ZN8spvtools3opt11Instruction12InsertBeforeEONSt3__26vectorINS2_10unique_ptrIS1_NS2_14default_deleteIS1_EEEENS2_9allocatorIS7_EEEE'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt11Instruction15ReplaceOperandsERKNSt3__26vectorINS0_7OperandENS2_9allocatorIS4_EEEE() {
-  err('missing function: _ZN8spvtools3opt11Instruction15ReplaceOperandsERKNSt3__26vectorINS0_7OperandENS2_9allocatorIS4_EEEE'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt11InstructionC1EOS1_() {
-  err('missing function: _ZN8spvtools3opt11InstructionC1EOS1_'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt11InstructionC1EPNS0_9IRContextE6SpvOp_() {
-  err('missing function: _ZN8spvtools3opt11InstructionC1EPNS0_9IRContextE6SpvOp_'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt11InstructionC1EPNS0_9IRContextE6SpvOp_jjRKNSt3__26vectorINS0_7OperandENS5_9allocatorIS7_EEEE() {
-  err('missing function: _ZN8spvtools3opt11InstructionC1EPNS0_9IRContextE6SpvOp_jjRKNSt3__26vectorINS0_7OperandENS5_9allocatorIS7_EEEE'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt11InstructionC1EPNS0_9IRContextERK24spv_parsed_instruction_tONSt3__26vectorIS1_NS7_9allocatorIS1_EEEE() {
-  err('missing function: _ZN8spvtools3opt11InstructionC1EPNS0_9IRContextERK24spv_parsed_instruction_tONSt3__26vectorIS1_NS7_9allocatorIS1_EEEE'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt8Function11ForEachInstERKNSt3__28functionIFvPNS0_11InstructionEEEEb() {
-  err('missing function: _ZN8spvtools3opt8Function11ForEachInstERKNSt3__28functionIFvPNS0_11InstructionEEEEb'); abort(-1);
-  }
-
-  function __ZN8spvtools3opt8Function21InsertBasicBlockAfterEONSt3__210unique_ptrINS0_10BasicBlockENS2_14default_deleteIS4_EEEEPS4_() {
-  err('missing function: _ZN8spvtools3opt8Function21InsertBasicBlockAfterEONSt3__210unique_ptrINS0_10BasicBlockENS2_14default_deleteIS4_EEEEPS4_'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt10BasicBlock11IsSuccessorEPKS1_() {
-  err('missing function: _ZNK8spvtools3opt10BasicBlock11IsSuccessorEPKS1_'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt10BasicBlock17MergeBlockIdIfAnyEv() {
-  err('missing function: _ZNK8spvtools3opt10BasicBlock17MergeBlockIdIfAnyEv'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt10BasicBlock20ContinueBlockIdIfAnyEv() {
-  err('missing function: _ZNK8spvtools3opt10BasicBlock20ContinueBlockIdIfAnyEv'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt10BasicBlock21ForEachSuccessorLabelERKNSt3__28functionIFvjEEE() {
-  err('missing function: _ZNK8spvtools3opt10BasicBlock21ForEachSuccessorLabelERKNSt3__28functionIFvjEEE'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt11Instruction14GetBaseAddressEv() {
-  err('missing function: _ZNK8spvtools3opt11Instruction14GetBaseAddressEv'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt11Instruction14IsReadOnlyLoadEv() {
-  err('missing function: _ZNK8spvtools3opt11Instruction14IsReadOnlyLoadEv'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt11Instruction14IsScalarizableEv() {
-  err('missing function: _ZNK8spvtools3opt11Instruction14IsScalarizableEv'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt11Instruction20GetSingleWordOperandEj() {
-  err('missing function: _ZNK8spvtools3opt11Instruction20GetSingleWordOperandEj'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt11Instruction20IsOpcodeSafeToDeleteEv() {
-  err('missing function: _ZNK8spvtools3opt11Instruction20IsOpcodeSafeToDeleteEv'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt11Instruction22IsFoldableByFoldScalarEv() {
-  err('missing function: _ZNK8spvtools3opt11Instruction22IsFoldableByFoldScalarEv'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt11Instruction22IsOpcodeCodeMotionSafeEv() {
-  err('missing function: _ZNK8spvtools3opt11Instruction22IsOpcodeCodeMotionSafeEv'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt11Instruction29IsFloatingPointFoldingAllowedEv() {
-  err('missing function: _ZNK8spvtools3opt11Instruction29IsFloatingPointFoldingAllowedEv'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt11Instruction33ToBinaryWithoutAttachedDebugInstsEPNSt3__26vectorIjNS2_9allocatorIjEEEE() {
-  err('missing function: _ZNK8spvtools3opt11Instruction33ToBinaryWithoutAttachedDebugInstsEPNSt3__26vectorIjNS2_9allocatorIjEEEE'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt11Instruction5CloneEPNS0_9IRContextE() {
-  err('missing function: _ZNK8spvtools3opt11Instruction5CloneEPNS0_9IRContextE'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt8Function11ForEachInstERKNSt3__28functionIFvPKNS0_11InstructionEEEEb() {
-  err('missing function: _ZNK8spvtools3opt8Function11ForEachInstERKNSt3__28functionIFvPKNS0_11InstructionEEEEb'); abort(-1);
-  }
-
-  function __ZNK8spvtools3opt8Function12ForEachParamERKNSt3__28functionIFvPKNS0_11InstructionEEEEb() {
-  err('missing function: _ZNK8spvtools3opt8Function12ForEachParamERKNSt3__28functionIFvPKNS0_11InstructionEEEEb'); abort(-1);
-  }
-
-  function __ZThn36_N3mud6Widget13control_eventERNS_10InputEventE() {
-  err('missing function: _ZThn36_N3mud6Widget13control_eventERNS_10InputEventE'); abort(-1);
-  }
-
-  function __ZThn36_N3mud6Widget13receive_eventERNS_10InputEventE() {
-  err('missing function: _ZThn36_N3mud6Widget13receive_eventERNS_10InputEventE'); abort(-1);
-  }
-
-  function __ZThn36_N3mud6Widget15propagate_eventERNS_10InputEventE() {
-  err('missing function: _ZThn36_N3mud6Widget15propagate_eventERNS_10InputEventE'); abort(-1);
-  }
 
   
   var ENV={};function ___buildEnvironment(environ) {
@@ -6324,6 +5356,1071 @@ function copyTempDouble(ptr) {
   }
   }
 
+  
+  var SOCKFS={mount:function (mount) {
+        // If Module['websocket'] has already been defined (e.g. for configuring
+        // the subprotocol/url) use that, if not initialise it to a new object.
+        Module['websocket'] = (Module['websocket'] && 
+                               ('object' === typeof Module['websocket'])) ? Module['websocket'] : {};
+  
+        // Add the Event registration mechanism to the exported websocket configuration
+        // object so we can register network callbacks from native JavaScript too.
+        // For more documentation see system/include/emscripten/emscripten.h
+        Module['websocket']._callbacks = {};
+        Module['websocket']['on'] = function(event, callback) {
+  	    if ('function' === typeof callback) {
+  		  this._callbacks[event] = callback;
+          }
+  	    return this;
+        };
+  
+        Module['websocket'].emit = function(event, param) {
+  	    if ('function' === typeof this._callbacks[event]) {
+  		  this._callbacks[event].call(this, param);
+          }
+        };
+  
+        // If debug is enabled register simple default logging callbacks for each Event.
+  
+        return FS.createNode(null, '/', 16384 | 511 /* 0777 */, 0);
+      },createSocket:function (family, type, protocol) {
+        var streaming = type == 1;
+        if (protocol) {
+          assert(streaming == (protocol == 6)); // if SOCK_STREAM, must be tcp
+        }
+  
+        // create our internal socket structure
+        var sock = {
+          family: family,
+          type: type,
+          protocol: protocol,
+          server: null,
+          error: null, // Used in getsockopt for SOL_SOCKET/SO_ERROR test
+          peers: {},
+          pending: [],
+          recv_queue: [],
+          sock_ops: SOCKFS.websocket_sock_ops
+        };
+  
+        // create the filesystem node to store the socket structure
+        var name = SOCKFS.nextname();
+        var node = FS.createNode(SOCKFS.root, name, 49152, 0);
+        node.sock = sock;
+  
+        // and the wrapping stream that enables library functions such
+        // as read and write to indirectly interact with the socket
+        var stream = FS.createStream({
+          path: name,
+          node: node,
+          flags: FS.modeStringToFlags('r+'),
+          seekable: false,
+          stream_ops: SOCKFS.stream_ops
+        });
+  
+        // map the new stream to the socket structure (sockets have a 1:1
+        // relationship with a stream)
+        sock.stream = stream;
+  
+        return sock;
+      },getSocket:function (fd) {
+        var stream = FS.getStream(fd);
+        if (!stream || !FS.isSocket(stream.node.mode)) {
+          return null;
+        }
+        return stream.node.sock;
+      },stream_ops:{poll:function (stream) {
+          var sock = stream.node.sock;
+          return sock.sock_ops.poll(sock);
+        },ioctl:function (stream, request, varargs) {
+          var sock = stream.node.sock;
+          return sock.sock_ops.ioctl(sock, request, varargs);
+        },read:function (stream, buffer, offset, length, position /* ignored */) {
+          var sock = stream.node.sock;
+          var msg = sock.sock_ops.recvmsg(sock, length);
+          if (!msg) {
+            // socket is closed
+            return 0;
+          }
+          buffer.set(msg.buffer, offset);
+          return msg.buffer.length;
+        },write:function (stream, buffer, offset, length, position /* ignored */) {
+          var sock = stream.node.sock;
+          return sock.sock_ops.sendmsg(sock, buffer, offset, length);
+        },close:function (stream) {
+          var sock = stream.node.sock;
+          sock.sock_ops.close(sock);
+        }},nextname:function () {
+        if (!SOCKFS.nextname.current) {
+          SOCKFS.nextname.current = 0;
+        }
+        return 'socket[' + (SOCKFS.nextname.current++) + ']';
+      },websocket_sock_ops:{createPeer:function (sock, addr, port) {
+          var ws;
+  
+          if (typeof addr === 'object') {
+            ws = addr;
+            addr = null;
+            port = null;
+          }
+  
+          if (ws) {
+            // for sockets that've already connected (e.g. we're the server)
+            // we can inspect the _socket property for the address
+            if (ws._socket) {
+              addr = ws._socket.remoteAddress;
+              port = ws._socket.remotePort;
+            }
+            // if we're just now initializing a connection to the remote,
+            // inspect the url property
+            else {
+              var result = /ws[s]?:\/\/([^:]+):(\d+)/.exec(ws.url);
+              if (!result) {
+                throw new Error('WebSocket URL must be in the format ws(s)://address:port');
+              }
+              addr = result[1];
+              port = parseInt(result[2], 10);
+            }
+          } else {
+            // create the actual websocket object and connect
+            try {
+              // runtimeConfig gets set to true if WebSocket runtime configuration is available.
+              var runtimeConfig = (Module['websocket'] && ('object' === typeof Module['websocket']));
+  
+              // The default value is 'ws://' the replace is needed because the compiler replaces '//' comments with '#'
+              // comments without checking context, so we'd end up with ws:#, the replace swaps the '#' for '//' again.
+              var url = 'ws:#'.replace('#', '//');
+  
+              if (runtimeConfig) {
+                if ('string' === typeof Module['websocket']['url']) {
+                  url = Module['websocket']['url']; // Fetch runtime WebSocket URL config.
+                }
+              }
+  
+              if (url === 'ws://' || url === 'wss://') { // Is the supplied URL config just a prefix, if so complete it.
+                var parts = addr.split('/');
+                url = url + parts[0] + ":" + port + "/" + parts.slice(1).join('/');
+              }
+  
+              // Make the WebSocket subprotocol (Sec-WebSocket-Protocol) default to binary if no configuration is set.
+              var subProtocols = 'binary'; // The default value is 'binary'
+  
+              if (runtimeConfig) {
+                if ('string' === typeof Module['websocket']['subprotocol']) {
+                  subProtocols = Module['websocket']['subprotocol']; // Fetch runtime WebSocket subprotocol config.
+                }
+              }
+  
+              // The regex trims the string (removes spaces at the beginning and end, then splits the string by
+              // <any space>,<any space> into an Array. Whitespace removal is important for Websockify and ws.
+              subProtocols = subProtocols.replace(/^ +| +$/g,"").split(/ *, */);
+  
+              // The node ws library API for specifying optional subprotocol is slightly different than the browser's.
+              var opts = ENVIRONMENT_IS_NODE ? {'protocol': subProtocols.toString()} : subProtocols;
+  
+              // some webservers (azure) does not support subprotocol header
+              if (runtimeConfig && null === Module['websocket']['subprotocol']) {
+                subProtocols = 'null';
+                opts = undefined;
+              }
+  
+              // If node we use the ws library.
+              var WebSocketConstructor;
+              if (ENVIRONMENT_IS_NODE) {
+                WebSocketConstructor = require('ws');
+              } else if (ENVIRONMENT_IS_WEB) {
+                WebSocketConstructor = window['WebSocket'];
+              } else {
+                WebSocketConstructor = WebSocket;
+              }
+              ws = new WebSocketConstructor(url, opts);
+              ws.binaryType = 'arraybuffer';
+            } catch (e) {
+              throw new FS.ErrnoError(ERRNO_CODES.EHOSTUNREACH);
+            }
+          }
+  
+  
+          var peer = {
+            addr: addr,
+            port: port,
+            socket: ws,
+            dgram_send_queue: []
+          };
+  
+          SOCKFS.websocket_sock_ops.addPeer(sock, peer);
+          SOCKFS.websocket_sock_ops.handlePeerEvents(sock, peer);
+  
+          // if this is a bound dgram socket, send the port number first to allow
+          // us to override the ephemeral port reported to us by remotePort on the
+          // remote end.
+          if (sock.type === 2 && typeof sock.sport !== 'undefined') {
+            peer.dgram_send_queue.push(new Uint8Array([
+                255, 255, 255, 255,
+                'p'.charCodeAt(0), 'o'.charCodeAt(0), 'r'.charCodeAt(0), 't'.charCodeAt(0),
+                ((sock.sport & 0xff00) >> 8) , (sock.sport & 0xff)
+            ]));
+          }
+  
+          return peer;
+        },getPeer:function (sock, addr, port) {
+          return sock.peers[addr + ':' + port];
+        },addPeer:function (sock, peer) {
+          sock.peers[peer.addr + ':' + peer.port] = peer;
+        },removePeer:function (sock, peer) {
+          delete sock.peers[peer.addr + ':' + peer.port];
+        },handlePeerEvents:function (sock, peer) {
+          var first = true;
+  
+          var handleOpen = function () {
+  
+            Module['websocket'].emit('open', sock.stream.fd);
+  
+            try {
+              var queued = peer.dgram_send_queue.shift();
+              while (queued) {
+                peer.socket.send(queued);
+                queued = peer.dgram_send_queue.shift();
+              }
+            } catch (e) {
+              // not much we can do here in the way of proper error handling as we've already
+              // lied and said this data was sent. shut it down.
+              peer.socket.close();
+            }
+          };
+  
+          function handleMessage(data) {
+            assert(typeof data !== 'string' && data.byteLength !== undefined);  // must receive an ArrayBuffer
+  
+            // An empty ArrayBuffer will emit a pseudo disconnect event
+            // as recv/recvmsg will return zero which indicates that a socket
+            // has performed a shutdown although the connection has not been disconnected yet.
+            if (data.byteLength == 0) {
+              return;
+            }
+            data = new Uint8Array(data);  // make a typed array view on the array buffer
+  
+  
+            // if this is the port message, override the peer's port with it
+            var wasfirst = first;
+            first = false;
+            if (wasfirst &&
+                data.length === 10 &&
+                data[0] === 255 && data[1] === 255 && data[2] === 255 && data[3] === 255 &&
+                data[4] === 'p'.charCodeAt(0) && data[5] === 'o'.charCodeAt(0) && data[6] === 'r'.charCodeAt(0) && data[7] === 't'.charCodeAt(0)) {
+              // update the peer's port and it's key in the peer map
+              var newport = ((data[8] << 8) | data[9]);
+              SOCKFS.websocket_sock_ops.removePeer(sock, peer);
+              peer.port = newport;
+              SOCKFS.websocket_sock_ops.addPeer(sock, peer);
+              return;
+            }
+  
+            sock.recv_queue.push({ addr: peer.addr, port: peer.port, data: data });
+            Module['websocket'].emit('message', sock.stream.fd);
+          };
+  
+          if (ENVIRONMENT_IS_NODE) {
+            peer.socket.on('open', handleOpen);
+            peer.socket.on('message', function(data, flags) {
+              if (!flags.binary) {
+                return;
+              }
+              handleMessage((new Uint8Array(data)).buffer);  // copy from node Buffer -> ArrayBuffer
+            });
+            peer.socket.on('close', function() {
+              Module['websocket'].emit('close', sock.stream.fd);
+            });
+            peer.socket.on('error', function(error) {
+              // Although the ws library may pass errors that may be more descriptive than
+              // ECONNREFUSED they are not necessarily the expected error code e.g. 
+              // ENOTFOUND on getaddrinfo seems to be node.js specific, so using ECONNREFUSED
+              // is still probably the most useful thing to do.
+              sock.error = ERRNO_CODES.ECONNREFUSED; // Used in getsockopt for SOL_SOCKET/SO_ERROR test.
+              Module['websocket'].emit('error', [sock.stream.fd, sock.error, 'ECONNREFUSED: Connection refused']);
+              // don't throw
+            });
+          } else {
+            peer.socket.onopen = handleOpen;
+            peer.socket.onclose = function() {
+              Module['websocket'].emit('close', sock.stream.fd);
+            };
+            peer.socket.onmessage = function peer_socket_onmessage(event) {
+              handleMessage(event.data);
+            };
+            peer.socket.onerror = function(error) {
+              // The WebSocket spec only allows a 'simple event' to be thrown on error,
+              // so we only really know as much as ECONNREFUSED.
+              sock.error = ERRNO_CODES.ECONNREFUSED; // Used in getsockopt for SOL_SOCKET/SO_ERROR test.
+              Module['websocket'].emit('error', [sock.stream.fd, sock.error, 'ECONNREFUSED: Connection refused']);
+            };
+          }
+        },poll:function (sock) {
+          if (sock.type === 1 && sock.server) {
+            // listen sockets should only say they're available for reading
+            // if there are pending clients.
+            return sock.pending.length ? (64 | 1) : 0;
+          }
+  
+          var mask = 0;
+          var dest = sock.type === 1 ?  // we only care about the socket state for connection-based sockets
+            SOCKFS.websocket_sock_ops.getPeer(sock, sock.daddr, sock.dport) :
+            null;
+  
+          if (sock.recv_queue.length ||
+              !dest ||  // connection-less sockets are always ready to read
+              (dest && dest.socket.readyState === dest.socket.CLOSING) ||
+              (dest && dest.socket.readyState === dest.socket.CLOSED)) {  // let recv return 0 once closed
+            mask |= (64 | 1);
+          }
+  
+          if (!dest ||  // connection-less sockets are always ready to write
+              (dest && dest.socket.readyState === dest.socket.OPEN)) {
+            mask |= 4;
+          }
+  
+          if ((dest && dest.socket.readyState === dest.socket.CLOSING) ||
+              (dest && dest.socket.readyState === dest.socket.CLOSED)) {
+            mask |= 16;
+          }
+  
+          return mask;
+        },ioctl:function (sock, request, arg) {
+          switch (request) {
+            case 21531:
+              var bytes = 0;
+              if (sock.recv_queue.length) {
+                bytes = sock.recv_queue[0].data.length;
+              }
+              HEAP32[((arg)>>2)]=bytes;
+              return 0;
+            default:
+              return ERRNO_CODES.EINVAL;
+          }
+        },close:function (sock) {
+          // if we've spawned a listen server, close it
+          if (sock.server) {
+            try {
+              sock.server.close();
+            } catch (e) {
+            }
+            sock.server = null;
+          }
+          // close any peer connections
+          var peers = Object.keys(sock.peers);
+          for (var i = 0; i < peers.length; i++) {
+            var peer = sock.peers[peers[i]];
+            try {
+              peer.socket.close();
+            } catch (e) {
+            }
+            SOCKFS.websocket_sock_ops.removePeer(sock, peer);
+          }
+          return 0;
+        },bind:function (sock, addr, port) {
+          if (typeof sock.saddr !== 'undefined' || typeof sock.sport !== 'undefined') {
+            throw new FS.ErrnoError(ERRNO_CODES.EINVAL);  // already bound
+          }
+          sock.saddr = addr;
+          sock.sport = port;
+          // in order to emulate dgram sockets, we need to launch a listen server when
+          // binding on a connection-less socket
+          // note: this is only required on the server side
+          if (sock.type === 2) {
+            // close the existing server if it exists
+            if (sock.server) {
+              sock.server.close();
+              sock.server = null;
+            }
+            // swallow error operation not supported error that occurs when binding in the
+            // browser where this isn't supported
+            try {
+              sock.sock_ops.listen(sock, 0);
+            } catch (e) {
+              if (!(e instanceof FS.ErrnoError)) throw e;
+              if (e.errno !== ERRNO_CODES.EOPNOTSUPP) throw e;
+            }
+          }
+        },connect:function (sock, addr, port) {
+          if (sock.server) {
+            throw new FS.ErrnoError(ERRNO_CODES.EOPNOTSUPP);
+          }
+  
+          // TODO autobind
+          // if (!sock.addr && sock.type == 2) {
+          // }
+  
+          // early out if we're already connected / in the middle of connecting
+          if (typeof sock.daddr !== 'undefined' && typeof sock.dport !== 'undefined') {
+            var dest = SOCKFS.websocket_sock_ops.getPeer(sock, sock.daddr, sock.dport);
+            if (dest) {
+              if (dest.socket.readyState === dest.socket.CONNECTING) {
+                throw new FS.ErrnoError(ERRNO_CODES.EALREADY);
+              } else {
+                throw new FS.ErrnoError(ERRNO_CODES.EISCONN);
+              }
+            }
+          }
+  
+          // add the socket to our peer list and set our
+          // destination address / port to match
+          var peer = SOCKFS.websocket_sock_ops.createPeer(sock, addr, port);
+          sock.daddr = peer.addr;
+          sock.dport = peer.port;
+  
+          // always "fail" in non-blocking mode
+          throw new FS.ErrnoError(ERRNO_CODES.EINPROGRESS);
+        },listen:function (sock, backlog) {
+          if (!ENVIRONMENT_IS_NODE) {
+            throw new FS.ErrnoError(ERRNO_CODES.EOPNOTSUPP);
+          }
+          if (sock.server) {
+             throw new FS.ErrnoError(ERRNO_CODES.EINVAL);  // already listening
+          }
+          var WebSocketServer = require('ws').Server;
+          var host = sock.saddr;
+          sock.server = new WebSocketServer({
+            host: host,
+            port: sock.sport
+            // TODO support backlog
+          });
+          Module['websocket'].emit('listen', sock.stream.fd); // Send Event with listen fd.
+  
+          sock.server.on('connection', function(ws) {
+            if (sock.type === 1) {
+              var newsock = SOCKFS.createSocket(sock.family, sock.type, sock.protocol);
+  
+              // create a peer on the new socket
+              var peer = SOCKFS.websocket_sock_ops.createPeer(newsock, ws);
+              newsock.daddr = peer.addr;
+              newsock.dport = peer.port;
+  
+              // push to queue for accept to pick up
+              sock.pending.push(newsock);
+              Module['websocket'].emit('connection', newsock.stream.fd);
+            } else {
+              // create a peer on the listen socket so calling sendto
+              // with the listen socket and an address will resolve
+              // to the correct client
+              SOCKFS.websocket_sock_ops.createPeer(sock, ws);
+              Module['websocket'].emit('connection', sock.stream.fd);
+            }
+          });
+          sock.server.on('closed', function() {
+            Module['websocket'].emit('close', sock.stream.fd);
+            sock.server = null;
+          });
+          sock.server.on('error', function(error) {
+            // Although the ws library may pass errors that may be more descriptive than
+            // ECONNREFUSED they are not necessarily the expected error code e.g. 
+            // ENOTFOUND on getaddrinfo seems to be node.js specific, so using EHOSTUNREACH
+            // is still probably the most useful thing to do. This error shouldn't
+            // occur in a well written app as errors should get trapped in the compiled
+            // app's own getaddrinfo call.
+            sock.error = ERRNO_CODES.EHOSTUNREACH; // Used in getsockopt for SOL_SOCKET/SO_ERROR test.
+            Module['websocket'].emit('error', [sock.stream.fd, sock.error, 'EHOSTUNREACH: Host is unreachable']);
+            // don't throw
+          });
+        },accept:function (listensock) {
+          if (!listensock.server) {
+            throw new FS.ErrnoError(ERRNO_CODES.EINVAL);
+          }
+          var newsock = listensock.pending.shift();
+          newsock.stream.flags = listensock.stream.flags;
+          return newsock;
+        },getname:function (sock, peer) {
+          var addr, port;
+          if (peer) {
+            if (sock.daddr === undefined || sock.dport === undefined) {
+              throw new FS.ErrnoError(ERRNO_CODES.ENOTCONN);
+            }
+            addr = sock.daddr;
+            port = sock.dport;
+          } else {
+            // TODO saddr and sport will be set for bind()'d UDP sockets, but what
+            // should we be returning for TCP sockets that've been connect()'d?
+            addr = sock.saddr || 0;
+            port = sock.sport || 0;
+          }
+          return { addr: addr, port: port };
+        },sendmsg:function (sock, buffer, offset, length, addr, port) {
+          if (sock.type === 2) {
+            // connection-less sockets will honor the message address,
+            // and otherwise fall back to the bound destination address
+            if (addr === undefined || port === undefined) {
+              addr = sock.daddr;
+              port = sock.dport;
+            }
+            // if there was no address to fall back to, error out
+            if (addr === undefined || port === undefined) {
+              throw new FS.ErrnoError(ERRNO_CODES.EDESTADDRREQ);
+            }
+          } else {
+            // connection-based sockets will only use the bound
+            addr = sock.daddr;
+            port = sock.dport;
+          }
+  
+          // find the peer for the destination address
+          var dest = SOCKFS.websocket_sock_ops.getPeer(sock, addr, port);
+  
+          // early out if not connected with a connection-based socket
+          if (sock.type === 1) {
+            if (!dest || dest.socket.readyState === dest.socket.CLOSING || dest.socket.readyState === dest.socket.CLOSED) {
+              throw new FS.ErrnoError(ERRNO_CODES.ENOTCONN);
+            } else if (dest.socket.readyState === dest.socket.CONNECTING) {
+              throw new FS.ErrnoError(ERRNO_CODES.EAGAIN);
+            }
+          }
+  
+          // create a copy of the incoming data to send, as the WebSocket API
+          // doesn't work entirely with an ArrayBufferView, it'll just send
+          // the entire underlying buffer
+          if (ArrayBuffer.isView(buffer)) {
+            offset += buffer.byteOffset;
+            buffer = buffer.buffer;
+          }
+  
+          var data;
+            data = buffer.slice(offset, offset + length);
+  
+          // if we're emulating a connection-less dgram socket and don't have
+          // a cached connection, queue the buffer to send upon connect and
+          // lie, saying the data was sent now.
+          if (sock.type === 2) {
+            if (!dest || dest.socket.readyState !== dest.socket.OPEN) {
+              // if we're not connected, open a new connection
+              if (!dest || dest.socket.readyState === dest.socket.CLOSING || dest.socket.readyState === dest.socket.CLOSED) {
+                dest = SOCKFS.websocket_sock_ops.createPeer(sock, addr, port);
+              }
+              dest.dgram_send_queue.push(data);
+              return length;
+            }
+          }
+  
+          try {
+            // send the actual data
+            dest.socket.send(data);
+            return length;
+          } catch (e) {
+            throw new FS.ErrnoError(ERRNO_CODES.EINVAL);
+          }
+        },recvmsg:function (sock, length) {
+          // http://pubs.opengroup.org/onlinepubs/7908799/xns/recvmsg.html
+          if (sock.type === 1 && sock.server) {
+            // tcp servers should not be recv()'ing on the listen socket
+            throw new FS.ErrnoError(ERRNO_CODES.ENOTCONN);
+          }
+  
+          var queued = sock.recv_queue.shift();
+          if (!queued) {
+            if (sock.type === 1) {
+              var dest = SOCKFS.websocket_sock_ops.getPeer(sock, sock.daddr, sock.dport);
+  
+              if (!dest) {
+                // if we have a destination address but are not connected, error out
+                throw new FS.ErrnoError(ERRNO_CODES.ENOTCONN);
+              }
+              else if (dest.socket.readyState === dest.socket.CLOSING || dest.socket.readyState === dest.socket.CLOSED) {
+                // return null if the socket has closed
+                return null;
+              }
+              else {
+                // else, our socket is in a valid state but truly has nothing available
+                throw new FS.ErrnoError(ERRNO_CODES.EAGAIN);
+              }
+            } else {
+              throw new FS.ErrnoError(ERRNO_CODES.EAGAIN);
+            }
+          }
+  
+          // queued.data will be an ArrayBuffer if it's unadulterated, but if it's
+          // requeued TCP data it'll be an ArrayBufferView
+          var queuedLength = queued.data.byteLength || queued.data.length;
+          var queuedOffset = queued.data.byteOffset || 0;
+          var queuedBuffer = queued.data.buffer || queued.data;
+          var bytesRead = Math.min(length, queuedLength);
+          var res = {
+            buffer: new Uint8Array(queuedBuffer, queuedOffset, bytesRead),
+            addr: queued.addr,
+            port: queued.port
+          };
+  
+  
+          // push back any unread data for TCP connections
+          if (sock.type === 1 && bytesRead < queuedLength) {
+            var bytesRemaining = queuedLength - bytesRead;
+            queued.data = new Uint8Array(queuedBuffer, queuedOffset + bytesRead, bytesRemaining);
+            sock.recv_queue.unshift(queued);
+          }
+  
+          return res;
+        }}};
+  
+  
+  function __inet_pton4_raw(str) {
+      var b = str.split('.');
+      for (var i = 0; i < 4; i++) {
+        var tmp = Number(b[i]);
+        if (isNaN(tmp)) return null;
+        b[i] = tmp;
+      }
+      return (b[0] | (b[1] << 8) | (b[2] << 16) | (b[3] << 24)) >>> 0;
+    }
+  
+  function __inet_pton6_raw(str) {
+      var words;
+      var w, offset, z, i;
+      /* http://home.deds.nl/~aeron/regex/ */
+      var valid6regx = /^((?=.*::)(?!.*::.+::)(::)?([\dA-F]{1,4}:(:|\b)|){5}|([\dA-F]{1,4}:){6})((([\dA-F]{1,4}((?!\3)::|:\b|$))|(?!\2\3)){2}|(((2[0-4]|1\d|[1-9])?\d|25[0-5])\.?\b){4})$/i
+      var parts = [];
+      if (!valid6regx.test(str)) {
+        return null;
+      }
+      if (str === "::") {
+        return [0, 0, 0, 0, 0, 0, 0, 0];
+      }
+      // Z placeholder to keep track of zeros when splitting the string on ":"
+      if (str.indexOf("::") === 0) {
+        str = str.replace("::", "Z:"); // leading zeros case
+      } else {
+        str = str.replace("::", ":Z:");
+      }
+  
+      if (str.indexOf(".") > 0) {
+        // parse IPv4 embedded stress
+        str = str.replace(new RegExp('[.]', 'g'), ":");
+        words = str.split(":");
+        words[words.length-4] = parseInt(words[words.length-4]) + parseInt(words[words.length-3])*256;
+        words[words.length-3] = parseInt(words[words.length-2]) + parseInt(words[words.length-1])*256;
+        words = words.slice(0, words.length-2);
+      } else {
+        words = str.split(":");
+      }
+  
+      offset = 0; z = 0;
+      for (w=0; w < words.length; w++) {
+        if (typeof words[w] === 'string') {
+          if (words[w] === 'Z') {
+            // compressed zeros - write appropriate number of zero words
+            for (z = 0; z < (8 - words.length+1); z++) {
+              parts[w+z] = 0;
+            }
+            offset = z-1;
+          } else {
+            // parse hex to field to 16-bit value and write it in network byte-order
+            parts[w+offset] = _htons(parseInt(words[w],16));
+          }
+        } else {
+          // parsed IPv4 words
+          parts[w+offset] = words[w];
+        }
+      }
+      return [
+        (parts[1] << 16) | parts[0],
+        (parts[3] << 16) | parts[2],
+        (parts[5] << 16) | parts[4],
+        (parts[7] << 16) | parts[6]
+      ];
+    }var DNS={address_map:{id:1,addrs:{},names:{}},lookup_name:function (name) {
+        // If the name is already a valid ipv4 / ipv6 address, don't generate a fake one.
+        var res = __inet_pton4_raw(name);
+        if (res !== null) {
+          return name;
+        }
+        res = __inet_pton6_raw(name);
+        if (res !== null) {
+          return name;
+        }
+  
+        // See if this name is already mapped.
+        var addr;
+  
+        if (DNS.address_map.addrs[name]) {
+          addr = DNS.address_map.addrs[name];
+        } else {
+          var id = DNS.address_map.id++;
+          assert(id < 65535, 'exceeded max address mappings of 65535');
+  
+          addr = '172.29.' + (id & 0xff) + '.' + (id & 0xff00);
+  
+          DNS.address_map.names[addr] = name;
+          DNS.address_map.addrs[name] = addr;
+        }
+  
+        return addr;
+      },lookup_addr:function (addr) {
+        if (DNS.address_map.names[addr]) {
+          return DNS.address_map.names[addr];
+        }
+  
+        return null;
+      }};
+  
+  
+  var Sockets={BUFFER_SIZE:10240,MAX_BUFFER_SIZE:10485760,nextFd:1,fds:{},nextport:1,maxport:65535,peer:null,connections:{},portmap:{},localAddr:4261412874,addrPool:[33554442,50331658,67108874,83886090,100663306,117440522,134217738,150994954,167772170,184549386,201326602,218103818,234881034]};
+  
+  function __inet_ntop4_raw(addr) {
+      return (addr & 0xff) + '.' + ((addr >> 8) & 0xff) + '.' + ((addr >> 16) & 0xff) + '.' + ((addr >> 24) & 0xff)
+    }
+  
+  function __inet_ntop6_raw(ints) {
+      //  ref:  http://www.ietf.org/rfc/rfc2373.txt - section 2.5.4
+      //  Format for IPv4 compatible and mapped  128-bit IPv6 Addresses
+      //  128-bits are split into eight 16-bit words
+      //  stored in network byte order (big-endian)
+      //  |                80 bits               | 16 |      32 bits        |
+      //  +-----------------------------------------------------------------+
+      //  |               10 bytes               |  2 |      4 bytes        |
+      //  +--------------------------------------+--------------------------+
+      //  +               5 words                |  1 |      2 words        |
+      //  +--------------------------------------+--------------------------+
+      //  |0000..............................0000|0000|    IPv4 ADDRESS     | (compatible)
+      //  +--------------------------------------+----+---------------------+
+      //  |0000..............................0000|FFFF|    IPv4 ADDRESS     | (mapped)
+      //  +--------------------------------------+----+---------------------+
+      var str = "";
+      var word = 0;
+      var longest = 0;
+      var lastzero = 0;
+      var zstart = 0;
+      var len = 0;
+      var i = 0;
+      var parts = [
+        ints[0] & 0xffff,
+        (ints[0] >> 16),
+        ints[1] & 0xffff,
+        (ints[1] >> 16),
+        ints[2] & 0xffff,
+        (ints[2] >> 16),
+        ints[3] & 0xffff,
+        (ints[3] >> 16)
+      ];
+  
+      // Handle IPv4-compatible, IPv4-mapped, loopback and any/unspecified addresses
+  
+      var hasipv4 = true;
+      var v4part = "";
+      // check if the 10 high-order bytes are all zeros (first 5 words)
+      for (i = 0; i < 5; i++) {
+        if (parts[i] !== 0) { hasipv4 = false; break; }
+      }
+  
+      if (hasipv4) {
+        // low-order 32-bits store an IPv4 address (bytes 13 to 16) (last 2 words)
+        v4part = __inet_ntop4_raw(parts[6] | (parts[7] << 16));
+        // IPv4-mapped IPv6 address if 16-bit value (bytes 11 and 12) == 0xFFFF (6th word)
+        if (parts[5] === -1) {
+          str = "::ffff:";
+          str += v4part;
+          return str;
+        }
+        // IPv4-compatible IPv6 address if 16-bit value (bytes 11 and 12) == 0x0000 (6th word)
+        if (parts[5] === 0) {
+          str = "::";
+          //special case IPv6 addresses
+          if(v4part === "0.0.0.0") v4part = ""; // any/unspecified address
+          if(v4part === "0.0.0.1") v4part = "1";// loopback address
+          str += v4part;
+          return str;
+        }
+      }
+  
+      // Handle all other IPv6 addresses
+  
+      // first run to find the longest contiguous zero words
+      for (word = 0; word < 8; word++) {
+        if (parts[word] === 0) {
+          if (word - lastzero > 1) {
+            len = 0;
+          }
+          lastzero = word;
+          len++;
+        }
+        if (len > longest) {
+          longest = len;
+          zstart = word - longest + 1;
+        }
+      }
+  
+      for (word = 0; word < 8; word++) {
+        if (longest > 1) {
+          // compress contiguous zeros - to produce "::"
+          if (parts[word] === 0 && word >= zstart && word < (zstart + longest) ) {
+            if (word === zstart) {
+              str += ":";
+              if (zstart === 0) str += ":"; //leading zeros case
+            }
+            continue;
+          }
+        }
+        // converts 16-bit words from big-endian to little-endian before converting to hex string
+        str += Number(_ntohs(parts[word] & 0xffff)).toString(16);
+        str += word < 7 ? ":" : "";
+      }
+      return str;
+    }function __read_sockaddr(sa, salen) {
+      // family / port offsets are common to both sockaddr_in and sockaddr_in6
+      var family = HEAP16[((sa)>>1)];
+      var port = _ntohs(HEAP16[(((sa)+(2))>>1)]);
+      var addr;
+  
+      switch (family) {
+        case 2:
+          if (salen !== 16) {
+            return { errno: ERRNO_CODES.EINVAL };
+          }
+          addr = HEAP32[(((sa)+(4))>>2)];
+          addr = __inet_ntop4_raw(addr);
+          break;
+        case 10:
+          if (salen !== 28) {
+            return { errno: ERRNO_CODES.EINVAL };
+          }
+          addr = [
+            HEAP32[(((sa)+(8))>>2)],
+            HEAP32[(((sa)+(12))>>2)],
+            HEAP32[(((sa)+(16))>>2)],
+            HEAP32[(((sa)+(20))>>2)]
+          ];
+          addr = __inet_ntop6_raw(addr);
+          break;
+        default:
+          return { errno: ERRNO_CODES.EAFNOSUPPORT };
+      }
+  
+      return { family: family, addr: addr, port: port };
+    }
+  
+  function __write_sockaddr(sa, family, addr, port) {
+      switch (family) {
+        case 2:
+          addr = __inet_pton4_raw(addr);
+          HEAP16[((sa)>>1)]=family;
+          HEAP32[(((sa)+(4))>>2)]=addr;
+          HEAP16[(((sa)+(2))>>1)]=_htons(port);
+          break;
+        case 10:
+          addr = __inet_pton6_raw(addr);
+          HEAP32[((sa)>>2)]=family;
+          HEAP32[(((sa)+(8))>>2)]=addr[0];
+          HEAP32[(((sa)+(12))>>2)]=addr[1];
+          HEAP32[(((sa)+(16))>>2)]=addr[2];
+          HEAP32[(((sa)+(20))>>2)]=addr[3];
+          HEAP16[(((sa)+(2))>>1)]=_htons(port);
+          HEAP32[(((sa)+(4))>>2)]=0;
+          HEAP32[(((sa)+(24))>>2)]=0;
+          break;
+        default:
+          return { errno: ERRNO_CODES.EAFNOSUPPORT };
+      }
+      // kind of lame, but let's match _read_sockaddr's interface
+      return {};
+    }function ___syscall102(which, varargs) {SYSCALLS.varargs = varargs;
+  try {
+   // socketcall
+      var call = SYSCALLS.get(), socketvararg = SYSCALLS.get();
+      // socketcalls pass the rest of the arguments in a struct
+      SYSCALLS.varargs = socketvararg;
+      switch (call) {
+        case 1: { // socket
+          var domain = SYSCALLS.get(), type = SYSCALLS.get(), protocol = SYSCALLS.get();
+          var sock = SOCKFS.createSocket(domain, type, protocol);
+          assert(sock.stream.fd < 64); // XXX ? select() assumes socket fd values are in 0..63
+          return sock.stream.fd;
+        }
+        case 2: { // bind
+          var sock = SYSCALLS.getSocketFromFD(), info = SYSCALLS.getSocketAddress();
+          sock.sock_ops.bind(sock, info.addr, info.port);
+          return 0;
+        }
+        case 3: { // connect
+          var sock = SYSCALLS.getSocketFromFD(), info = SYSCALLS.getSocketAddress();
+          sock.sock_ops.connect(sock, info.addr, info.port);
+          return 0;
+        }
+        case 4: { // listen
+          var sock = SYSCALLS.getSocketFromFD(), backlog = SYSCALLS.get();
+          sock.sock_ops.listen(sock, backlog);
+          return 0;
+        }
+        case 5: { // accept
+          var sock = SYSCALLS.getSocketFromFD(), addr = SYSCALLS.get(), addrlen = SYSCALLS.get();
+          var newsock = sock.sock_ops.accept(sock);
+          if (addr) {
+            var res = __write_sockaddr(addr, newsock.family, DNS.lookup_name(newsock.daddr), newsock.dport);
+            assert(!res.errno);
+          }
+          return newsock.stream.fd;
+        }
+        case 6: { // getsockname
+          var sock = SYSCALLS.getSocketFromFD(), addr = SYSCALLS.get(), addrlen = SYSCALLS.get();
+          // TODO: sock.saddr should never be undefined, see TODO in websocket_sock_ops.getname
+          var res = __write_sockaddr(addr, sock.family, DNS.lookup_name(sock.saddr || '0.0.0.0'), sock.sport);
+          assert(!res.errno);
+          return 0;
+        }
+        case 7: { // getpeername
+          var sock = SYSCALLS.getSocketFromFD(), addr = SYSCALLS.get(), addrlen = SYSCALLS.get();
+          if (!sock.daddr) {
+            return -ERRNO_CODES.ENOTCONN; // The socket is not connected.
+          }
+          var res = __write_sockaddr(addr, sock.family, DNS.lookup_name(sock.daddr), sock.dport);
+          assert(!res.errno);
+          return 0;
+        }
+        case 11: { // sendto
+          var sock = SYSCALLS.getSocketFromFD(), message = SYSCALLS.get(), length = SYSCALLS.get(), flags = SYSCALLS.get(), dest = SYSCALLS.getSocketAddress(true);
+          if (!dest) {
+            // send, no address provided
+            return FS.write(sock.stream, HEAP8,message, length);
+          } else {
+            // sendto an address
+            return sock.sock_ops.sendmsg(sock, HEAP8,message, length, dest.addr, dest.port);
+          }
+        }
+        case 12: { // recvfrom
+          var sock = SYSCALLS.getSocketFromFD(), buf = SYSCALLS.get(), len = SYSCALLS.get(), flags = SYSCALLS.get(), addr = SYSCALLS.get(), addrlen = SYSCALLS.get();
+          var msg = sock.sock_ops.recvmsg(sock, len);
+          if (!msg) return 0; // socket is closed
+          if (addr) {
+            var res = __write_sockaddr(addr, sock.family, DNS.lookup_name(msg.addr), msg.port);
+            assert(!res.errno);
+          }
+          HEAPU8.set(msg.buffer, buf);
+          return msg.buffer.byteLength;
+        }
+        case 14: { // setsockopt
+          return -ERRNO_CODES.ENOPROTOOPT; // The option is unknown at the level indicated.
+        }
+        case 15: { // getsockopt
+          var sock = SYSCALLS.getSocketFromFD(), level = SYSCALLS.get(), optname = SYSCALLS.get(), optval = SYSCALLS.get(), optlen = SYSCALLS.get();
+          // Minimal getsockopt aimed at resolving https://github.com/kripken/emscripten/issues/2211
+          // so only supports SOL_SOCKET with SO_ERROR.
+          if (level === 1) {
+            if (optname === 4) {
+              HEAP32[((optval)>>2)]=sock.error;
+              HEAP32[((optlen)>>2)]=4;
+              sock.error = null; // Clear the error (The SO_ERROR option obtains and then clears this field).
+              return 0;
+            }
+          }
+          return -ERRNO_CODES.ENOPROTOOPT; // The option is unknown at the level indicated.
+        }
+        case 16: { // sendmsg
+          var sock = SYSCALLS.getSocketFromFD(), message = SYSCALLS.get(), flags = SYSCALLS.get();
+          var iov = HEAP32[(((message)+(8))>>2)];
+          var num = HEAP32[(((message)+(12))>>2)];
+          // read the address and port to send to
+          var addr, port;
+          var name = HEAP32[((message)>>2)];
+          var namelen = HEAP32[(((message)+(4))>>2)];
+          if (name) {
+            var info = __read_sockaddr(name, namelen);
+            if (info.errno) return -info.errno;
+            port = info.port;
+            addr = DNS.lookup_addr(info.addr) || info.addr;
+          }
+          // concatenate scatter-gather arrays into one message buffer
+          var total = 0;
+          for (var i = 0; i < num; i++) {
+            total += HEAP32[(((iov)+((8 * i) + 4))>>2)];
+          }
+          var view = new Uint8Array(total);
+          var offset = 0;
+          for (var i = 0; i < num; i++) {
+            var iovbase = HEAP32[(((iov)+((8 * i) + 0))>>2)];
+            var iovlen = HEAP32[(((iov)+((8 * i) + 4))>>2)];
+            for (var j = 0; j < iovlen; j++) {  
+              view[offset++] = HEAP8[(((iovbase)+(j))>>0)];
+            }
+          }
+          // write the buffer
+          return sock.sock_ops.sendmsg(sock, view, 0, total, addr, port);
+        }
+        case 17: { // recvmsg
+          var sock = SYSCALLS.getSocketFromFD(), message = SYSCALLS.get(), flags = SYSCALLS.get();
+          var iov = HEAP32[(((message)+(8))>>2)];
+          var num = HEAP32[(((message)+(12))>>2)];
+          // get the total amount of data we can read across all arrays
+          var total = 0;
+          for (var i = 0; i < num; i++) {
+            total += HEAP32[(((iov)+((8 * i) + 4))>>2)];
+          }
+          // try to read total data
+          var msg = sock.sock_ops.recvmsg(sock, total);
+          if (!msg) return 0; // socket is closed
+  
+          // TODO honor flags:
+          // MSG_OOB
+          // Requests out-of-band data. The significance and semantics of out-of-band data are protocol-specific.
+          // MSG_PEEK
+          // Peeks at the incoming message.
+          // MSG_WAITALL
+          // Requests that the function block until the full amount of data requested can be returned. The function may return a smaller amount of data if a signal is caught, if the connection is terminated, if MSG_PEEK was specified, or if an error is pending for the socket.
+  
+          // write the source address out
+          var name = HEAP32[((message)>>2)];
+          if (name) {
+            var res = __write_sockaddr(name, sock.family, DNS.lookup_name(msg.addr), msg.port);
+            assert(!res.errno);
+          }
+          // write the buffer out to the scatter-gather arrays
+          var bytesRead = 0;
+          var bytesRemaining = msg.buffer.byteLength;
+          for (var i = 0; bytesRemaining > 0 && i < num; i++) {
+            var iovbase = HEAP32[(((iov)+((8 * i) + 0))>>2)];
+            var iovlen = HEAP32[(((iov)+((8 * i) + 4))>>2)];
+            if (!iovlen) {
+              continue;
+            }
+            var length = Math.min(iovlen, bytesRemaining);
+            var buf = msg.buffer.subarray(bytesRead, bytesRead + length);
+            HEAPU8.set(buf, iovbase + bytesRead);
+            bytesRead += length;
+            bytesRemaining -= length;
+          }
+  
+          // TODO set msghdr.msg_flags
+          // MSG_EOR
+          // End of record was received (if supported by the protocol).
+          // MSG_OOB
+          // Out-of-band data was received.
+          // MSG_TRUNC
+          // Normal data was truncated.
+          // MSG_CTRUNC
+  
+          return bytesRead;
+        }
+        default: abort('unsupported socketcall syscall ' + call);
+      }
+    } catch (e) {
+    if (typeof FS === 'undefined' || !(e instanceof FS.ErrnoError)) abort(e);
+    return -e.errno;
+  }
+  }
+
+  function ___syscall122(which, varargs) {SYSCALLS.varargs = varargs;
+  try {
+   // uname
+      var buf = SYSCALLS.get();
+      if (!buf) return -ERRNO_CODES.EFAULT
+      var layout = {"sysname":0,"nodename":65,"domainname":325,"machine":260,"version":195,"release":130,"__size__":390};
+      function copyString(element, value) {
+        var offset = layout[element];
+        writeAsciiToMemory(value, buf + offset);
+      }
+      copyString('sysname', 'Emscripten');
+      copyString('nodename', 'emscripten');
+      copyString('release', '1.0');
+      copyString('version', '#1');
+      copyString('machine', 'x86-JS');
+      return 0;
+    } catch (e) {
+    if (typeof FS === 'undefined' || !(e instanceof FS.ErrnoError)) abort(e);
+    return -e.errno;
+  }
+  }
+
   function ___syscall140(which, varargs) {SYSCALLS.varargs = varargs;
   try {
    // llseek
@@ -6334,6 +6431,94 @@ function copyTempDouble(ptr) {
       HEAP32[((result)>>2)]=stream.position;
       if (stream.getdents && offset === 0 && whence === 0) stream.getdents = null; // reset readdir state
       return 0;
+    } catch (e) {
+    if (typeof FS === 'undefined' || !(e instanceof FS.ErrnoError)) abort(e);
+    return -e.errno;
+  }
+  }
+
+  function ___syscall142(which, varargs) {SYSCALLS.varargs = varargs;
+  try {
+   // newselect
+      // readfds are supported,
+      // writefds checks socket open status
+      // exceptfds not supported
+      // timeout is always 0 - fully async
+      var nfds = SYSCALLS.get(), readfds = SYSCALLS.get(), writefds = SYSCALLS.get(), exceptfds = SYSCALLS.get(), timeout = SYSCALLS.get();
+  
+      assert(nfds <= 64, 'nfds must be less than or equal to 64');  // fd sets have 64 bits // TODO: this could be 1024 based on current musl headers
+      assert(!exceptfds, 'exceptfds not supported');
+  
+      var total = 0;
+      
+      var srcReadLow = (readfds ? HEAP32[((readfds)>>2)] : 0),
+          srcReadHigh = (readfds ? HEAP32[(((readfds)+(4))>>2)] : 0);
+      var srcWriteLow = (writefds ? HEAP32[((writefds)>>2)] : 0),
+          srcWriteHigh = (writefds ? HEAP32[(((writefds)+(4))>>2)] : 0);
+      var srcExceptLow = (exceptfds ? HEAP32[((exceptfds)>>2)] : 0),
+          srcExceptHigh = (exceptfds ? HEAP32[(((exceptfds)+(4))>>2)] : 0);
+  
+      var dstReadLow = 0,
+          dstReadHigh = 0;
+      var dstWriteLow = 0,
+          dstWriteHigh = 0;
+      var dstExceptLow = 0,
+          dstExceptHigh = 0;
+  
+      var allLow = (readfds ? HEAP32[((readfds)>>2)] : 0) |
+                   (writefds ? HEAP32[((writefds)>>2)] : 0) |
+                   (exceptfds ? HEAP32[((exceptfds)>>2)] : 0);
+      var allHigh = (readfds ? HEAP32[(((readfds)+(4))>>2)] : 0) |
+                    (writefds ? HEAP32[(((writefds)+(4))>>2)] : 0) |
+                    (exceptfds ? HEAP32[(((exceptfds)+(4))>>2)] : 0);
+  
+      function check(fd, low, high, val) {
+        return (fd < 32 ? (low & val) : (high & val));
+      }
+  
+      for (var fd = 0; fd < nfds; fd++) {
+        var mask = 1 << (fd % 32);
+        if (!(check(fd, allLow, allHigh, mask))) {
+          continue;  // index isn't in the set
+        }
+  
+        var stream = FS.getStream(fd);
+        if (!stream) throw new FS.ErrnoError(ERRNO_CODES.EBADF);
+  
+        var flags = SYSCALLS.DEFAULT_POLLMASK;
+  
+        if (stream.stream_ops.poll) {
+          flags = stream.stream_ops.poll(stream);
+        }
+  
+        if ((flags & 1) && check(fd, srcReadLow, srcReadHigh, mask)) {
+          fd < 32 ? (dstReadLow = dstReadLow | mask) : (dstReadHigh = dstReadHigh | mask);
+          total++;
+        }
+        if ((flags & 4) && check(fd, srcWriteLow, srcWriteHigh, mask)) {
+          fd < 32 ? (dstWriteLow = dstWriteLow | mask) : (dstWriteHigh = dstWriteHigh | mask);
+          total++;
+        }
+        if ((flags & 2) && check(fd, srcExceptLow, srcExceptHigh, mask)) {
+          fd < 32 ? (dstExceptLow = dstExceptLow | mask) : (dstExceptHigh = dstExceptHigh | mask);
+          total++;
+        }
+      }
+  
+      if (readfds) {
+        HEAP32[((readfds)>>2)]=dstReadLow;
+        HEAP32[(((readfds)+(4))>>2)]=dstReadHigh;
+      }
+      if (writefds) {
+        HEAP32[((writefds)>>2)]=dstWriteLow;
+        HEAP32[(((writefds)+(4))>>2)]=dstWriteHigh;
+      }
+      if (exceptfds) {
+        HEAP32[((exceptfds)>>2)]=dstExceptLow;
+        HEAP32[(((exceptfds)+(4))>>2)]=dstExceptHigh;
+      }
+      
+      return total;
     } catch (e) {
     if (typeof FS === 'undefined' || !(e instanceof FS.ErrnoError)) abort(e);
     return -e.errno;
@@ -6356,6 +6541,33 @@ function copyTempDouble(ptr) {
    // writev
       var stream = SYSCALLS.getStreamFromFD(), iov = SYSCALLS.get(), iovcnt = SYSCALLS.get();
       return SYSCALLS.doWritev(stream, iov, iovcnt);
+    } catch (e) {
+    if (typeof FS === 'undefined' || !(e instanceof FS.ErrnoError)) abort(e);
+    return -e.errno;
+  }
+  }
+
+  function ___syscall192(which, varargs) {SYSCALLS.varargs = varargs;
+  try {
+   // mmap2
+      var addr = SYSCALLS.get(), len = SYSCALLS.get(), prot = SYSCALLS.get(), flags = SYSCALLS.get(), fd = SYSCALLS.get(), off = SYSCALLS.get()
+      off <<= 12; // undo pgoffset
+      var ptr;
+      var allocated = false;
+      if (fd === -1) {
+        ptr = _memalign(PAGE_SIZE, len);
+        if (!ptr) return -ERRNO_CODES.ENOMEM;
+        _memset(ptr, 0, len);
+        allocated = true;
+      } else {
+        var info = FS.getStream(fd);
+        if (!info) return -ERRNO_CODES.EBADF;
+        var res = FS.mmap(info, HEAPU8, addr, len, off, prot, flags);
+        ptr = res.ptr;
+        allocated = res.allocated;
+      }
+      SYSCALLS.mappings[ptr] = { malloc: ptr, len: len, allocated: allocated, fd: fd, flags: flags };
+      return ptr;
     } catch (e) {
     if (typeof FS === 'undefined' || !(e instanceof FS.ErrnoError)) abort(e);
     return -e.errno;
@@ -6640,6 +6852,7 @@ function copyTempDouble(ptr) {
       if (_clock.start === undefined) _clock.start = Date.now();
       return ((Date.now() - _clock.start) * (1000000 / 1000))|0;
     }
+
 
   function _difftime(time1, time0) {
       return time1 - time0;
@@ -11274,6 +11487,175 @@ function copyTempDouble(ptr) {
       __exit(status);
     }
 
+  function _getaddrinfo(node, service, hint, out) {
+      // Note getaddrinfo currently only returns a single addrinfo with ai_next defaulting to NULL. When NULL
+      // hints are specified or ai_family set to AF_UNSPEC or ai_socktype or ai_protocol set to 0 then we
+      // really should provide a linked list of suitable addrinfo values.
+      var addrs = [];
+      var canon = null;
+      var addr = 0;
+      var port = 0;
+      var flags = 0;
+      var family = 0;
+      var type = 0;
+      var proto = 0;
+      var ai, last;
+  
+      function allocaddrinfo(family, type, proto, canon, addr, port) {
+        var sa, salen, ai;
+        var res;
+  
+        salen = family === 10 ?
+          28 :
+          16;
+        addr = family === 10 ?
+          __inet_ntop6_raw(addr) :
+          __inet_ntop4_raw(addr);
+        sa = _malloc(salen);
+        res = __write_sockaddr(sa, family, addr, port);
+        assert(!res.errno);
+  
+        ai = _malloc(32);
+        HEAP32[(((ai)+(4))>>2)]=family;
+        HEAP32[(((ai)+(8))>>2)]=type;
+        HEAP32[(((ai)+(12))>>2)]=proto;
+        HEAP32[(((ai)+(24))>>2)]=canon;
+        HEAP32[(((ai)+(20))>>2)]=sa;
+        if (family === 10) {
+          HEAP32[(((ai)+(16))>>2)]=28;
+        } else {
+          HEAP32[(((ai)+(16))>>2)]=16;
+        }
+        HEAP32[(((ai)+(28))>>2)]=0;
+  
+        return ai;
+      }
+  
+      if (hint) {
+        flags = HEAP32[((hint)>>2)];
+        family = HEAP32[(((hint)+(4))>>2)];
+        type = HEAP32[(((hint)+(8))>>2)];
+        proto = HEAP32[(((hint)+(12))>>2)];
+      }
+      if (type && !proto) {
+        proto = type === 2 ? 17 : 6;
+      }
+      if (!type && proto) {
+        type = proto === 17 ? 2 : 1;
+      }
+  
+      // If type or proto are set to zero in hints we should really be returning multiple addrinfo values, but for
+      // now default to a TCP STREAM socket so we can at least return a sensible addrinfo given NULL hints.
+      if (proto === 0) {
+        proto = 6;
+      }
+      if (type === 0) {
+        type = 1;
+      }
+  
+      if (!node && !service) {
+        return -2;
+      }
+      if (flags & ~(1|2|4|
+          1024|8|16|32)) {
+        return -1;
+      }
+      if (hint !== 0 && (HEAP32[((hint)>>2)] & 2) && !node) {
+        return -1;
+      }
+      if (flags & 32) {
+        // TODO
+        return -2;
+      }
+      if (type !== 0 && type !== 1 && type !== 2) {
+        return -7;
+      }
+      if (family !== 0 && family !== 2 && family !== 10) {
+        return -6;
+      }
+  
+      if (service) {
+        service = Pointer_stringify(service);
+        port = parseInt(service, 10);
+  
+        if (isNaN(port)) {
+          if (flags & 1024) {
+            return -2;
+          }
+          // TODO support resolving well-known service names from:
+          // http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.txt
+          return -8;
+        }
+      }
+  
+      if (!node) {
+        if (family === 0) {
+          family = 2;
+        }
+        if ((flags & 1) === 0) {
+          if (family === 2) {
+            addr = _htonl(2130706433);
+          } else {
+            addr = [0, 0, 0, 1];
+          }
+        }
+        ai = allocaddrinfo(family, type, proto, null, addr, port);
+        HEAP32[((out)>>2)]=ai;
+        return 0;
+      }
+  
+      //
+      // try as a numeric address
+      //
+      node = Pointer_stringify(node);
+      addr = __inet_pton4_raw(node);
+      if (addr !== null) {
+        // incoming node is a valid ipv4 address
+        if (family === 0 || family === 2) {
+          family = 2;
+        }
+        else if (family === 10 && (flags & 8)) {
+          addr = [0, 0, _htonl(0xffff), addr];
+          family = 10;
+        } else {
+          return -2;
+        }
+      } else {
+        addr = __inet_pton6_raw(node);
+        if (addr !== null) {
+          // incoming node is a valid ipv6 address
+          if (family === 0 || family === 10) {
+            family = 10;
+          } else {
+            return -2;
+          }
+        }
+      }
+      if (addr != null) {
+        ai = allocaddrinfo(family, type, proto, node, addr, port);
+        HEAP32[((out)>>2)]=ai;
+        return 0;
+      }
+      if (flags & 4) {
+        return -2;
+      }
+  
+      //
+      // try as a hostname
+      //
+      // resolve the hostname to a temporary fake address
+      node = DNS.lookup_name(node);
+      addr = __inet_pton4_raw(node);
+      if (family === 0) {
+        family = 2;
+      } else if (family === 10) {
+        addr = [0, 0, _htonl(0xffff), addr];
+      }
+      ai = allocaddrinfo(family, type, proto, null, addr, port);
+      HEAP32[((out)>>2)]=ai;
+      return 0;
+    }
+
   function _getenv(name) {
       // char *getenv(const char *name);
       // http://pubs.opengroup.org/onlinepubs/009695399/functions/getenv.html
@@ -12093,7 +12475,13 @@ function copyTempDouble(ptr) {
 
    
 
+   
+
+   
+
   var _llvm_nacl_atomic_cmpxchg_i32=undefined;
+
+  var _llvm_nacl_atomic_cmpxchg_i8=undefined;
 
    
 
@@ -12234,6 +12622,35 @@ function copyTempDouble(ptr) {
       return (date.getTime() / 1000)|0;
     }
 
+  
+  function _usleep(useconds) {
+      // int usleep(useconds_t useconds);
+      // http://pubs.opengroup.org/onlinepubs/000095399/functions/usleep.html
+      // We're single-threaded, so use a busy loop. Super-ugly.
+      var msec = useconds / 1000;
+      if ((ENVIRONMENT_IS_WEB || ENVIRONMENT_IS_WORKER) && self['performance'] && self['performance']['now']) {
+        var start = self['performance']['now']();
+        while (self['performance']['now']() - start < msec) {
+          // Do nothing.
+        }
+      } else {
+        var start = Date.now();
+        while (Date.now() - start < msec) {
+          // Do nothing.
+        }
+      }
+      return 0;
+    }function _nanosleep(rqtp, rmtp) {
+      // int nanosleep(const struct timespec  *rqtp, struct timespec *rmtp);
+      var seconds = HEAP32[((rqtp)>>2)];
+      var nanoseconds = HEAP32[(((rqtp)+(4))>>2)];
+      if (rmtp !== 0) {
+        HEAP32[((rmtp)>>2)]=0;
+        HEAP32[(((rmtp)+(4))>>2)]=0;
+      }
+      return _usleep((seconds * 1e6) + (nanoseconds / 1000));
+    }
+
    
 
   function _pthread_cond_destroy() { return 0; }
@@ -12268,6 +12685,8 @@ function copyTempDouble(ptr) {
   function _pthread_mutex_destroy() {}
 
   function _pthread_mutex_init() {}
+
+   
 
    
 
@@ -12802,10 +13221,6 @@ function copyTempDouble(ptr) {
       return ret;
     }
 
-  function __ZTVN3mud10TextScriptE() {
-  err('missing function: _ZTVN3mud10TextScriptE'); abort(-1);
-  }
-
 if (ENVIRONMENT_IS_NODE) {
     _emscripten_get_now = function _emscripten_get_now_actual() {
       var t = process['hrtime']();
@@ -12823,6 +13238,7 @@ if (ENVIRONMENT_IS_NODE) {
 FS.staticInit();__ATINIT__.unshift(function() { if (!Module["noFSInit"] && !FS.init.initialized) FS.init() });__ATMAIN__.push(function() { FS.ignorePermissions = false });__ATEXIT__.push(function() { FS.quit() });Module["FS_createFolder"] = FS.createFolder;Module["FS_createPath"] = FS.createPath;Module["FS_createDataFile"] = FS.createDataFile;Module["FS_createPreloadedFile"] = FS.createPreloadedFile;Module["FS_createLazyFile"] = FS.createLazyFile;Module["FS_createLink"] = FS.createLink;Module["FS_createDevice"] = FS.createDevice;Module["FS_unlink"] = FS.unlink;;
 __ATINIT__.unshift(function() { TTY.init() });__ATEXIT__.push(function() { TTY.shutdown() });;
 if (ENVIRONMENT_IS_NODE) { var fs = require("fs"); var NODEJS_PATH = require("path"); NODEFS.staticInit(); };
+__ATINIT__.push(function() { SOCKFS.root = FS.mount(SOCKFS, {}, null); });;
 Module["requestFullScreen"] = function Module_requestFullScreen(lockPointer, resizeCanvas, vrDevice) { err("Module.requestFullScreen is deprecated. Please call Module.requestFullscreen instead."); Module["requestFullScreen"] = Module["requestFullscreen"]; Browser.requestFullScreen(lockPointer, resizeCanvas, vrDevice) };
   Module["requestFullscreen"] = function Module_requestFullscreen(lockPointer, resizeCanvas, vrDevice) { Browser.requestFullscreen(lockPointer, resizeCanvas, vrDevice) };
   Module["requestAnimationFrame"] = function Module_requestAnimationFrame(func) { Browser.requestAnimationFrame(func) };
@@ -12875,9 +13291,27 @@ function intArrayToString(array) {
 
 
 
+function nullFunc_dd(x) { err("Invalid function pointer called with signature 'dd'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
 function nullFunc_di(x) { err("Invalid function pointer called with signature 'di'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
+function nullFunc_ff(x) { err("Invalid function pointer called with signature 'ff'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
+function nullFunc_fff(x) { err("Invalid function pointer called with signature 'fff'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
+function nullFunc_ffffifi(x) { err("Invalid function pointer called with signature 'ffffifi'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
+function nullFunc_ffffifiiiff(x) { err("Invalid function pointer called with signature 'ffffifiiiff'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
+function nullFunc_fffifi(x) { err("Invalid function pointer called with signature 'fffifi'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
+function nullFunc_fffifiiiff(x) { err("Invalid function pointer called with signature 'fffifiiiff'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
+function nullFunc_fi(x) { err("Invalid function pointer called with signature 'fi'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
 function nullFunc_fii(x) { err("Invalid function pointer called with signature 'fii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
+function nullFunc_fiii(x) { err("Invalid function pointer called with signature 'fiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
 function nullFunc_fiiiii(x) { err("Invalid function pointer called with signature 'fiiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
@@ -12885,17 +13319,31 @@ function nullFunc_i(x) { err("Invalid function pointer called with signature 'i'
 
 function nullFunc_ii(x) { err("Invalid function pointer called with signature 'ii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
+function nullFunc_iif(x) { err("Invalid function pointer called with signature 'iif'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
+function nullFunc_iiff(x) { err("Invalid function pointer called with signature 'iiff'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
+function nullFunc_iifff(x) { err("Invalid function pointer called with signature 'iifff'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
 function nullFunc_iiffff(x) { err("Invalid function pointer called with signature 'iiffff'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
 function nullFunc_iifi(x) { err("Invalid function pointer called with signature 'iifi'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
 function nullFunc_iii(x) { err("Invalid function pointer called with signature 'iii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
+function nullFunc_iiif(x) { err("Invalid function pointer called with signature 'iiif'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
 function nullFunc_iiii(x) { err("Invalid function pointer called with signature 'iiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
+function nullFunc_iiiif(x) { err("Invalid function pointer called with signature 'iiiif'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
+function nullFunc_iiiiff(x) { err("Invalid function pointer called with signature 'iiiiff'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
 function nullFunc_iiiii(x) { err("Invalid function pointer called with signature 'iiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
 function nullFunc_iiiiid(x) { err("Invalid function pointer called with signature 'iiiiid'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
+function nullFunc_iiiiiff(x) { err("Invalid function pointer called with signature 'iiiiiff'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
 function nullFunc_iiiiii(x) { err("Invalid function pointer called with signature 'iiiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
@@ -12951,6 +13399,8 @@ function nullFunc_viffffffff(x) { err("Invalid function pointer called with sign
 
 function nullFunc_vifffffi(x) { err("Invalid function pointer called with signature 'vifffffi'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
+function nullFunc_vifi(x) { err("Invalid function pointer called with signature 'vifi'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
 function nullFunc_vii(x) { err("Invalid function pointer called with signature 'vii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
 function nullFunc_viif(x) { err("Invalid function pointer called with signature 'viif'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
@@ -12977,6 +13427,10 @@ function nullFunc_viii(x) { err("Invalid function pointer called with signature 
 
 function nullFunc_viiif(x) { err("Invalid function pointer called with signature 'viiif'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
+function nullFunc_viiiffi(x) { err("Invalid function pointer called with signature 'viiiffi'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
+function nullFunc_viiiffiii(x) { err("Invalid function pointer called with signature 'viiiffiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
+
 function nullFunc_viiifi(x) { err("Invalid function pointer called with signature 'viiifi'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
 function nullFunc_viiii(x) { err("Invalid function pointer called with signature 'viiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
@@ -13001,9 +13455,20 @@ function nullFunc_viijii(x) { err("Invalid function pointer called with signatur
 
 function nullFunc_vijii(x) { err("Invalid function pointer called with signature 'vijii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
-Module['wasmTableSize'] = 466945;
+Module['wasmTableSize'] = 1267714;
 
-Module['wasmMaxTableSize'] = 466945;
+Module['wasmMaxTableSize'] = 1267714;
+
+function invoke_dd(index,a1) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_dd"](index,a1);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
 
 function invoke_di(index,a1) {
   var sp = stackSave();
@@ -13016,10 +13481,98 @@ function invoke_di(index,a1) {
   }
 }
 
+function invoke_ff(index,a1) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_ff"](index,a1);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
+function invoke_fff(index,a1,a2) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_fff"](index,a1,a2);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
+function invoke_ffffifi(index,a1,a2,a3,a4,a5,a6) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_ffffifi"](index,a1,a2,a3,a4,a5,a6);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
+function invoke_ffffifiiiff(index,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_ffffifiiiff"](index,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
+function invoke_fffifi(index,a1,a2,a3,a4,a5) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_fffifi"](index,a1,a2,a3,a4,a5);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
+function invoke_fffifiiiff(index,a1,a2,a3,a4,a5,a6,a7,a8,a9) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_fffifiiiff"](index,a1,a2,a3,a4,a5,a6,a7,a8,a9);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
+function invoke_fi(index,a1) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_fi"](index,a1);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
 function invoke_fii(index,a1,a2) {
   var sp = stackSave();
   try {
     return Module["dynCall_fii"](index,a1,a2);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
+function invoke_fiii(index,a1,a2,a3) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_fiii"](index,a1,a2,a3);
   } catch(e) {
     stackRestore(sp);
     if (typeof e !== 'number' && e !== 'longjmp') throw e;
@@ -13060,6 +13613,39 @@ function invoke_ii(index,a1) {
   }
 }
 
+function invoke_iif(index,a1,a2) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_iif"](index,a1,a2);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
+function invoke_iiff(index,a1,a2,a3) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_iiff"](index,a1,a2,a3);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
+function invoke_iifff(index,a1,a2,a3,a4) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_iifff"](index,a1,a2,a3,a4);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
 function invoke_iiffff(index,a1,a2,a3,a4,a5) {
   var sp = stackSave();
   try {
@@ -13093,10 +13679,43 @@ function invoke_iii(index,a1,a2) {
   }
 }
 
+function invoke_iiif(index,a1,a2,a3) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_iiif"](index,a1,a2,a3);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
 function invoke_iiii(index,a1,a2,a3) {
   var sp = stackSave();
   try {
     return Module["dynCall_iiii"](index,a1,a2,a3);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
+function invoke_iiiif(index,a1,a2,a3,a4) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_iiiif"](index,a1,a2,a3,a4);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
+function invoke_iiiiff(index,a1,a2,a3,a4,a5) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_iiiiff"](index,a1,a2,a3,a4,a5);
   } catch(e) {
     stackRestore(sp);
     if (typeof e !== 'number' && e !== 'longjmp') throw e;
@@ -13119,6 +13738,17 @@ function invoke_iiiiid(index,a1,a2,a3,a4,a5) {
   var sp = stackSave();
   try {
     return Module["dynCall_iiiiid"](index,a1,a2,a3,a4,a5);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
+function invoke_iiiiiff(index,a1,a2,a3,a4,a5,a6) {
+  var sp = stackSave();
+  try {
+    return Module["dynCall_iiiiiff"](index,a1,a2,a3,a4,a5,a6);
   } catch(e) {
     stackRestore(sp);
     if (typeof e !== 'number' && e !== 'longjmp') throw e;
@@ -13423,6 +14053,17 @@ function invoke_vifffffi(index,a1,a2,a3,a4,a5,a6,a7) {
   }
 }
 
+function invoke_vifi(index,a1,a2,a3) {
+  var sp = stackSave();
+  try {
+    Module["dynCall_vifi"](index,a1,a2,a3);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
 function invoke_vii(index,a1,a2) {
   var sp = stackSave();
   try {
@@ -13566,6 +14207,28 @@ function invoke_viiif(index,a1,a2,a3,a4) {
   }
 }
 
+function invoke_viiiffi(index,a1,a2,a3,a4,a5,a6) {
+  var sp = stackSave();
+  try {
+    Module["dynCall_viiiffi"](index,a1,a2,a3,a4,a5,a6);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
+function invoke_viiiffiii(index,a1,a2,a3,a4,a5,a6,a7,a8) {
+  var sp = stackSave();
+  try {
+    Module["dynCall_viiiffiii"](index,a1,a2,a3,a4,a5,a6,a7,a8);
+  } catch(e) {
+    stackRestore(sp);
+    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+    Module["setThrew"](1, 0);
+  }
+}
+
 function invoke_viiifi(index,a1,a2,a3,a4,a5) {
   var sp = stackSave();
   try {
@@ -13700,7 +14363,7 @@ function invoke_vijii(index,a1,a2,a3,a4,a5) {
 
 Module.asmGlobalArg = {};
 
-Module.asmLibraryArg = { "abort": abort, "assert": assert, "enlargeMemory": enlargeMemory, "getTotalMemory": getTotalMemory, "abortOnCannotGrowMemory": abortOnCannotGrowMemory, "abortStackOverflow": abortStackOverflow, "nullFunc_di": nullFunc_di, "nullFunc_fii": nullFunc_fii, "nullFunc_fiiiii": nullFunc_fiiiii, "nullFunc_i": nullFunc_i, "nullFunc_ii": nullFunc_ii, "nullFunc_iiffff": nullFunc_iiffff, "nullFunc_iifi": nullFunc_iifi, "nullFunc_iii": nullFunc_iii, "nullFunc_iiii": nullFunc_iiii, "nullFunc_iiiii": nullFunc_iiiii, "nullFunc_iiiiid": nullFunc_iiiiid, "nullFunc_iiiiii": nullFunc_iiiiii, "nullFunc_iiiiiid": nullFunc_iiiiiid, "nullFunc_iiiiiii": nullFunc_iiiiiii, "nullFunc_iiiiiiii": nullFunc_iiiiiiii, "nullFunc_iiiiiiiii": nullFunc_iiiiiiiii, "nullFunc_iiiiij": nullFunc_iiiiij, "nullFunc_iiiiji": nullFunc_iiiiji, "nullFunc_iij": nullFunc_iij, "nullFunc_iijii": nullFunc_iijii, "nullFunc_jiji": nullFunc_jiji, "nullFunc_v": nullFunc_v, "nullFunc_vd": nullFunc_vd, "nullFunc_vdd": nullFunc_vdd, "nullFunc_vdddddd": nullFunc_vdddddd, "nullFunc_vf": nullFunc_vf, "nullFunc_vff": nullFunc_vff, "nullFunc_vffff": nullFunc_vffff, "nullFunc_vfi": nullFunc_vfi, "nullFunc_vi": nullFunc_vi, "nullFunc_vif": nullFunc_vif, "nullFunc_viff": nullFunc_viff, "nullFunc_vifff": nullFunc_vifff, "nullFunc_viffff": nullFunc_viffff, "nullFunc_vifffff": nullFunc_vifffff, "nullFunc_viffffff": nullFunc_viffffff, "nullFunc_viffffffff": nullFunc_viffffffff, "nullFunc_vifffffi": nullFunc_vifffffi, "nullFunc_vii": nullFunc_vii, "nullFunc_viif": nullFunc_viif, "nullFunc_viiff": nullFunc_viiff, "nullFunc_viiffff": nullFunc_viiffff, "nullFunc_viiffffffii": nullFunc_viiffffffii, "nullFunc_viifffffi": nullFunc_viifffffi, "nullFunc_viiffffii": nullFunc_viiffffii, "nullFunc_viifffii": nullFunc_viifffii, "nullFunc_viiffii": nullFunc_viiffii, "nullFunc_viifi": nullFunc_viifi, "nullFunc_viifii": nullFunc_viifii, "nullFunc_viii": nullFunc_viii, "nullFunc_viiif": nullFunc_viiif, "nullFunc_viiifi": nullFunc_viiifi, "nullFunc_viiii": nullFunc_viiii, "nullFunc_viiiii": nullFunc_viiiii, "nullFunc_viiiiii": nullFunc_viiiiii, "nullFunc_viiiiiii": nullFunc_viiiiiii, "nullFunc_viiiiiiii": nullFunc_viiiiiiii, "nullFunc_viiiiiiiii": nullFunc_viiiiiiiii, "nullFunc_viiiiiiiiii": nullFunc_viiiiiiiiii, "nullFunc_viiiiiiiiiii": nullFunc_viiiiiiiiiii, "nullFunc_viiiiiiiiiiiiiii": nullFunc_viiiiiiiiiiiiiii, "nullFunc_viijii": nullFunc_viijii, "nullFunc_vijii": nullFunc_vijii, "invoke_di": invoke_di, "invoke_fii": invoke_fii, "invoke_fiiiii": invoke_fiiiii, "invoke_i": invoke_i, "invoke_ii": invoke_ii, "invoke_iiffff": invoke_iiffff, "invoke_iifi": invoke_iifi, "invoke_iii": invoke_iii, "invoke_iiii": invoke_iiii, "invoke_iiiii": invoke_iiiii, "invoke_iiiiid": invoke_iiiiid, "invoke_iiiiii": invoke_iiiiii, "invoke_iiiiiid": invoke_iiiiiid, "invoke_iiiiiii": invoke_iiiiiii, "invoke_iiiiiiii": invoke_iiiiiiii, "invoke_iiiiiiiii": invoke_iiiiiiiii, "invoke_iiiiij": invoke_iiiiij, "invoke_iiiiji": invoke_iiiiji, "invoke_iij": invoke_iij, "invoke_iijii": invoke_iijii, "invoke_jiji": invoke_jiji, "invoke_v": invoke_v, "invoke_vd": invoke_vd, "invoke_vdd": invoke_vdd, "invoke_vdddddd": invoke_vdddddd, "invoke_vf": invoke_vf, "invoke_vff": invoke_vff, "invoke_vffff": invoke_vffff, "invoke_vfi": invoke_vfi, "invoke_vi": invoke_vi, "invoke_vif": invoke_vif, "invoke_viff": invoke_viff, "invoke_vifff": invoke_vifff, "invoke_viffff": invoke_viffff, "invoke_vifffff": invoke_vifffff, "invoke_viffffff": invoke_viffffff, "invoke_viffffffff": invoke_viffffffff, "invoke_vifffffi": invoke_vifffffi, "invoke_vii": invoke_vii, "invoke_viif": invoke_viif, "invoke_viiff": invoke_viiff, "invoke_viiffff": invoke_viiffff, "invoke_viiffffffii": invoke_viiffffffii, "invoke_viifffffi": invoke_viifffffi, "invoke_viiffffii": invoke_viiffffii, "invoke_viifffii": invoke_viifffii, "invoke_viiffii": invoke_viiffii, "invoke_viifi": invoke_viifi, "invoke_viifii": invoke_viifii, "invoke_viii": invoke_viii, "invoke_viiif": invoke_viiif, "invoke_viiifi": invoke_viiifi, "invoke_viiii": invoke_viiii, "invoke_viiiii": invoke_viiiii, "invoke_viiiiii": invoke_viiiiii, "invoke_viiiiiii": invoke_viiiiiii, "invoke_viiiiiiii": invoke_viiiiiiii, "invoke_viiiiiiiii": invoke_viiiiiiiii, "invoke_viiiiiiiiii": invoke_viiiiiiiiii, "invoke_viiiiiiiiiii": invoke_viiiiiiiiiii, "invoke_viiiiiiiiiiiiiii": invoke_viiiiiiiiiiiiiii, "invoke_viijii": invoke_viijii, "invoke_vijii": invoke_vijii, "__ZN3mud10MeshPacker13pack_verticesERNS_8MeshDataERKN3glm3matILi4ELi4EfLNS3_9qualifierE0EEE": __ZN3mud10MeshPacker13pack_verticesERNS_8MeshDataERKN3glm3matILi4ELi4EfLNS3_9qualifierE0EEE, "__ZN3mud10MeshPacker13vertex_formatEv": __ZN3mud10MeshPacker13vertex_formatEv, "__ZN3mud10MeshPacker17generate_tangentsEv": __ZN3mud10MeshPacker17generate_tangentsEv, "__ZN3mud10MeshPacker4bakeEbb": __ZN3mud10MeshPacker4bakeEbb, "__ZN3mud10MeshPackerC1Ev": __ZN3mud10MeshPackerC1Ev, "__ZN3mud10RenderPassC2ERNS_9GfxSystemEPKcNS_8PassTypeE": __ZN3mud10RenderPassC2ERNS_9GfxSystemEPKcNS_8PassTypeE, "__ZN3mud10TextScriptC1EPKcNS_8LanguageERKNS_9SignatureE": __ZN3mud10TextScriptC1EPKcNS_8LanguageERKNS_9SignatureE, "__ZN3mud10mud_gfx_uiC1Ev": __ZN3mud10mud_gfx_uiC1Ev, "__ZN3mud11Interpreter5flushEv": __ZN3mud11Interpreter5flushEv, "__ZN3mud11InterpreterC2Ev": __ZN3mud11InterpreterC2Ev, "__ZN3mud11as_operatorERNS_8FunctionE": __ZN3mud11as_operatorERNS_8FunctionE, "__ZN3mud11mud_gfx_objC1Ev": __ZN3mud11mud_gfx_objC1Ev, "__ZN3mud11mud_gfx_pbrC1Ev": __ZN3mud11mud_gfx_pbrC1Ev, "__ZN3mud11mud_procgenC1Ev": __ZN3mud11mud_procgenC1Ev, "__ZN3mud12mud_gfx_gltfC1Ev": __ZN3mud12mud_gfx_gltfC1Ev, "__ZN3mud12pipeline_pbrERNS_9GfxSystemERNS_8PipelineEb": __ZN3mud12pipeline_pbrERNS_9GfxSystemERNS_8PipelineEb, "__ZN3mud14AtomicFreeListC1EPvS1_mmm": __ZN3mud14AtomicFreeListC1EPvS1_mmm, "__ZN3mud15circle_verticesERKNS_9ProcShapeERKN3glm3vecILi3EfLNS3_9qualifierE0EEENS4_ILi2EfLS5_0EEENS_10SignedAxisEbRNS_8MeshDataEb": __ZN3mud15circle_verticesERKNS_9ProcShapeERKN3glm3vecILi3EfLNS3_9qualifierE0EEENS4_ILi2EfLS5_0EEENS_10SignedAxisEbRNS_8MeshDataEb, "__ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_5TorusERNS_8MeshDataE": __ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_5TorusERNS_8MeshDataE, "__ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_6CircleERNS_8MeshDataE": __ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_6CircleERNS_8MeshDataE, "__ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_7ArcLineERNS_8MeshDataE": __ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_7ArcLineERNS_8MeshDataE, "__ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_8EllipsisERNS_8MeshDataE": __ZN3mud16draw_shape_linesERKNS_9ProcShapeERKNS_8EllipsisERNS_8MeshDataE, "__ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_5TorusE": __ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_5TorusE, "__ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_6CircleE": __ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_6CircleE, "__ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_7ArcLineE": __ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_7ArcLineE, "__ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_8EllipsisE": __ZN3mud16size_shape_linesERKNS_9ProcShapeERKNS_8EllipsisE, "__ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_5TorusERNS_8MeshDataE": __ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_5TorusERNS_8MeshDataE, "__ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_6CircleERNS_8MeshDataE": __ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_6CircleERNS_8MeshDataE, "__ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_7ArcLineERNS_8MeshDataE": __ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_7ArcLineERNS_8MeshDataE, "__ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_8EllipsisERNS_8MeshDataE": __ZN3mud20draw_shape_trianglesERKNS_9ProcShapeERKNS_8EllipsisERNS_8MeshDataE, "__ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_5TorusE": __ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_5TorusE, "__ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_6CircleE": __ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_6CircleE, "__ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_7ArcLineE": __ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_7ArcLineE, "__ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_8EllipsisE": __ZN3mud20size_shape_trianglesERKNS_9ProcShapeERKNS_8EllipsisE, "__ZN3mud23generate_mikkt_tangentsENS_5arrayItEENS0_INS_11ShapeVertexEEE": __ZN3mud23generate_mikkt_tangentsENS_5arrayItEENS0_INS_11ShapeVertexEEE, "__ZN3mud2ui7dockbarERNS_6WidgetERNS_10DocksystemE": __ZN3mud2ui7dockbarERNS_6WidgetERNS_10DocksystemE, "__ZN3mud2ui8dockitemERNS_6DockerEPKcNS_5arrayItEEf": __ZN3mud2ui8dockitemERNS_6DockerEPKcNS_5arrayItEEf, "__ZN3mud4CallC1ERKNS_8CallableE": __ZN3mud4CallC1ERKNS_8CallableE, "__ZN3mud4CallC1ERKNS_8CallableENS_3RefE": __ZN3mud4CallC1ERKNS_8CallableENS_3RefE, "__ZN3mud4CallclENS_3RefE": __ZN3mud4CallclENS_3RefE, "__ZN3mud4CallclEv": __ZN3mud4CallclEv, "__ZN3mud4typeI14glTFAttributesEERNS_4TypeEv": __ZN3mud4typeI14glTFAttributesEERNS_4TypeEv, "__ZN3mud4typeI4glTFEERNS_4TypeEv": __ZN3mud4typeI4glTFEERNS_4TypeEv, "__ZN3mud4typeIN3glm3matILi4ELi4EfLNS1_9qualifierE0EEEEERNS_4TypeEv": __ZN3mud4typeIN3glm3matILi4ELi4EfLNS1_9qualifierE0EEEEERNS_4TypeEv, "__ZN3mud4typeIN3glm3vecILi2EfLNS1_9qualifierE0EEEEERNS_4TypeEv": __ZN3mud4typeIN3glm3vecILi2EfLNS1_9qualifierE0EEEEERNS_4TypeEv, "__ZN3mud4typeIN3glm3vecILi3EfLNS1_9qualifierE0EEEEERNS_4TypeEv": __ZN3mud4typeIN3glm3vecILi3EfLNS1_9qualifierE0EEEEERNS_4TypeEv, "__ZN3mud4typeIN3glm3vecILi3EiLNS1_9qualifierE0EEEEERNS_4TypeEv": __ZN3mud4typeIN3glm3vecILi3EiLNS1_9qualifierE0EEEEERNS_4TypeEv, "__ZN3mud4typeIN3glm3vecILi3EjLNS1_9qualifierE0EEEEERNS_4TypeEv": __ZN3mud4typeIN3glm3vecILi3EjLNS1_9qualifierE0EEEEERNS_4TypeEv, "__ZN3mud4typeIN3glm5tquatIfLNS1_9qualifierE0EEEEERNS_4TypeEv": __ZN3mud4typeIN3glm5tquatIfLNS1_9qualifierE0EEEEERNS_4TypeEv, "__ZN3mud4typeINS_10RotateToolEEERNS_4TypeEv": __ZN3mud4typeINS_10RotateToolEEERNS_4TypeEv, "__ZN3mud4typeINS_10SphereRingEEERNS_4TypeEv": __ZN3mud4typeINS_10SphereRingEEERNS_4TypeEv, "__ZN3mud4typeINS_10TextScriptEEERNS_4TypeEv": __ZN3mud4typeINS_10TextScriptEEERNS_4TypeEv, "__ZN3mud4typeINS_10ValueTrackIN3glm3vecILi3EfLNS2_9qualifierE0EEEEEEERNS_4TypeEv": __ZN3mud4typeINS_10ValueTrackIN3glm3vecILi3EfLNS2_9qualifierE0EEEEEEERNS_4TypeEv, "__ZN3mud4typeINS_10ValueTrackIN3glm5tquatIfLNS2_9qualifierE0EEEEEEERNS_4TypeEv": __ZN3mud4typeINS_10ValueTrackIN3glm5tquatIfLNS2_9qualifierE0EEEEEEERNS_4TypeEv, "__ZN3mud4typeINS_10ValueTrackINS_6ColourEEEEERNS_4TypeEv": __ZN3mud4typeINS_10ValueTrackINS_6ColourEEEEERNS_4TypeEv, "__ZN3mud4typeINS_10ValueTrackIfEEEERNS_4TypeEv": __ZN3mud4typeINS_10ValueTrackIfEEEERNS_4TypeEv, "__ZN3mud4typeINS_10ValueTrackIjEEEERNS_4TypeEv": __ZN3mud4typeINS_10ValueTrackIjEEEERNS_4TypeEv, "__ZN3mud4typeINS_11ConstructorEEERNS_4TypeEv": __ZN3mud4typeINS_11ConstructorEEERNS_4TypeEv, "__ZN3mud4typeINS_11SceneViewerEEERNS_4TypeEv": __ZN3mud4typeINS_11SceneViewerEEERNS_4TypeEv, "__ZN3mud4typeINS_11SpatialToolEEERNS_4TypeEv": __ZN3mud4typeINS_11SpatialToolEEERNS_4TypeEv, "__ZN3mud4typeINS_11WidgetStateEEERNS_4TypeEv": __ZN3mud4typeINS_11WidgetStateEEERNS_4TypeEv, "__ZN3mud4typeINS_12ProcessInputEEERNS_4TypeEv": __ZN3mud4typeINS_12ProcessInputEEERNS_4TypeEv, "__ZN3mud4typeINS_12ProcessValueEEERNS_4TypeEv": __ZN3mud4typeINS_12ProcessValueEEERNS_4TypeEv, "__ZN3mud4typeINS_12VisualScriptEEERNS_4TypeEv": __ZN3mud4typeINS_12VisualScriptEEERNS_4TypeEv, "__ZN3mud4typeINS_13MaterialParamINS_6ColourEEEEERNS_4TypeEv": __ZN3mud4typeINS_13MaterialParamINS_6ColourEEEEERNS_4TypeEv, "__ZN3mud4typeINS_13MaterialParamIfEEEERNS_4TypeEv": __ZN3mud4typeINS_13MaterialParamIfEEEERNS_4TypeEv, "__ZN3mud4typeINS_13ProcessCreateEEERNS_4TypeEv": __ZN3mud4typeINS_13ProcessCreateEEERNS_4TypeEv, "__ZN3mud4typeINS_13ProcessOutputEEERNS_4TypeEv": __ZN3mud4typeINS_13ProcessOutputEEERNS_4TypeEv, "__ZN3mud4typeINS_13TranslateToolEEERNS_4TypeEv": __ZN3mud4typeINS_13TranslateToolEEERNS_4TypeEv, "__ZN3mud4typeINS_14BlockParticlesEEERNS_4TypeEv": __ZN3mud4typeINS_14BlockParticlesEEERNS_4TypeEv, "__ZN3mud4typeINS_14ProcessDisplayEEERNS_4TypeEv": __ZN3mud4typeINS_14ProcessDisplayEEERNS_4TypeEv, "__ZN3mud4typeINS_15CopyConstructorEEERNS_4TypeEv": __ZN3mud4typeINS_15CopyConstructorEEERNS_4TypeEv, "__ZN3mud4typeINS_15ProcessCallableEEERNS_4TypeEv": __ZN3mud4typeINS_15ProcessCallableEEERNS_4TypeEv, "__ZN3mud4typeINS_16PbrMaterialBlockEEERNS_4TypeEv": __ZN3mud4typeINS_16PbrMaterialBlockEEERNS_4TypeEv, "__ZN3mud4typeINS_17BaseMaterialBlockEEERNS_4TypeEv": __ZN3mud4typeINS_17BaseMaterialBlockEEERNS_4TypeEv, "__ZN3mud4typeINS_17ParticleGeneratorEEERNS_4TypeEv": __ZN3mud4typeINS_17ParticleGeneratorEEERNS_4TypeEv, "__ZN3mud4typeINS_21UnshadedMaterialBlockEEERNS_4TypeEv": __ZN3mud4typeINS_21UnshadedMaterialBlockEEERNS_4TypeEv, "__ZN3mud4typeINS_3BoxEEERNS_4TypeEv": __ZN3mud4typeINS_3BoxEEERNS_4TypeEv, "__ZN3mud4typeINS_3DimEEERNS_4TypeEv": __ZN3mud4typeINS_3DimEEERNS_4TypeEv, "__ZN3mud4typeINS_3RefEEERNS_4TypeEv": __ZN3mud4typeINS_3RefEEERNS_4TypeEv, "__ZN3mud4typeINS_3RigEEERNS_4TypeEv": __ZN3mud4typeINS_3RigEEERNS_4TypeEv, "__ZN3mud4typeINS_3VarEEERNS_4TypeEv": __ZN3mud4typeINS_3VarEEERNS_4TypeEv, "__ZN3mud4typeINS_4AabbEEERNS_4TypeEv": __ZN3mud4typeINS_4AabbEEERNS_4TypeEv, "__ZN3mud4typeINS_4BoneEEERNS_4TypeEv": __ZN3mud4typeINS_4BoneEEERNS_4TypeEv, "__ZN3mud4typeINS_4CallEEERNS_4TypeEv": __ZN3mud4typeINS_4CallEEERNS_4TypeEv, "__ZN3mud4typeINS_4CubeEEERNS_4TypeEv": __ZN3mud4typeINS_4CubeEEERNS_4TypeEv, "__ZN3mud4typeINS_4ItemEEERNS_4TypeEv": __ZN3mud4typeINS_4ItemEEERNS_4TypeEv, "__ZN3mud4typeINS_4LineEEERNS_4TypeEv": __ZN3mud4typeINS_4LineEEERNS_4TypeEv, "__ZN3mud4typeINS_4MeshEEERNS_4TypeEv": __ZN3mud4typeINS_4MeshEEERNS_4TypeEv, "__ZN3mud4typeINS_4NoneEEERNS_4TypeEv": __ZN3mud4typeINS_4NoneEEERNS_4TypeEv, "__ZN3mud4typeINS_4QuadEEERNS_4TypeEv": __ZN3mud4typeINS_4QuadEEERNS_4TypeEv, "__ZN3mud4typeINS_4RectEEERNS_4TypeEv": __ZN3mud4typeINS_4RectEEERNS_4TypeEv, "__ZN3mud4typeINS_4RingEEERNS_4TypeEv": __ZN3mud4typeINS_4RingEEERNS_4TypeEv, "__ZN3mud4typeINS_5ClassEEERNS_4TypeEv": __ZN3mud4typeINS_5ClassEEERNS_4TypeEv, "__ZN3mud4typeINS_5Grid2EEERNS_4TypeEv": __ZN3mud4typeINS_5Grid2EEERNS_4TypeEv, "__ZN3mud4typeINS_5Grid3EEERNS_4TypeEv": __ZN3mud4typeINS_5Grid3EEERNS_4TypeEv, "__ZN3mud4typeINS_5ImageEEERNS_4TypeEv": __ZN3mud4typeINS_5ImageEEERNS_4TypeEv, "__ZN3mud4typeINS_5LightEEERNS_4TypeEv": __ZN3mud4typeINS_5LightEEERNS_4TypeEv, "__ZN3mud4typeINS_5ModelEEERNS_4TypeEv": __ZN3mud4typeINS_5ModelEEERNS_4TypeEv, "__ZN3mud4typeINS_5Node3EEERNS_4TypeEv": __ZN3mud4typeINS_5Node3EEERNS_4TypeEv, "__ZN3mud4typeINS_5RangeIfEEEERNS_4TypeEv": __ZN3mud4typeINS_5RangeIfEEEERNS_4TypeEv, "__ZN3mud4typeINS_5RangeIjEEEERNS_4TypeEv": __ZN3mud4typeINS_5RangeIjEEEERNS_4TypeEv, "__ZN3mud4typeINS_5ShapeEEERNS_4TypeEv": __ZN3mud4typeINS_5ShapeEEERNS_4TypeEv, "__ZN3mud4typeINS_5TorusEEERNS_4TypeEv": __ZN3mud4typeINS_5TorusEEERNS_4TypeEv, "__ZN3mud4typeINS_6CameraEEERNS_4TypeEv": __ZN3mud4typeINS_6CameraEEERNS_4TypeEv, "__ZN3mud4typeINS_6CircleEEERNS_4TypeEv": __ZN3mud4typeINS_6CircleEEERNS_4TypeEv, "__ZN3mud4typeINS_6ColourEEERNS_4TypeEv": __ZN3mud4typeINS_6ColourEEERNS_4TypeEv, "__ZN3mud4typeINS_6LayoutEEERNS_4TypeEv": __ZN3mud4typeINS_6LayoutEEERNS_4TypeEv, "__ZN3mud4typeINS_6MemberEEERNS_4TypeEv": __ZN3mud4typeINS_6MemberEEERNS_4TypeEv, "__ZN3mud4typeINS_6MethodEEERNS_4TypeEv": __ZN3mud4typeINS_6MethodEEERNS_4TypeEv, "__ZN3mud4typeINS_6PointsEEERNS_4TypeEv": __ZN3mud4typeINS_6PointsEEERNS_4TypeEv, "__ZN3mud4typeINS_6PrefabEEERNS_4TypeEv": __ZN3mud4typeINS_6PrefabEEERNS_4TypeEv, "__ZN3mud4typeINS_6ScriptEEERNS_4TypeEv": __ZN3mud4typeINS_6ScriptEEERNS_4TypeEv, "__ZN3mud4typeINS_6SphereEEERNS_4TypeEv": __ZN3mud4typeINS_6SphereEEERNS_4TypeEv, "__ZN3mud4typeINS_6StaticEEERNS_4TypeEv": __ZN3mud4typeINS_6StaticEEERNS_4TypeEv, "__ZN3mud4typeINS_6SystemEEERNS_4TypeEv": __ZN3mud4typeINS_6SystemEEERNS_4TypeEv, "__ZN3mud4typeINS_6WidgetEEERNS_4TypeEv": __ZN3mud4typeINS_6WidgetEEERNS_4TypeEv, "__ZN3mud4typeINS_7ArcLineEEERNS_4TypeEv": __ZN3mud4typeINS_7ArcLineEEERNS_4TypeEv, "__ZN3mud4typeINS_7CreatorEEERNS_4TypeEv": __ZN3mud4typeINS_7CreatorEEERNS_4TypeEv, "__ZN3mud4typeINS_7ProgramEEERNS_4TypeEv": __ZN3mud4typeINS_7ProgramEEERNS_4TypeEv, "__ZN3mud4typeINS_8AnimatedEEERNS_4TypeEv": __ZN3mud4typeINS_8AnimatedEEERNS_4TypeEv, "__ZN3mud4typeINS_8CallableEEERNS_4TypeEv": __ZN3mud4typeINS_8CallableEEERNS_4TypeEv, "__ZN3mud4typeINS_8CylinderEEERNS_4TypeEv": __ZN3mud4typeINS_8CylinderEEERNS_4TypeEv, "__ZN3mud4typeINS_8EllipsisEEERNS_4TypeEv": __ZN3mud4typeINS_8EllipsisEEERNS_4TypeEv, "__ZN3mud4typeINS_8FunctionEEERNS_4TypeEv": __ZN3mud4typeINS_8FunctionEEERNS_4TypeEv, "__ZN3mud4typeINS_8GeometryEEERNS_4TypeEv": __ZN3mud4typeINS_8GeometryEEERNS_4TypeEv, "__ZN3mud4typeINS_8InkStyleEEERNS_4TypeEv": __ZN3mud4typeINS_8InkStyleEEERNS_4TypeEv, "__ZN3mud4typeINS_8MaterialEEERNS_4TypeEv": __ZN3mud4typeINS_8MaterialEEERNS_4TypeEv, "__ZN3mud4typeINS_8RedoToolEEERNS_4TypeEv": __ZN3mud4typeINS_8RedoToolEEERNS_4TypeEv, "__ZN3mud4typeINS_8ShapeVarEEERNS_4TypeEv": __ZN3mud4typeINS_8ShapeVarEEERNS_4TypeEv, "__ZN3mud4typeINS_8SpheroidEEERNS_4TypeEv": __ZN3mud4typeINS_8SpheroidEEERNS_4TypeEv, "__ZN3mud4typeINS_8TriangleEEERNS_4TypeEv": __ZN3mud4typeINS_8TriangleEEERNS_4TypeEv, "__ZN3mud4typeINS_8UndoToolEEERNS_4TypeEv": __ZN3mud4typeINS_8UndoToolEEERNS_4TypeEv, "__ZN3mud4typeINS_8ViewToolEEERNS_4TypeEv": __ZN3mud4typeINS_8ViewToolEEERNS_4TypeEv, "__ZN3mud4typeINS_9AnimationEEERNS_4TypeEv": __ZN3mud4typeINS_9AnimationEEERNS_4TypeEv, "__ZN3mud4typeINS_9BlockCopyEEERNS_4TypeEv": __ZN3mud4typeINS_9BlockCopyEEERNS_4TypeEv, "__ZN3mud4typeINS_9ImageSkinEEERNS_4TypeEv": __ZN3mud4typeINS_9ImageSkinEEERNS_4TypeEv, "__ZN3mud4typeINS_9ParticlesEEERNS_4TypeEv": __ZN3mud4typeINS_9ParticlesEEERNS_4TypeEv, "__ZN3mud4typeINS_9ScaleToolEEERNS_4TypeEv": __ZN3mud4typeINS_9ScaleToolEEERNS_4TypeEv, "__ZN3mud4typeINS_9TransformEEERNS_4TypeEv": __ZN3mud4typeINS_9TransformEEERNS_4TypeEv, "__ZN3mud4typeINS_9TypeClassEEERNS_4TypeEv": __ZN3mud4typeINS_9TypeClassEEERNS_4TypeEv, "__ZN3mud4typeINSt3__212basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEERNS_4TypeEv": __ZN3mud4typeINSt3__212basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEEERNS_4TypeEv, "__ZN3mud4typeINSt3__28functionIFvRNS_6MethodENS_3RefENS_5arrayINS_3VarEEEEEEEERNS_4TypeEv": __ZN3mud4typeINSt3__28functionIFvRNS_6MethodENS_3RefENS_5arrayINS_3VarEEEEEEEERNS_4TypeEv, "__ZN3mud4typeIPKcEERNS_4TypeEv": __ZN3mud4typeIPKcEERNS_4TypeEv, "__ZN3mud4typeIbEERNS_4TypeEv": __ZN3mud4typeIbEERNS_4TypeEv, "__ZN3mud4typeIdEERNS_4TypeEv": __ZN3mud4typeIdEERNS_4TypeEv, "__ZN3mud4typeIfEERNS_4TypeEv": __ZN3mud4typeIfEERNS_4TypeEv, "__ZN3mud4typeIhEERNS_4TypeEv": __ZN3mud4typeIhEERNS_4TypeEv, "__ZN3mud4typeIiEERNS_4TypeEv": __ZN3mud4typeIiEERNS_4TypeEv, "__ZN3mud4typeIjEERNS_4TypeEv": __ZN3mud4typeIjEERNS_4TypeEv, "__ZN3mud4typeImEERNS_4TypeEv": __ZN3mud4typeImEERNS_4TypeEv, "__ZN3mud4typeItEERNS_4TypeEv": __ZN3mud4typeItEERNS_4TypeEv, "__ZN3mud4typeIvEERNS_4TypeEv": __ZN3mud4typeIvEERNS_4TypeEv, "__ZN3mud4typeIyEERNS_4TypeEv": __ZN3mud4typeIyEERNS_4TypeEv, "__ZN3mud5ParamC1EPKcNS_3VarENS0_5FlagsE": __ZN3mud5ParamC1EPKcNS_3VarENS0_5FlagsE, "__ZN3mud6Render9next_passEPKcb": __ZN3mud6Render9next_passEPKcb, "__ZN3mud6RenderC1ERNS_8ViewportERNS_12RenderTargetERNS_11RenderFrameE": __ZN3mud6RenderC1ERNS_8ViewportERNS_12RenderTargetERNS_11RenderFrameE, "__ZN3mud6RenderD1Ev": __ZN3mud6RenderD1Ev, "__ZN3mud6ScriptC2ERNS_4TypeEPKcRKNS_9SignatureE": __ZN3mud6ScriptC2ERNS_4TypeEPKcRKNS_9SignatureE, "__ZN3mud6ScriptD2Ev": __ZN3mud6ScriptD2Ev, "__ZN3mud6Widget11mouse_eventENS_10DeviceTypeENS_9EventTypeENS_8InputModEb": __ZN3mud6Widget11mouse_eventENS_10DeviceTypeENS_9EventTypeENS_8InputModEb, "__ZN3mud6Widget11set_contentEPKc": __ZN3mud6Widget11set_contentEPKc, "__ZN3mud6Widget12parent_modalEv": __ZN3mud6Widget12parent_modalEv, "__ZN3mud6Widget12toggle_stateENS_11WidgetStateE": __ZN3mud6Widget12toggle_stateENS_11WidgetStateE, "__ZN3mud6Widget13control_eventERNS_10InputEventE": __ZN3mud6Widget13control_eventERNS_10InputEventE, "__ZN3mud6Widget13receive_eventERNS_10InputEventE": __ZN3mud6Widget13receive_eventERNS_10InputEventE, "__ZN3mud6Widget15propagate_eventERNS_10InputEventE": __ZN3mud6Widget15propagate_eventERNS_10InputEventE, "__ZN3mud6Widget2uiEv": __ZN3mud6Widget2uiEv, "__ZN3mud6Widget5layerEv": __ZN3mud6Widget5layerEv, "__ZN3mud6Widget8pinpointEN3glm3vecILi2EfLNS1_9qualifierE0EEE": __ZN3mud6Widget8pinpointEN3glm3vecILi2EfLNS1_9qualifierE0EEE, "__ZN3mud6Widget9key_eventENS_3KeyENS_9EventTypeENS_8InputModE": __ZN3mud6Widget9key_eventENS_3KeyENS_9EventTypeENS_8InputModE, "__ZN3mud6Widget9set_modalEPS0_j": __ZN3mud6Widget9set_modalEPS0_j, "__ZN3mud6Widget9ui_windowEv": __ZN3mud6Widget9ui_windowEv, "__ZN3mud6WidgetC1EPS0_Pv": __ZN3mud6WidgetC1EPS0_Pv, "__ZN3mud6WidgetC2EPS0_Pv": __ZN3mud6WidgetC2EPS0_Pv, "__ZN3mud6WidgetC2Ev": __ZN3mud6WidgetC2Ev, "__ZN3mud6WidgetD2Ev": __ZN3mud6WidgetD2Ev, "__ZN3mud6mud_uiC1Ev": __ZN3mud6mud_uiC1Ev, "__ZN3mud7mud_ctxC1Ev": __ZN3mud7mud_ctxC1Ev, "__ZN3mud7mud_gfxC1Ev": __ZN3mud7mud_gfxC1Ev, "__ZN3mud8DrawPass11add_elementENS_11DrawElementE": __ZN3mud8DrawPass11add_elementENS_11DrawElementE, "__ZN3mud8DrawPass17begin_render_passERNS_6RenderE": __ZN3mud8DrawPass17begin_render_passERNS_6RenderE, "__ZN3mud8DrawPass18submit_render_passERNS_6RenderE": __ZN3mud8DrawPass18submit_render_passERNS_6RenderE, "__ZN3mud8DrawPassC2ERNS_9GfxSystemEPKcNS_8PassTypeE": __ZN3mud8DrawPassC2ERNS_9GfxSystemEPKcNS_8PassTypeE, "__ZN3mud8DrawPassD2Ev": __ZN3mud8DrawPassD2Ev, "__ZN3mud8GfxBlockC2ERNS_9GfxSystemERNS_4TypeE": __ZN3mud8GfxBlockC2ERNS_9GfxSystemERNS_4TypeE, "__ZN3mud8GfxBlockD2Ev": __ZN3mud8GfxBlockD2Ev, "__ZN3mud8Injector10injectpoolEv": __ZN3mud8Injector10injectpoolEv, "__ZN3mud8Injector6injectERNS_3VarE": __ZN3mud8Injector6injectERNS_3VarE, "__ZN3mud8Injector6injectERNS_4PoolE": __ZN3mud8Injector6injectERNS_4PoolE, "__ZN3mud8InjectorC1ERKNS_11ConstructorE": __ZN3mud8InjectorC1ERKNS_11ConstructorE, "__ZN3mud8Renderer4initEv": __ZN3mud8Renderer4initEv, "__ZN3mud8Renderer5frameERKNS_11RenderFrameE": __ZN3mud8Renderer5frameERKNS_11RenderFrameE, "__ZN3mud8Renderer6renderERNS_6RenderE": __ZN3mud8Renderer6renderERNS_6RenderE, "__ZN3mud8Renderer8add_passENSt3__210unique_ptrINS_10RenderPassENS1_14default_deleteIS3_EEEE": __ZN3mud8Renderer8add_passENSt3__210unique_ptrINS_10RenderPassENS1_14default_deleteIS3_EEEE, "__ZN3mud8RendererC2ERNS_9GfxSystemERNS_8PipelineE": __ZN3mud8RendererC2ERNS_9GfxSystemERNS_8PipelineE, "__ZN3mud8mud_geomC1Ev": __ZN3mud8mud_geomC1Ev, "__ZN3mud8mud_langC1Ev": __ZN3mud8mud_langC1Ev, "__ZN3mud8mud_mathC1Ev": __ZN3mud8mud_mathC1Ev, "__ZN3mud8mud_poolC1Ev": __ZN3mud8mud_poolC1Ev, "__ZN3mud8mud_reflC1Ev": __ZN3mud8mud_reflC1Ev, "__ZN3mud8mud_srlzC1Ev": __ZN3mud8mud_srlzC1Ev, "__ZN3mud8mud_toolC1Ev": __ZN3mud8mud_toolC1Ev, "__ZN3mud8mud_treeC1Ev": __ZN3mud8mud_treeC1Ev, "__ZN3mud8mud_typeC1Ev": __ZN3mud8mud_typeC1Ev, "__ZN3mud9SignatureC1ERKNSt3__26vectorINS_5ParamENS1_9allocatorIS3_EEEERKNS_3VarE": __ZN3mud9SignatureC1ERKNSt3__26vectorINS_5ParamENS1_9allocatorIS3_EEEERKNS_3VarE, "__ZN3mud9mud_infraC1Ev": __ZN3mud9mud_infraC1Ev, "__ZN3mud9mud_protoC1Ev": __ZN3mud9mud_protoC1Ev, "__ZN8spvtools3opt10BasicBlock12GetMergeInstEv": __ZN8spvtools3opt10BasicBlock12GetMergeInstEv, "__ZN8spvtools3opt10BasicBlock12KillAllInstsEb": __ZN8spvtools3opt10BasicBlock12KillAllInstsEb, "__ZN8spvtools3opt10BasicBlock15SplitBasicBlockEPNS0_9IRContextEjNS0_15InstructionList8iteratorE": __ZN8spvtools3opt10BasicBlock15SplitBasicBlockEPNS0_9IRContextEjNS0_15InstructionList8iteratorE, "__ZN8spvtools3opt10BasicBlock16GetLoopMergeInstEv": __ZN8spvtools3opt10BasicBlock16GetLoopMergeInstEv, "__ZN8spvtools3opt10BasicBlock21ForEachSuccessorLabelERKNSt3__28functionIFvPjEEE": __ZN8spvtools3opt10BasicBlock21ForEachSuccessorLabelERKNSt3__28functionIFvPjEEE, "__ZN8spvtools3opt10BasicBlock24ForMergeAndContinueLabelERKNSt3__28functionIFvjEEE": __ZN8spvtools3opt10BasicBlock24ForMergeAndContinueLabelERKNSt3__28functionIFvjEEE, "__ZN8spvtools3opt11Instruction12InsertBeforeEONSt3__210unique_ptrIS1_NS2_14default_deleteIS1_EEEE": __ZN8spvtools3opt11Instruction12InsertBeforeEONSt3__210unique_ptrIS1_NS2_14default_deleteIS1_EEEE, "__ZN8spvtools3opt11Instruction12InsertBeforeEONSt3__26vectorINS2_10unique_ptrIS1_NS2_14default_deleteIS1_EEEENS2_9allocatorIS7_EEEE": __ZN8spvtools3opt11Instruction12InsertBeforeEONSt3__26vectorINS2_10unique_ptrIS1_NS2_14default_deleteIS1_EEEENS2_9allocatorIS7_EEEE, "__ZN8spvtools3opt11Instruction15ReplaceOperandsERKNSt3__26vectorINS0_7OperandENS2_9allocatorIS4_EEEE": __ZN8spvtools3opt11Instruction15ReplaceOperandsERKNSt3__26vectorINS0_7OperandENS2_9allocatorIS4_EEEE, "__ZN8spvtools3opt11InstructionC1EOS1_": __ZN8spvtools3opt11InstructionC1EOS1_, "__ZN8spvtools3opt11InstructionC1EPNS0_9IRContextE6SpvOp_": __ZN8spvtools3opt11InstructionC1EPNS0_9IRContextE6SpvOp_, "__ZN8spvtools3opt11InstructionC1EPNS0_9IRContextE6SpvOp_jjRKNSt3__26vectorINS0_7OperandENS5_9allocatorIS7_EEEE": __ZN8spvtools3opt11InstructionC1EPNS0_9IRContextE6SpvOp_jjRKNSt3__26vectorINS0_7OperandENS5_9allocatorIS7_EEEE, "__ZN8spvtools3opt11InstructionC1EPNS0_9IRContextERK24spv_parsed_instruction_tONSt3__26vectorIS1_NS7_9allocatorIS1_EEEE": __ZN8spvtools3opt11InstructionC1EPNS0_9IRContextERK24spv_parsed_instruction_tONSt3__26vectorIS1_NS7_9allocatorIS1_EEEE, "__ZN8spvtools3opt8Function11ForEachInstERKNSt3__28functionIFvPNS0_11InstructionEEEEb": __ZN8spvtools3opt8Function11ForEachInstERKNSt3__28functionIFvPNS0_11InstructionEEEEb, "__ZN8spvtools3opt8Function21InsertBasicBlockAfterEONSt3__210unique_ptrINS0_10BasicBlockENS2_14default_deleteIS4_EEEEPS4_": __ZN8spvtools3opt8Function21InsertBasicBlockAfterEONSt3__210unique_ptrINS0_10BasicBlockENS2_14default_deleteIS4_EEEEPS4_, "__ZNK8spvtools3opt10BasicBlock11IsSuccessorEPKS1_": __ZNK8spvtools3opt10BasicBlock11IsSuccessorEPKS1_, "__ZNK8spvtools3opt10BasicBlock17MergeBlockIdIfAnyEv": __ZNK8spvtools3opt10BasicBlock17MergeBlockIdIfAnyEv, "__ZNK8spvtools3opt10BasicBlock20ContinueBlockIdIfAnyEv": __ZNK8spvtools3opt10BasicBlock20ContinueBlockIdIfAnyEv, "__ZNK8spvtools3opt10BasicBlock21ForEachSuccessorLabelERKNSt3__28functionIFvjEEE": __ZNK8spvtools3opt10BasicBlock21ForEachSuccessorLabelERKNSt3__28functionIFvjEEE, "__ZNK8spvtools3opt11Instruction14GetBaseAddressEv": __ZNK8spvtools3opt11Instruction14GetBaseAddressEv, "__ZNK8spvtools3opt11Instruction14IsReadOnlyLoadEv": __ZNK8spvtools3opt11Instruction14IsReadOnlyLoadEv, "__ZNK8spvtools3opt11Instruction14IsScalarizableEv": __ZNK8spvtools3opt11Instruction14IsScalarizableEv, "__ZNK8spvtools3opt11Instruction20GetSingleWordOperandEj": __ZNK8spvtools3opt11Instruction20GetSingleWordOperandEj, "__ZNK8spvtools3opt11Instruction20IsOpcodeSafeToDeleteEv": __ZNK8spvtools3opt11Instruction20IsOpcodeSafeToDeleteEv, "__ZNK8spvtools3opt11Instruction22IsFoldableByFoldScalarEv": __ZNK8spvtools3opt11Instruction22IsFoldableByFoldScalarEv, "__ZNK8spvtools3opt11Instruction22IsOpcodeCodeMotionSafeEv": __ZNK8spvtools3opt11Instruction22IsOpcodeCodeMotionSafeEv, "__ZNK8spvtools3opt11Instruction29IsFloatingPointFoldingAllowedEv": __ZNK8spvtools3opt11Instruction29IsFloatingPointFoldingAllowedEv, "__ZNK8spvtools3opt11Instruction33ToBinaryWithoutAttachedDebugInstsEPNSt3__26vectorIjNS2_9allocatorIjEEEE": __ZNK8spvtools3opt11Instruction33ToBinaryWithoutAttachedDebugInstsEPNSt3__26vectorIjNS2_9allocatorIjEEEE, "__ZNK8spvtools3opt11Instruction5CloneEPNS0_9IRContextE": __ZNK8spvtools3opt11Instruction5CloneEPNS0_9IRContextE, "__ZNK8spvtools3opt8Function11ForEachInstERKNSt3__28functionIFvPKNS0_11InstructionEEEEb": __ZNK8spvtools3opt8Function11ForEachInstERKNSt3__28functionIFvPKNS0_11InstructionEEEEb, "__ZNK8spvtools3opt8Function12ForEachParamERKNSt3__28functionIFvPKNS0_11InstructionEEEEb": __ZNK8spvtools3opt8Function12ForEachParamERKNSt3__28functionIFvPKNS0_11InstructionEEEEb, "__ZThn36_N3mud6Widget13control_eventERNS_10InputEventE": __ZThn36_N3mud6Widget13control_eventERNS_10InputEventE, "__ZThn36_N3mud6Widget13receive_eventERNS_10InputEventE": __ZThn36_N3mud6Widget13receive_eventERNS_10InputEventE, "__ZThn36_N3mud6Widget15propagate_eventERNS_10InputEventE": __ZThn36_N3mud6Widget15propagate_eventERNS_10InputEventE, "___buildEnvironment": ___buildEnvironment, "___clock_gettime": ___clock_gettime, "___cxa_begin_catch": ___cxa_begin_catch, "___cxa_find_matching_catch": ___cxa_find_matching_catch, "___cxa_pure_virtual": ___cxa_pure_virtual, "___cxa_uncaught_exception": ___cxa_uncaught_exception, "___gxx_personality_v0": ___gxx_personality_v0, "___lock": ___lock, "___map_file": ___map_file, "___resumeException": ___resumeException, "___setErrNo": ___setErrNo, "___syscall10": ___syscall10, "___syscall140": ___syscall140, "___syscall145": ___syscall145, "___syscall146": ___syscall146, "___syscall196": ___syscall196, "___syscall220": ___syscall220, "___syscall221": ___syscall221, "___syscall3": ___syscall3, "___syscall330": ___syscall330, "___syscall38": ___syscall38, "___syscall40": ___syscall40, "___syscall5": ___syscall5, "___syscall54": ___syscall54, "___syscall6": ___syscall6, "___syscall63": ___syscall63, "___syscall91": ___syscall91, "___unlock": ___unlock, "__addDays": __addDays, "__arraySum": __arraySum, "__exit": __exit, "__isLeapYear": __isLeapYear, "_abort": _abort, "_atexit": _atexit, "_clock": _clock, "_clock_gettime": _clock_gettime, "_difftime": _difftime, "_eglChooseConfig": _eglChooseConfig, "_eglCreateContext": _eglCreateContext, "_eglCreateWindowSurface": _eglCreateWindowSurface, "_eglDestroyContext": _eglDestroyContext, "_eglDestroySurface": _eglDestroySurface, "_eglGetDisplay": _eglGetDisplay, "_eglGetProcAddress": _eglGetProcAddress, "_eglInitialize": _eglInitialize, "_eglMakeCurrent": _eglMakeCurrent, "_eglQueryString": _eglQueryString, "_eglSwapBuffers": _eglSwapBuffers, "_eglSwapInterval": _eglSwapInterval, "_eglTerminate": _eglTerminate, "_emscripten_cancel_main_loop": _emscripten_cancel_main_loop, "_emscripten_exit_pointerlock": _emscripten_exit_pointerlock, "_emscripten_get_element_css_size": _emscripten_get_element_css_size, "_emscripten_get_now": _emscripten_get_now, "_emscripten_get_now_is_monotonic": _emscripten_get_now_is_monotonic, "_emscripten_get_pointerlock_status": _emscripten_get_pointerlock_status, "_emscripten_glActiveTexture": _emscripten_glActiveTexture, "_emscripten_glAttachShader": _emscripten_glAttachShader, "_emscripten_glBeginConditionalRender": _emscripten_glBeginConditionalRender, "_emscripten_glBeginTransformFeedback": _emscripten_glBeginTransformFeedback, "_emscripten_glBindAttribLocation": _emscripten_glBindAttribLocation, "_emscripten_glBindBuffer": _emscripten_glBindBuffer, "_emscripten_glBindBufferBase": _emscripten_glBindBufferBase, "_emscripten_glBindBufferRange": _emscripten_glBindBufferRange, "_emscripten_glBindFragDataLocation": _emscripten_glBindFragDataLocation, "_emscripten_glBindFramebuffer": _emscripten_glBindFramebuffer, "_emscripten_glBindProgramARB": _emscripten_glBindProgramARB, "_emscripten_glBindRenderbuffer": _emscripten_glBindRenderbuffer, "_emscripten_glBindTexture": _emscripten_glBindTexture, "_emscripten_glBindVertexArray": _emscripten_glBindVertexArray, "_emscripten_glBlendColor": _emscripten_glBlendColor, "_emscripten_glBlendEquation": _emscripten_glBlendEquation, "_emscripten_glBlendEquationSeparate": _emscripten_glBlendEquationSeparate, "_emscripten_glBlendFunc": _emscripten_glBlendFunc, "_emscripten_glBlendFuncSeparate": _emscripten_glBlendFuncSeparate, "_emscripten_glBlitFramebuffer": _emscripten_glBlitFramebuffer, "_emscripten_glBufferData": _emscripten_glBufferData, "_emscripten_glBufferSubData": _emscripten_glBufferSubData, "_emscripten_glCheckFramebufferStatus": _emscripten_glCheckFramebufferStatus, "_emscripten_glClampColor": _emscripten_glClampColor, "_emscripten_glClear": _emscripten_glClear, "_emscripten_glClearBufferfi": _emscripten_glClearBufferfi, "_emscripten_glClearBufferfv": _emscripten_glClearBufferfv, "_emscripten_glClearBufferiv": _emscripten_glClearBufferiv, "_emscripten_glClearBufferuiv": _emscripten_glClearBufferuiv, "_emscripten_glClearColor": _emscripten_glClearColor, "_emscripten_glClearDepth": _emscripten_glClearDepth, "_emscripten_glClearDepthf": _emscripten_glClearDepthf, "_emscripten_glClearStencil": _emscripten_glClearStencil, "_emscripten_glClientActiveTexture": _emscripten_glClientActiveTexture, "_emscripten_glColorMask": _emscripten_glColorMask, "_emscripten_glColorMaski": _emscripten_glColorMaski, "_emscripten_glColorPointer": _emscripten_glColorPointer, "_emscripten_glCompileShader": _emscripten_glCompileShader, "_emscripten_glCompressedTexImage2D": _emscripten_glCompressedTexImage2D, "_emscripten_glCompressedTexSubImage2D": _emscripten_glCompressedTexSubImage2D, "_emscripten_glCopyTexImage2D": _emscripten_glCopyTexImage2D, "_emscripten_glCopyTexSubImage2D": _emscripten_glCopyTexSubImage2D, "_emscripten_glCreateProgram": _emscripten_glCreateProgram, "_emscripten_glCreateShader": _emscripten_glCreateShader, "_emscripten_glCullFace": _emscripten_glCullFace, "_emscripten_glDeleteBuffers": _emscripten_glDeleteBuffers, "_emscripten_glDeleteFramebuffers": _emscripten_glDeleteFramebuffers, "_emscripten_glDeleteObjectARB": _emscripten_glDeleteObjectARB, "_emscripten_glDeleteProgram": _emscripten_glDeleteProgram, "_emscripten_glDeleteRenderbuffers": _emscripten_glDeleteRenderbuffers, "_emscripten_glDeleteShader": _emscripten_glDeleteShader, "_emscripten_glDeleteTextures": _emscripten_glDeleteTextures, "_emscripten_glDeleteVertexArrays": _emscripten_glDeleteVertexArrays, "_emscripten_glDepthFunc": _emscripten_glDepthFunc, "_emscripten_glDepthMask": _emscripten_glDepthMask, "_emscripten_glDepthRange": _emscripten_glDepthRange, "_emscripten_glDepthRangef": _emscripten_glDepthRangef, "_emscripten_glDetachShader": _emscripten_glDetachShader, "_emscripten_glDisable": _emscripten_glDisable, "_emscripten_glDisableVertexAttribArray": _emscripten_glDisableVertexAttribArray, "_emscripten_glDisablei": _emscripten_glDisablei, "_emscripten_glDrawArrays": _emscripten_glDrawArrays, "_emscripten_glDrawArraysInstanced": _emscripten_glDrawArraysInstanced, "_emscripten_glDrawBuffers": _emscripten_glDrawBuffers, "_emscripten_glDrawElements": _emscripten_glDrawElements, "_emscripten_glDrawElementsInstanced": _emscripten_glDrawElementsInstanced, "_emscripten_glDrawRangeElements": _emscripten_glDrawRangeElements, "_emscripten_glEnable": _emscripten_glEnable, "_emscripten_glEnableClientState": _emscripten_glEnableClientState, "_emscripten_glEnableVertexAttribArray": _emscripten_glEnableVertexAttribArray, "_emscripten_glEnablei": _emscripten_glEnablei, "_emscripten_glEndConditionalRender": _emscripten_glEndConditionalRender, "_emscripten_glEndTransformFeedback": _emscripten_glEndTransformFeedback, "_emscripten_glFinish": _emscripten_glFinish, "_emscripten_glFlush": _emscripten_glFlush, "_emscripten_glFramebufferRenderbuffer": _emscripten_glFramebufferRenderbuffer, "_emscripten_glFramebufferTexture2D": _emscripten_glFramebufferTexture2D, "_emscripten_glFrontFace": _emscripten_glFrontFace, "_emscripten_glFrustum": _emscripten_glFrustum, "_emscripten_glGenBuffers": _emscripten_glGenBuffers, "_emscripten_glGenFramebuffers": _emscripten_glGenFramebuffers, "_emscripten_glGenRenderbuffers": _emscripten_glGenRenderbuffers, "_emscripten_glGenTextures": _emscripten_glGenTextures, "_emscripten_glGenVertexArrays": _emscripten_glGenVertexArrays, "_emscripten_glGenerateMipmap": _emscripten_glGenerateMipmap, "_emscripten_glGetActiveAttrib": _emscripten_glGetActiveAttrib, "_emscripten_glGetActiveUniform": _emscripten_glGetActiveUniform, "_emscripten_glGetActiveUniformBlockName": _emscripten_glGetActiveUniformBlockName, "_emscripten_glGetActiveUniformBlockiv": _emscripten_glGetActiveUniformBlockiv, "_emscripten_glGetActiveUniformName": _emscripten_glGetActiveUniformName, "_emscripten_glGetActiveUniformsiv": _emscripten_glGetActiveUniformsiv, "_emscripten_glGetAttachedShaders": _emscripten_glGetAttachedShaders, "_emscripten_glGetAttribLocation": _emscripten_glGetAttribLocation, "_emscripten_glGetBooleani_v": _emscripten_glGetBooleani_v, "_emscripten_glGetBooleanv": _emscripten_glGetBooleanv, "_emscripten_glGetBufferParameteriv": _emscripten_glGetBufferParameteriv, "_emscripten_glGetError": _emscripten_glGetError, "_emscripten_glGetFloatv": _emscripten_glGetFloatv, "_emscripten_glGetFragDataLocation": _emscripten_glGetFragDataLocation, "_emscripten_glGetFramebufferAttachmentParameteriv": _emscripten_glGetFramebufferAttachmentParameteriv, "_emscripten_glGetInfoLogARB": _emscripten_glGetInfoLogARB, "_emscripten_glGetIntegeri_v": _emscripten_glGetIntegeri_v, "_emscripten_glGetIntegerv": _emscripten_glGetIntegerv, "_emscripten_glGetObjectParameterivARB": _emscripten_glGetObjectParameterivARB, "_emscripten_glGetPointerv": _emscripten_glGetPointerv, "_emscripten_glGetProgramInfoLog": _emscripten_glGetProgramInfoLog, "_emscripten_glGetProgramiv": _emscripten_glGetProgramiv, "_emscripten_glGetRenderbufferParameteriv": _emscripten_glGetRenderbufferParameteriv, "_emscripten_glGetShaderInfoLog": _emscripten_glGetShaderInfoLog, "_emscripten_glGetShaderPrecisionFormat": _emscripten_glGetShaderPrecisionFormat, "_emscripten_glGetShaderSource": _emscripten_glGetShaderSource, "_emscripten_glGetShaderiv": _emscripten_glGetShaderiv, "_emscripten_glGetString": _emscripten_glGetString, "_emscripten_glGetStringi": _emscripten_glGetStringi, "_emscripten_glGetTexParameterIiv": _emscripten_glGetTexParameterIiv, "_emscripten_glGetTexParameterIuiv": _emscripten_glGetTexParameterIuiv, "_emscripten_glGetTexParameterfv": _emscripten_glGetTexParameterfv, "_emscripten_glGetTexParameteriv": _emscripten_glGetTexParameteriv, "_emscripten_glGetTransformFeedbackVarying": _emscripten_glGetTransformFeedbackVarying, "_emscripten_glGetUniformBlockIndex": _emscripten_glGetUniformBlockIndex, "_emscripten_glGetUniformIndices": _emscripten_glGetUniformIndices, "_emscripten_glGetUniformLocation": _emscripten_glGetUniformLocation, "_emscripten_glGetUniformfv": _emscripten_glGetUniformfv, "_emscripten_glGetUniformiv": _emscripten_glGetUniformiv, "_emscripten_glGetUniformuiv": _emscripten_glGetUniformuiv, "_emscripten_glGetVertexAttribIiv": _emscripten_glGetVertexAttribIiv, "_emscripten_glGetVertexAttribIuiv": _emscripten_glGetVertexAttribIuiv, "_emscripten_glGetVertexAttribPointerv": _emscripten_glGetVertexAttribPointerv, "_emscripten_glGetVertexAttribfv": _emscripten_glGetVertexAttribfv, "_emscripten_glGetVertexAttribiv": _emscripten_glGetVertexAttribiv, "_emscripten_glHint": _emscripten_glHint, "_emscripten_glIsBuffer": _emscripten_glIsBuffer, "_emscripten_glIsEnabled": _emscripten_glIsEnabled, "_emscripten_glIsEnabledi": _emscripten_glIsEnabledi, "_emscripten_glIsFramebuffer": _emscripten_glIsFramebuffer, "_emscripten_glIsProgram": _emscripten_glIsProgram, "_emscripten_glIsRenderbuffer": _emscripten_glIsRenderbuffer, "_emscripten_glIsShader": _emscripten_glIsShader, "_emscripten_glIsTexture": _emscripten_glIsTexture, "_emscripten_glIsVertexArray": _emscripten_glIsVertexArray, "_emscripten_glLineWidth": _emscripten_glLineWidth, "_emscripten_glLinkProgram": _emscripten_glLinkProgram, "_emscripten_glLoadIdentity": _emscripten_glLoadIdentity, "_emscripten_glLoadMatrixf": _emscripten_glLoadMatrixf, "_emscripten_glMatrixMode": _emscripten_glMatrixMode, "_emscripten_glNormalPointer": _emscripten_glNormalPointer, "_emscripten_glPixelStorei": _emscripten_glPixelStorei, "_emscripten_glPolygonOffset": _emscripten_glPolygonOffset, "_emscripten_glReadPixels": _emscripten_glReadPixels, "_emscripten_glReleaseShaderCompiler": _emscripten_glReleaseShaderCompiler, "_emscripten_glRenderbufferStorage": _emscripten_glRenderbufferStorage, "_emscripten_glRenderbufferStorageMultisample": _emscripten_glRenderbufferStorageMultisample, "_emscripten_glRotatef": _emscripten_glRotatef, "_emscripten_glSampleCoverage": _emscripten_glSampleCoverage, "_emscripten_glScissor": _emscripten_glScissor, "_emscripten_glShaderBinary": _emscripten_glShaderBinary, "_emscripten_glShaderSource": _emscripten_glShaderSource, "_emscripten_glStencilFunc": _emscripten_glStencilFunc, "_emscripten_glStencilFuncSeparate": _emscripten_glStencilFuncSeparate, "_emscripten_glStencilMask": _emscripten_glStencilMask, "_emscripten_glStencilMaskSeparate": _emscripten_glStencilMaskSeparate, "_emscripten_glStencilOp": _emscripten_glStencilOp, "_emscripten_glStencilOpSeparate": _emscripten_glStencilOpSeparate, "_emscripten_glTexCoordPointer": _emscripten_glTexCoordPointer, "_emscripten_glTexImage2D": _emscripten_glTexImage2D, "_emscripten_glTexImage3D": _emscripten_glTexImage3D, "_emscripten_glTexParameterIiv": _emscripten_glTexParameterIiv, "_emscripten_glTexParameterIuiv": _emscripten_glTexParameterIuiv, "_emscripten_glTexParameterf": _emscripten_glTexParameterf, "_emscripten_glTexParameterfv": _emscripten_glTexParameterfv, "_emscripten_glTexParameteri": _emscripten_glTexParameteri, "_emscripten_glTexParameteriv": _emscripten_glTexParameteriv, "_emscripten_glTexStorage2D": _emscripten_glTexStorage2D, "_emscripten_glTexStorage3D": _emscripten_glTexStorage3D, "_emscripten_glTexSubImage2D": _emscripten_glTexSubImage2D, "_emscripten_glTexSubImage3D": _emscripten_glTexSubImage3D, "_emscripten_glTransformFeedbackVaryings": _emscripten_glTransformFeedbackVaryings, "_emscripten_glUniform1f": _emscripten_glUniform1f, "_emscripten_glUniform1fv": _emscripten_glUniform1fv, "_emscripten_glUniform1i": _emscripten_glUniform1i, "_emscripten_glUniform1iv": _emscripten_glUniform1iv, "_emscripten_glUniform1ui": _emscripten_glUniform1ui, "_emscripten_glUniform2f": _emscripten_glUniform2f, "_emscripten_glUniform2fv": _emscripten_glUniform2fv, "_emscripten_glUniform2i": _emscripten_glUniform2i, "_emscripten_glUniform2iv": _emscripten_glUniform2iv, "_emscripten_glUniform2ui": _emscripten_glUniform2ui, "_emscripten_glUniform3f": _emscripten_glUniform3f, "_emscripten_glUniform3fv": _emscripten_glUniform3fv, "_emscripten_glUniform3i": _emscripten_glUniform3i, "_emscripten_glUniform3iv": _emscripten_glUniform3iv, "_emscripten_glUniform3ui": _emscripten_glUniform3ui, "_emscripten_glUniform4f": _emscripten_glUniform4f, "_emscripten_glUniform4fv": _emscripten_glUniform4fv, "_emscripten_glUniform4i": _emscripten_glUniform4i, "_emscripten_glUniform4iv": _emscripten_glUniform4iv, "_emscripten_glUniform4ui": _emscripten_glUniform4ui, "_emscripten_glUniformBlockBinding": _emscripten_glUniformBlockBinding, "_emscripten_glUniformMatrix2fv": _emscripten_glUniformMatrix2fv, "_emscripten_glUniformMatrix3fv": _emscripten_glUniformMatrix3fv, "_emscripten_glUniformMatrix4fv": _emscripten_glUniformMatrix4fv, "_emscripten_glUseProgram": _emscripten_glUseProgram, "_emscripten_glValidateProgram": _emscripten_glValidateProgram, "_emscripten_glVertexAttrib1f": _emscripten_glVertexAttrib1f, "_emscripten_glVertexAttrib1fv": _emscripten_glVertexAttrib1fv, "_emscripten_glVertexAttrib2f": _emscripten_glVertexAttrib2f, "_emscripten_glVertexAttrib2fv": _emscripten_glVertexAttrib2fv, "_emscripten_glVertexAttrib3f": _emscripten_glVertexAttrib3f, "_emscripten_glVertexAttrib3fv": _emscripten_glVertexAttrib3fv, "_emscripten_glVertexAttrib4f": _emscripten_glVertexAttrib4f, "_emscripten_glVertexAttrib4fv": _emscripten_glVertexAttrib4fv, "_emscripten_glVertexAttribDivisor": _emscripten_glVertexAttribDivisor, "_emscripten_glVertexAttribI1i": _emscripten_glVertexAttribI1i, "_emscripten_glVertexAttribI1iv": _emscripten_glVertexAttribI1iv, "_emscripten_glVertexAttribI1ui": _emscripten_glVertexAttribI1ui, "_emscripten_glVertexAttribI1uiv": _emscripten_glVertexAttribI1uiv, "_emscripten_glVertexAttribI2i": _emscripten_glVertexAttribI2i, "_emscripten_glVertexAttribI2iv": _emscripten_glVertexAttribI2iv, "_emscripten_glVertexAttribI2ui": _emscripten_glVertexAttribI2ui, "_emscripten_glVertexAttribI2uiv": _emscripten_glVertexAttribI2uiv, "_emscripten_glVertexAttribI3i": _emscripten_glVertexAttribI3i, "_emscripten_glVertexAttribI3iv": _emscripten_glVertexAttribI3iv, "_emscripten_glVertexAttribI3ui": _emscripten_glVertexAttribI3ui, "_emscripten_glVertexAttribI3uiv": _emscripten_glVertexAttribI3uiv, "_emscripten_glVertexAttribI4bv": _emscripten_glVertexAttribI4bv, "_emscripten_glVertexAttribI4i": _emscripten_glVertexAttribI4i, "_emscripten_glVertexAttribI4iv": _emscripten_glVertexAttribI4iv, "_emscripten_glVertexAttribI4sv": _emscripten_glVertexAttribI4sv, "_emscripten_glVertexAttribI4ubv": _emscripten_glVertexAttribI4ubv, "_emscripten_glVertexAttribI4ui": _emscripten_glVertexAttribI4ui, "_emscripten_glVertexAttribI4uiv": _emscripten_glVertexAttribI4uiv, "_emscripten_glVertexAttribI4usv": _emscripten_glVertexAttribI4usv, "_emscripten_glVertexAttribIPointer": _emscripten_glVertexAttribIPointer, "_emscripten_glVertexAttribPointer": _emscripten_glVertexAttribPointer, "_emscripten_glVertexPointer": _emscripten_glVertexPointer, "_emscripten_glViewport": _emscripten_glViewport, "_emscripten_longjmp": _emscripten_longjmp, "_emscripten_memcpy_big": _emscripten_memcpy_big, "_emscripten_request_pointerlock": _emscripten_request_pointerlock, "_emscripten_set_canvas_element_size": _emscripten_set_canvas_element_size, "_emscripten_set_canvas_size": _emscripten_set_canvas_size, "_emscripten_set_keydown_callback": _emscripten_set_keydown_callback, "_emscripten_set_keypress_callback": _emscripten_set_keypress_callback, "_emscripten_set_keyup_callback": _emscripten_set_keyup_callback, "_emscripten_set_main_loop": _emscripten_set_main_loop, "_emscripten_set_main_loop_timing": _emscripten_set_main_loop_timing, "_emscripten_set_mousedown_callback": _emscripten_set_mousedown_callback, "_emscripten_set_mousemove_callback": _emscripten_set_mousemove_callback, "_emscripten_set_mouseup_callback": _emscripten_set_mouseup_callback, "_emscripten_set_resize_callback": _emscripten_set_resize_callback, "_emscripten_set_wheel_callback": _emscripten_set_wheel_callback, "_exit": _exit, "_getenv": _getenv, "_glActiveTexture": _glActiveTexture, "_glAttachShader": _glAttachShader, "_glBindBuffer": _glBindBuffer, "_glBindFramebuffer": _glBindFramebuffer, "_glBindRenderbuffer": _glBindRenderbuffer, "_glBindTexture": _glBindTexture, "_glBlendColor": _glBlendColor, "_glBlendEquationSeparate": _glBlendEquationSeparate, "_glBlendFuncSeparate": _glBlendFuncSeparate, "_glBufferData": _glBufferData, "_glBufferSubData": _glBufferSubData, "_glCheckFramebufferStatus": _glCheckFramebufferStatus, "_glClear": _glClear, "_glClearColor": _glClearColor, "_glClearDepthf": _glClearDepthf, "_glClearStencil": _glClearStencil, "_glColorMask": _glColorMask, "_glCompileShader": _glCompileShader, "_glCompressedTexImage2D": _glCompressedTexImage2D, "_glCompressedTexSubImage2D": _glCompressedTexSubImage2D, "_glCreateProgram": _glCreateProgram, "_glCreateShader": _glCreateShader, "_glCullFace": _glCullFace, "_glDeleteBuffers": _glDeleteBuffers, "_glDeleteFramebuffers": _glDeleteFramebuffers, "_glDeleteProgram": _glDeleteProgram, "_glDeleteRenderbuffers": _glDeleteRenderbuffers, "_glDeleteShader": _glDeleteShader, "_glDeleteTextures": _glDeleteTextures, "_glDepthFunc": _glDepthFunc, "_glDepthMask": _glDepthMask, "_glDetachShader": _glDetachShader, "_glDisable": _glDisable, "_glDisableVertexAttribArray": _glDisableVertexAttribArray, "_glDrawArrays": _glDrawArrays, "_glDrawElements": _glDrawElements, "_glEnable": _glEnable, "_glEnableVertexAttribArray": _glEnableVertexAttribArray, "_glFlush": _glFlush, "_glFramebufferRenderbuffer": _glFramebufferRenderbuffer, "_glFramebufferTexture2D": _glFramebufferTexture2D, "_glFrontFace": _glFrontFace, "_glGenBuffers": _glGenBuffers, "_glGenFramebuffers": _glGenFramebuffers, "_glGenRenderbuffers": _glGenRenderbuffers, "_glGenTextures": _glGenTextures, "_glGenerateMipmap": _glGenerateMipmap, "_glGetActiveAttrib": _glGetActiveAttrib, "_glGetActiveUniform": _glGetActiveUniform, "_glGetAttribLocation": _glGetAttribLocation, "_glGetError": _glGetError, "_glGetFloatv": _glGetFloatv, "_glGetIntegerv": _glGetIntegerv, "_glGetProgramInfoLog": _glGetProgramInfoLog, "_glGetProgramiv": _glGetProgramiv, "_glGetShaderInfoLog": _glGetShaderInfoLog, "_glGetShaderiv": _glGetShaderiv, "_glGetString": _glGetString, "_glGetUniformLocation": _glGetUniformLocation, "_glLinkProgram": _glLinkProgram, "_glPixelStorei": _glPixelStorei, "_glReadPixels": _glReadPixels, "_glRenderbufferStorage": _glRenderbufferStorage, "_glScissor": _glScissor, "_glShaderSource": _glShaderSource, "_glStencilFuncSeparate": _glStencilFuncSeparate, "_glStencilOpSeparate": _glStencilOpSeparate, "_glTexImage2D": _glTexImage2D, "_glTexParameterf": _glTexParameterf, "_glTexParameterfv": _glTexParameterfv, "_glTexParameteri": _glTexParameteri, "_glTexSubImage2D": _glTexSubImage2D, "_glUniform1i": _glUniform1i, "_glUniform1iv": _glUniform1iv, "_glUniform4fv": _glUniform4fv, "_glUniformMatrix3fv": _glUniformMatrix3fv, "_glUniformMatrix4fv": _glUniformMatrix4fv, "_glUseProgram": _glUseProgram, "_glVertexAttribPointer": _glVertexAttribPointer, "_glViewport": _glViewport, "_glutCreateWindow": _glutCreateWindow, "_glutDestroyWindow": _glutDestroyWindow, "_glutInitDisplayMode": _glutInitDisplayMode, "_gmtime": _gmtime, "_gmtime_r": _gmtime_r, "_llvm_ceil_f32": _llvm_ceil_f32, "_llvm_ceil_f64": _llvm_ceil_f64, "_llvm_copysign_f32": _llvm_copysign_f32, "_llvm_cttz_i32": _llvm_cttz_i32, "_llvm_exp2_f32": _llvm_exp2_f32, "_llvm_fabs_f32": _llvm_fabs_f32, "_llvm_fabs_f64": _llvm_fabs_f64, "_llvm_floor_f32": _llvm_floor_f32, "_llvm_floor_f64": _llvm_floor_f64, "_llvm_log10_f32": _llvm_log10_f32, "_llvm_log10_f64": _llvm_log10_f64, "_llvm_log2_f32": _llvm_log2_f32, "_llvm_log2_f64": _llvm_log2_f64, "_llvm_stackrestore": _llvm_stackrestore, "_llvm_stacksave": _llvm_stacksave, "_llvm_trap": _llvm_trap, "_llvm_trunc_f32": _llvm_trunc_f32, "_llvm_trunc_f64": _llvm_trunc_f64, "_localtime": _localtime, "_localtime_r": _localtime_r, "_longjmp": _longjmp, "_mktime": _mktime, "_pthread_cond_destroy": _pthread_cond_destroy, "_pthread_cond_signal": _pthread_cond_signal, "_pthread_cond_wait": _pthread_cond_wait, "_pthread_create": _pthread_create, "_pthread_getspecific": _pthread_getspecific, "_pthread_join": _pthread_join, "_pthread_key_create": _pthread_key_create, "_pthread_mutex_destroy": _pthread_mutex_destroy, "_pthread_mutex_init": _pthread_mutex_init, "_pthread_mutexattr_init": _pthread_mutexattr_init, "_pthread_mutexattr_settype": _pthread_mutexattr_settype, "_pthread_once": _pthread_once, "_pthread_setspecific": _pthread_setspecific, "_strftime": _strftime, "_strftime_l": _strftime_l, "_sysconf": _sysconf, "_system": _system, "_time": _time, "_tzset": _tzset, "emscriptenWebGLComputeImageSize": emscriptenWebGLComputeImageSize, "emscriptenWebGLGet": emscriptenWebGLGet, "emscriptenWebGLGetHeapForType": emscriptenWebGLGetHeapForType, "emscriptenWebGLGetIndexed": emscriptenWebGLGetIndexed, "emscriptenWebGLGetShiftForType": emscriptenWebGLGetShiftForType, "emscriptenWebGLGetTexPixelData": emscriptenWebGLGetTexPixelData, "emscriptenWebGLGetUniform": emscriptenWebGLGetUniform, "emscriptenWebGLGetVertexAttrib": emscriptenWebGLGetVertexAttrib, "DYNAMICTOP_PTR": DYNAMICTOP_PTR, "tempDoublePtr": tempDoublePtr, "STACKTOP": STACKTOP, "STACK_MAX": STACK_MAX, "__ZTVN3mud10TextScriptE": __ZTVN3mud10TextScriptE };
+Module.asmLibraryArg = { "abort": abort, "assert": assert, "enlargeMemory": enlargeMemory, "getTotalMemory": getTotalMemory, "abortOnCannotGrowMemory": abortOnCannotGrowMemory, "abortStackOverflow": abortStackOverflow, "nullFunc_dd": nullFunc_dd, "nullFunc_di": nullFunc_di, "nullFunc_ff": nullFunc_ff, "nullFunc_fff": nullFunc_fff, "nullFunc_ffffifi": nullFunc_ffffifi, "nullFunc_ffffifiiiff": nullFunc_ffffifiiiff, "nullFunc_fffifi": nullFunc_fffifi, "nullFunc_fffifiiiff": nullFunc_fffifiiiff, "nullFunc_fi": nullFunc_fi, "nullFunc_fii": nullFunc_fii, "nullFunc_fiii": nullFunc_fiii, "nullFunc_fiiiii": nullFunc_fiiiii, "nullFunc_i": nullFunc_i, "nullFunc_ii": nullFunc_ii, "nullFunc_iif": nullFunc_iif, "nullFunc_iiff": nullFunc_iiff, "nullFunc_iifff": nullFunc_iifff, "nullFunc_iiffff": nullFunc_iiffff, "nullFunc_iifi": nullFunc_iifi, "nullFunc_iii": nullFunc_iii, "nullFunc_iiif": nullFunc_iiif, "nullFunc_iiii": nullFunc_iiii, "nullFunc_iiiif": nullFunc_iiiif, "nullFunc_iiiiff": nullFunc_iiiiff, "nullFunc_iiiii": nullFunc_iiiii, "nullFunc_iiiiid": nullFunc_iiiiid, "nullFunc_iiiiiff": nullFunc_iiiiiff, "nullFunc_iiiiii": nullFunc_iiiiii, "nullFunc_iiiiiid": nullFunc_iiiiiid, "nullFunc_iiiiiii": nullFunc_iiiiiii, "nullFunc_iiiiiiii": nullFunc_iiiiiiii, "nullFunc_iiiiiiiii": nullFunc_iiiiiiiii, "nullFunc_iiiiij": nullFunc_iiiiij, "nullFunc_iiiiji": nullFunc_iiiiji, "nullFunc_iij": nullFunc_iij, "nullFunc_iijii": nullFunc_iijii, "nullFunc_jiji": nullFunc_jiji, "nullFunc_v": nullFunc_v, "nullFunc_vd": nullFunc_vd, "nullFunc_vdd": nullFunc_vdd, "nullFunc_vdddddd": nullFunc_vdddddd, "nullFunc_vf": nullFunc_vf, "nullFunc_vff": nullFunc_vff, "nullFunc_vffff": nullFunc_vffff, "nullFunc_vfi": nullFunc_vfi, "nullFunc_vi": nullFunc_vi, "nullFunc_vif": nullFunc_vif, "nullFunc_viff": nullFunc_viff, "nullFunc_vifff": nullFunc_vifff, "nullFunc_viffff": nullFunc_viffff, "nullFunc_vifffff": nullFunc_vifffff, "nullFunc_viffffff": nullFunc_viffffff, "nullFunc_viffffffff": nullFunc_viffffffff, "nullFunc_vifffffi": nullFunc_vifffffi, "nullFunc_vifi": nullFunc_vifi, "nullFunc_vii": nullFunc_vii, "nullFunc_viif": nullFunc_viif, "nullFunc_viiff": nullFunc_viiff, "nullFunc_viiffff": nullFunc_viiffff, "nullFunc_viiffffffii": nullFunc_viiffffffii, "nullFunc_viifffffi": nullFunc_viifffffi, "nullFunc_viiffffii": nullFunc_viiffffii, "nullFunc_viifffii": nullFunc_viifffii, "nullFunc_viiffii": nullFunc_viiffii, "nullFunc_viifi": nullFunc_viifi, "nullFunc_viifii": nullFunc_viifii, "nullFunc_viii": nullFunc_viii, "nullFunc_viiif": nullFunc_viiif, "nullFunc_viiiffi": nullFunc_viiiffi, "nullFunc_viiiffiii": nullFunc_viiiffiii, "nullFunc_viiifi": nullFunc_viiifi, "nullFunc_viiii": nullFunc_viiii, "nullFunc_viiiii": nullFunc_viiiii, "nullFunc_viiiiii": nullFunc_viiiiii, "nullFunc_viiiiiii": nullFunc_viiiiiii, "nullFunc_viiiiiiii": nullFunc_viiiiiiii, "nullFunc_viiiiiiiii": nullFunc_viiiiiiiii, "nullFunc_viiiiiiiiii": nullFunc_viiiiiiiiii, "nullFunc_viiiiiiiiiii": nullFunc_viiiiiiiiiii, "nullFunc_viiiiiiiiiiiiiii": nullFunc_viiiiiiiiiiiiiii, "nullFunc_viijii": nullFunc_viijii, "nullFunc_vijii": nullFunc_vijii, "invoke_dd": invoke_dd, "invoke_di": invoke_di, "invoke_ff": invoke_ff, "invoke_fff": invoke_fff, "invoke_ffffifi": invoke_ffffifi, "invoke_ffffifiiiff": invoke_ffffifiiiff, "invoke_fffifi": invoke_fffifi, "invoke_fffifiiiff": invoke_fffifiiiff, "invoke_fi": invoke_fi, "invoke_fii": invoke_fii, "invoke_fiii": invoke_fiii, "invoke_fiiiii": invoke_fiiiii, "invoke_i": invoke_i, "invoke_ii": invoke_ii, "invoke_iif": invoke_iif, "invoke_iiff": invoke_iiff, "invoke_iifff": invoke_iifff, "invoke_iiffff": invoke_iiffff, "invoke_iifi": invoke_iifi, "invoke_iii": invoke_iii, "invoke_iiif": invoke_iiif, "invoke_iiii": invoke_iiii, "invoke_iiiif": invoke_iiiif, "invoke_iiiiff": invoke_iiiiff, "invoke_iiiii": invoke_iiiii, "invoke_iiiiid": invoke_iiiiid, "invoke_iiiiiff": invoke_iiiiiff, "invoke_iiiiii": invoke_iiiiii, "invoke_iiiiiid": invoke_iiiiiid, "invoke_iiiiiii": invoke_iiiiiii, "invoke_iiiiiiii": invoke_iiiiiiii, "invoke_iiiiiiiii": invoke_iiiiiiiii, "invoke_iiiiij": invoke_iiiiij, "invoke_iiiiji": invoke_iiiiji, "invoke_iij": invoke_iij, "invoke_iijii": invoke_iijii, "invoke_jiji": invoke_jiji, "invoke_v": invoke_v, "invoke_vd": invoke_vd, "invoke_vdd": invoke_vdd, "invoke_vdddddd": invoke_vdddddd, "invoke_vf": invoke_vf, "invoke_vff": invoke_vff, "invoke_vffff": invoke_vffff, "invoke_vfi": invoke_vfi, "invoke_vi": invoke_vi, "invoke_vif": invoke_vif, "invoke_viff": invoke_viff, "invoke_vifff": invoke_vifff, "invoke_viffff": invoke_viffff, "invoke_vifffff": invoke_vifffff, "invoke_viffffff": invoke_viffffff, "invoke_viffffffff": invoke_viffffffff, "invoke_vifffffi": invoke_vifffffi, "invoke_vifi": invoke_vifi, "invoke_vii": invoke_vii, "invoke_viif": invoke_viif, "invoke_viiff": invoke_viiff, "invoke_viiffff": invoke_viiffff, "invoke_viiffffffii": invoke_viiffffffii, "invoke_viifffffi": invoke_viifffffi, "invoke_viiffffii": invoke_viiffffii, "invoke_viifffii": invoke_viifffii, "invoke_viiffii": invoke_viiffii, "invoke_viifi": invoke_viifi, "invoke_viifii": invoke_viifii, "invoke_viii": invoke_viii, "invoke_viiif": invoke_viiif, "invoke_viiiffi": invoke_viiiffi, "invoke_viiiffiii": invoke_viiiffiii, "invoke_viiifi": invoke_viiifi, "invoke_viiii": invoke_viiii, "invoke_viiiii": invoke_viiiii, "invoke_viiiiii": invoke_viiiiii, "invoke_viiiiiii": invoke_viiiiiii, "invoke_viiiiiiii": invoke_viiiiiiii, "invoke_viiiiiiiii": invoke_viiiiiiiii, "invoke_viiiiiiiiii": invoke_viiiiiiiiii, "invoke_viiiiiiiiiii": invoke_viiiiiiiiiii, "invoke_viiiiiiiiiiiiiii": invoke_viiiiiiiiiiiiiii, "invoke_viijii": invoke_viijii, "invoke_vijii": invoke_vijii, "___buildEnvironment": ___buildEnvironment, "___clock_gettime": ___clock_gettime, "___cxa_begin_catch": ___cxa_begin_catch, "___cxa_find_matching_catch": ___cxa_find_matching_catch, "___cxa_pure_virtual": ___cxa_pure_virtual, "___cxa_uncaught_exception": ___cxa_uncaught_exception, "___gxx_personality_v0": ___gxx_personality_v0, "___lock": ___lock, "___map_file": ___map_file, "___resumeException": ___resumeException, "___setErrNo": ___setErrNo, "___syscall10": ___syscall10, "___syscall102": ___syscall102, "___syscall122": ___syscall122, "___syscall140": ___syscall140, "___syscall142": ___syscall142, "___syscall145": ___syscall145, "___syscall146": ___syscall146, "___syscall192": ___syscall192, "___syscall196": ___syscall196, "___syscall220": ___syscall220, "___syscall221": ___syscall221, "___syscall3": ___syscall3, "___syscall330": ___syscall330, "___syscall38": ___syscall38, "___syscall40": ___syscall40, "___syscall5": ___syscall5, "___syscall54": ___syscall54, "___syscall6": ___syscall6, "___syscall63": ___syscall63, "___syscall91": ___syscall91, "___unlock": ___unlock, "__addDays": __addDays, "__arraySum": __arraySum, "__exit": __exit, "__inet_ntop4_raw": __inet_ntop4_raw, "__inet_ntop6_raw": __inet_ntop6_raw, "__inet_pton4_raw": __inet_pton4_raw, "__inet_pton6_raw": __inet_pton6_raw, "__isLeapYear": __isLeapYear, "__read_sockaddr": __read_sockaddr, "__write_sockaddr": __write_sockaddr, "_abort": _abort, "_atexit": _atexit, "_clock": _clock, "_clock_gettime": _clock_gettime, "_difftime": _difftime, "_eglChooseConfig": _eglChooseConfig, "_eglCreateContext": _eglCreateContext, "_eglCreateWindowSurface": _eglCreateWindowSurface, "_eglDestroyContext": _eglDestroyContext, "_eglDestroySurface": _eglDestroySurface, "_eglGetDisplay": _eglGetDisplay, "_eglGetProcAddress": _eglGetProcAddress, "_eglInitialize": _eglInitialize, "_eglMakeCurrent": _eglMakeCurrent, "_eglQueryString": _eglQueryString, "_eglSwapBuffers": _eglSwapBuffers, "_eglSwapInterval": _eglSwapInterval, "_eglTerminate": _eglTerminate, "_emscripten_cancel_main_loop": _emscripten_cancel_main_loop, "_emscripten_exit_pointerlock": _emscripten_exit_pointerlock, "_emscripten_get_element_css_size": _emscripten_get_element_css_size, "_emscripten_get_now": _emscripten_get_now, "_emscripten_get_now_is_monotonic": _emscripten_get_now_is_monotonic, "_emscripten_get_pointerlock_status": _emscripten_get_pointerlock_status, "_emscripten_glActiveTexture": _emscripten_glActiveTexture, "_emscripten_glAttachShader": _emscripten_glAttachShader, "_emscripten_glBeginConditionalRender": _emscripten_glBeginConditionalRender, "_emscripten_glBeginTransformFeedback": _emscripten_glBeginTransformFeedback, "_emscripten_glBindAttribLocation": _emscripten_glBindAttribLocation, "_emscripten_glBindBuffer": _emscripten_glBindBuffer, "_emscripten_glBindBufferBase": _emscripten_glBindBufferBase, "_emscripten_glBindBufferRange": _emscripten_glBindBufferRange, "_emscripten_glBindFragDataLocation": _emscripten_glBindFragDataLocation, "_emscripten_glBindFramebuffer": _emscripten_glBindFramebuffer, "_emscripten_glBindProgramARB": _emscripten_glBindProgramARB, "_emscripten_glBindRenderbuffer": _emscripten_glBindRenderbuffer, "_emscripten_glBindTexture": _emscripten_glBindTexture, "_emscripten_glBindVertexArray": _emscripten_glBindVertexArray, "_emscripten_glBlendColor": _emscripten_glBlendColor, "_emscripten_glBlendEquation": _emscripten_glBlendEquation, "_emscripten_glBlendEquationSeparate": _emscripten_glBlendEquationSeparate, "_emscripten_glBlendFunc": _emscripten_glBlendFunc, "_emscripten_glBlendFuncSeparate": _emscripten_glBlendFuncSeparate, "_emscripten_glBlitFramebuffer": _emscripten_glBlitFramebuffer, "_emscripten_glBufferData": _emscripten_glBufferData, "_emscripten_glBufferSubData": _emscripten_glBufferSubData, "_emscripten_glCheckFramebufferStatus": _emscripten_glCheckFramebufferStatus, "_emscripten_glClampColor": _emscripten_glClampColor, "_emscripten_glClear": _emscripten_glClear, "_emscripten_glClearBufferfi": _emscripten_glClearBufferfi, "_emscripten_glClearBufferfv": _emscripten_glClearBufferfv, "_emscripten_glClearBufferiv": _emscripten_glClearBufferiv, "_emscripten_glClearBufferuiv": _emscripten_glClearBufferuiv, "_emscripten_glClearColor": _emscripten_glClearColor, "_emscripten_glClearDepth": _emscripten_glClearDepth, "_emscripten_glClearDepthf": _emscripten_glClearDepthf, "_emscripten_glClearStencil": _emscripten_glClearStencil, "_emscripten_glClientActiveTexture": _emscripten_glClientActiveTexture, "_emscripten_glColorMask": _emscripten_glColorMask, "_emscripten_glColorMaski": _emscripten_glColorMaski, "_emscripten_glColorPointer": _emscripten_glColorPointer, "_emscripten_glCompileShader": _emscripten_glCompileShader, "_emscripten_glCompressedTexImage2D": _emscripten_glCompressedTexImage2D, "_emscripten_glCompressedTexSubImage2D": _emscripten_glCompressedTexSubImage2D, "_emscripten_glCopyTexImage2D": _emscripten_glCopyTexImage2D, "_emscripten_glCopyTexSubImage2D": _emscripten_glCopyTexSubImage2D, "_emscripten_glCreateProgram": _emscripten_glCreateProgram, "_emscripten_glCreateShader": _emscripten_glCreateShader, "_emscripten_glCullFace": _emscripten_glCullFace, "_emscripten_glDeleteBuffers": _emscripten_glDeleteBuffers, "_emscripten_glDeleteFramebuffers": _emscripten_glDeleteFramebuffers, "_emscripten_glDeleteObjectARB": _emscripten_glDeleteObjectARB, "_emscripten_glDeleteProgram": _emscripten_glDeleteProgram, "_emscripten_glDeleteRenderbuffers": _emscripten_glDeleteRenderbuffers, "_emscripten_glDeleteShader": _emscripten_glDeleteShader, "_emscripten_glDeleteTextures": _emscripten_glDeleteTextures, "_emscripten_glDeleteVertexArrays": _emscripten_glDeleteVertexArrays, "_emscripten_glDepthFunc": _emscripten_glDepthFunc, "_emscripten_glDepthMask": _emscripten_glDepthMask, "_emscripten_glDepthRange": _emscripten_glDepthRange, "_emscripten_glDepthRangef": _emscripten_glDepthRangef, "_emscripten_glDetachShader": _emscripten_glDetachShader, "_emscripten_glDisable": _emscripten_glDisable, "_emscripten_glDisableVertexAttribArray": _emscripten_glDisableVertexAttribArray, "_emscripten_glDisablei": _emscripten_glDisablei, "_emscripten_glDrawArrays": _emscripten_glDrawArrays, "_emscripten_glDrawArraysInstanced": _emscripten_glDrawArraysInstanced, "_emscripten_glDrawBuffers": _emscripten_glDrawBuffers, "_emscripten_glDrawElements": _emscripten_glDrawElements, "_emscripten_glDrawElementsInstanced": _emscripten_glDrawElementsInstanced, "_emscripten_glDrawRangeElements": _emscripten_glDrawRangeElements, "_emscripten_glEnable": _emscripten_glEnable, "_emscripten_glEnableClientState": _emscripten_glEnableClientState, "_emscripten_glEnableVertexAttribArray": _emscripten_glEnableVertexAttribArray, "_emscripten_glEnablei": _emscripten_glEnablei, "_emscripten_glEndConditionalRender": _emscripten_glEndConditionalRender, "_emscripten_glEndTransformFeedback": _emscripten_glEndTransformFeedback, "_emscripten_glFinish": _emscripten_glFinish, "_emscripten_glFlush": _emscripten_glFlush, "_emscripten_glFramebufferRenderbuffer": _emscripten_glFramebufferRenderbuffer, "_emscripten_glFramebufferTexture2D": _emscripten_glFramebufferTexture2D, "_emscripten_glFrontFace": _emscripten_glFrontFace, "_emscripten_glFrustum": _emscripten_glFrustum, "_emscripten_glGenBuffers": _emscripten_glGenBuffers, "_emscripten_glGenFramebuffers": _emscripten_glGenFramebuffers, "_emscripten_glGenRenderbuffers": _emscripten_glGenRenderbuffers, "_emscripten_glGenTextures": _emscripten_glGenTextures, "_emscripten_glGenVertexArrays": _emscripten_glGenVertexArrays, "_emscripten_glGenerateMipmap": _emscripten_glGenerateMipmap, "_emscripten_glGetActiveAttrib": _emscripten_glGetActiveAttrib, "_emscripten_glGetActiveUniform": _emscripten_glGetActiveUniform, "_emscripten_glGetActiveUniformBlockName": _emscripten_glGetActiveUniformBlockName, "_emscripten_glGetActiveUniformBlockiv": _emscripten_glGetActiveUniformBlockiv, "_emscripten_glGetActiveUniformName": _emscripten_glGetActiveUniformName, "_emscripten_glGetActiveUniformsiv": _emscripten_glGetActiveUniformsiv, "_emscripten_glGetAttachedShaders": _emscripten_glGetAttachedShaders, "_emscripten_glGetAttribLocation": _emscripten_glGetAttribLocation, "_emscripten_glGetBooleani_v": _emscripten_glGetBooleani_v, "_emscripten_glGetBooleanv": _emscripten_glGetBooleanv, "_emscripten_glGetBufferParameteriv": _emscripten_glGetBufferParameteriv, "_emscripten_glGetError": _emscripten_glGetError, "_emscripten_glGetFloatv": _emscripten_glGetFloatv, "_emscripten_glGetFragDataLocation": _emscripten_glGetFragDataLocation, "_emscripten_glGetFramebufferAttachmentParameteriv": _emscripten_glGetFramebufferAttachmentParameteriv, "_emscripten_glGetInfoLogARB": _emscripten_glGetInfoLogARB, "_emscripten_glGetIntegeri_v": _emscripten_glGetIntegeri_v, "_emscripten_glGetIntegerv": _emscripten_glGetIntegerv, "_emscripten_glGetObjectParameterivARB": _emscripten_glGetObjectParameterivARB, "_emscripten_glGetPointerv": _emscripten_glGetPointerv, "_emscripten_glGetProgramInfoLog": _emscripten_glGetProgramInfoLog, "_emscripten_glGetProgramiv": _emscripten_glGetProgramiv, "_emscripten_glGetRenderbufferParameteriv": _emscripten_glGetRenderbufferParameteriv, "_emscripten_glGetShaderInfoLog": _emscripten_glGetShaderInfoLog, "_emscripten_glGetShaderPrecisionFormat": _emscripten_glGetShaderPrecisionFormat, "_emscripten_glGetShaderSource": _emscripten_glGetShaderSource, "_emscripten_glGetShaderiv": _emscripten_glGetShaderiv, "_emscripten_glGetString": _emscripten_glGetString, "_emscripten_glGetStringi": _emscripten_glGetStringi, "_emscripten_glGetTexParameterIiv": _emscripten_glGetTexParameterIiv, "_emscripten_glGetTexParameterIuiv": _emscripten_glGetTexParameterIuiv, "_emscripten_glGetTexParameterfv": _emscripten_glGetTexParameterfv, "_emscripten_glGetTexParameteriv": _emscripten_glGetTexParameteriv, "_emscripten_glGetTransformFeedbackVarying": _emscripten_glGetTransformFeedbackVarying, "_emscripten_glGetUniformBlockIndex": _emscripten_glGetUniformBlockIndex, "_emscripten_glGetUniformIndices": _emscripten_glGetUniformIndices, "_emscripten_glGetUniformLocation": _emscripten_glGetUniformLocation, "_emscripten_glGetUniformfv": _emscripten_glGetUniformfv, "_emscripten_glGetUniformiv": _emscripten_glGetUniformiv, "_emscripten_glGetUniformuiv": _emscripten_glGetUniformuiv, "_emscripten_glGetVertexAttribIiv": _emscripten_glGetVertexAttribIiv, "_emscripten_glGetVertexAttribIuiv": _emscripten_glGetVertexAttribIuiv, "_emscripten_glGetVertexAttribPointerv": _emscripten_glGetVertexAttribPointerv, "_emscripten_glGetVertexAttribfv": _emscripten_glGetVertexAttribfv, "_emscripten_glGetVertexAttribiv": _emscripten_glGetVertexAttribiv, "_emscripten_glHint": _emscripten_glHint, "_emscripten_glIsBuffer": _emscripten_glIsBuffer, "_emscripten_glIsEnabled": _emscripten_glIsEnabled, "_emscripten_glIsEnabledi": _emscripten_glIsEnabledi, "_emscripten_glIsFramebuffer": _emscripten_glIsFramebuffer, "_emscripten_glIsProgram": _emscripten_glIsProgram, "_emscripten_glIsRenderbuffer": _emscripten_glIsRenderbuffer, "_emscripten_glIsShader": _emscripten_glIsShader, "_emscripten_glIsTexture": _emscripten_glIsTexture, "_emscripten_glIsVertexArray": _emscripten_glIsVertexArray, "_emscripten_glLineWidth": _emscripten_glLineWidth, "_emscripten_glLinkProgram": _emscripten_glLinkProgram, "_emscripten_glLoadIdentity": _emscripten_glLoadIdentity, "_emscripten_glLoadMatrixf": _emscripten_glLoadMatrixf, "_emscripten_glMatrixMode": _emscripten_glMatrixMode, "_emscripten_glNormalPointer": _emscripten_glNormalPointer, "_emscripten_glPixelStorei": _emscripten_glPixelStorei, "_emscripten_glPolygonOffset": _emscripten_glPolygonOffset, "_emscripten_glReadPixels": _emscripten_glReadPixels, "_emscripten_glReleaseShaderCompiler": _emscripten_glReleaseShaderCompiler, "_emscripten_glRenderbufferStorage": _emscripten_glRenderbufferStorage, "_emscripten_glRenderbufferStorageMultisample": _emscripten_glRenderbufferStorageMultisample, "_emscripten_glRotatef": _emscripten_glRotatef, "_emscripten_glSampleCoverage": _emscripten_glSampleCoverage, "_emscripten_glScissor": _emscripten_glScissor, "_emscripten_glShaderBinary": _emscripten_glShaderBinary, "_emscripten_glShaderSource": _emscripten_glShaderSource, "_emscripten_glStencilFunc": _emscripten_glStencilFunc, "_emscripten_glStencilFuncSeparate": _emscripten_glStencilFuncSeparate, "_emscripten_glStencilMask": _emscripten_glStencilMask, "_emscripten_glStencilMaskSeparate": _emscripten_glStencilMaskSeparate, "_emscripten_glStencilOp": _emscripten_glStencilOp, "_emscripten_glStencilOpSeparate": _emscripten_glStencilOpSeparate, "_emscripten_glTexCoordPointer": _emscripten_glTexCoordPointer, "_emscripten_glTexImage2D": _emscripten_glTexImage2D, "_emscripten_glTexImage3D": _emscripten_glTexImage3D, "_emscripten_glTexParameterIiv": _emscripten_glTexParameterIiv, "_emscripten_glTexParameterIuiv": _emscripten_glTexParameterIuiv, "_emscripten_glTexParameterf": _emscripten_glTexParameterf, "_emscripten_glTexParameterfv": _emscripten_glTexParameterfv, "_emscripten_glTexParameteri": _emscripten_glTexParameteri, "_emscripten_glTexParameteriv": _emscripten_glTexParameteriv, "_emscripten_glTexStorage2D": _emscripten_glTexStorage2D, "_emscripten_glTexStorage3D": _emscripten_glTexStorage3D, "_emscripten_glTexSubImage2D": _emscripten_glTexSubImage2D, "_emscripten_glTexSubImage3D": _emscripten_glTexSubImage3D, "_emscripten_glTransformFeedbackVaryings": _emscripten_glTransformFeedbackVaryings, "_emscripten_glUniform1f": _emscripten_glUniform1f, "_emscripten_glUniform1fv": _emscripten_glUniform1fv, "_emscripten_glUniform1i": _emscripten_glUniform1i, "_emscripten_glUniform1iv": _emscripten_glUniform1iv, "_emscripten_glUniform1ui": _emscripten_glUniform1ui, "_emscripten_glUniform2f": _emscripten_glUniform2f, "_emscripten_glUniform2fv": _emscripten_glUniform2fv, "_emscripten_glUniform2i": _emscripten_glUniform2i, "_emscripten_glUniform2iv": _emscripten_glUniform2iv, "_emscripten_glUniform2ui": _emscripten_glUniform2ui, "_emscripten_glUniform3f": _emscripten_glUniform3f, "_emscripten_glUniform3fv": _emscripten_glUniform3fv, "_emscripten_glUniform3i": _emscripten_glUniform3i, "_emscripten_glUniform3iv": _emscripten_glUniform3iv, "_emscripten_glUniform3ui": _emscripten_glUniform3ui, "_emscripten_glUniform4f": _emscripten_glUniform4f, "_emscripten_glUniform4fv": _emscripten_glUniform4fv, "_emscripten_glUniform4i": _emscripten_glUniform4i, "_emscripten_glUniform4iv": _emscripten_glUniform4iv, "_emscripten_glUniform4ui": _emscripten_glUniform4ui, "_emscripten_glUniformBlockBinding": _emscripten_glUniformBlockBinding, "_emscripten_glUniformMatrix2fv": _emscripten_glUniformMatrix2fv, "_emscripten_glUniformMatrix3fv": _emscripten_glUniformMatrix3fv, "_emscripten_glUniformMatrix4fv": _emscripten_glUniformMatrix4fv, "_emscripten_glUseProgram": _emscripten_glUseProgram, "_emscripten_glValidateProgram": _emscripten_glValidateProgram, "_emscripten_glVertexAttrib1f": _emscripten_glVertexAttrib1f, "_emscripten_glVertexAttrib1fv": _emscripten_glVertexAttrib1fv, "_emscripten_glVertexAttrib2f": _emscripten_glVertexAttrib2f, "_emscripten_glVertexAttrib2fv": _emscripten_glVertexAttrib2fv, "_emscripten_glVertexAttrib3f": _emscripten_glVertexAttrib3f, "_emscripten_glVertexAttrib3fv": _emscripten_glVertexAttrib3fv, "_emscripten_glVertexAttrib4f": _emscripten_glVertexAttrib4f, "_emscripten_glVertexAttrib4fv": _emscripten_glVertexAttrib4fv, "_emscripten_glVertexAttribDivisor": _emscripten_glVertexAttribDivisor, "_emscripten_glVertexAttribI1i": _emscripten_glVertexAttribI1i, "_emscripten_glVertexAttribI1iv": _emscripten_glVertexAttribI1iv, "_emscripten_glVertexAttribI1ui": _emscripten_glVertexAttribI1ui, "_emscripten_glVertexAttribI1uiv": _emscripten_glVertexAttribI1uiv, "_emscripten_glVertexAttribI2i": _emscripten_glVertexAttribI2i, "_emscripten_glVertexAttribI2iv": _emscripten_glVertexAttribI2iv, "_emscripten_glVertexAttribI2ui": _emscripten_glVertexAttribI2ui, "_emscripten_glVertexAttribI2uiv": _emscripten_glVertexAttribI2uiv, "_emscripten_glVertexAttribI3i": _emscripten_glVertexAttribI3i, "_emscripten_glVertexAttribI3iv": _emscripten_glVertexAttribI3iv, "_emscripten_glVertexAttribI3ui": _emscripten_glVertexAttribI3ui, "_emscripten_glVertexAttribI3uiv": _emscripten_glVertexAttribI3uiv, "_emscripten_glVertexAttribI4bv": _emscripten_glVertexAttribI4bv, "_emscripten_glVertexAttribI4i": _emscripten_glVertexAttribI4i, "_emscripten_glVertexAttribI4iv": _emscripten_glVertexAttribI4iv, "_emscripten_glVertexAttribI4sv": _emscripten_glVertexAttribI4sv, "_emscripten_glVertexAttribI4ubv": _emscripten_glVertexAttribI4ubv, "_emscripten_glVertexAttribI4ui": _emscripten_glVertexAttribI4ui, "_emscripten_glVertexAttribI4uiv": _emscripten_glVertexAttribI4uiv, "_emscripten_glVertexAttribI4usv": _emscripten_glVertexAttribI4usv, "_emscripten_glVertexAttribIPointer": _emscripten_glVertexAttribIPointer, "_emscripten_glVertexAttribPointer": _emscripten_glVertexAttribPointer, "_emscripten_glVertexPointer": _emscripten_glVertexPointer, "_emscripten_glViewport": _emscripten_glViewport, "_emscripten_longjmp": _emscripten_longjmp, "_emscripten_memcpy_big": _emscripten_memcpy_big, "_emscripten_request_pointerlock": _emscripten_request_pointerlock, "_emscripten_set_canvas_element_size": _emscripten_set_canvas_element_size, "_emscripten_set_canvas_size": _emscripten_set_canvas_size, "_emscripten_set_keydown_callback": _emscripten_set_keydown_callback, "_emscripten_set_keypress_callback": _emscripten_set_keypress_callback, "_emscripten_set_keyup_callback": _emscripten_set_keyup_callback, "_emscripten_set_main_loop": _emscripten_set_main_loop, "_emscripten_set_main_loop_timing": _emscripten_set_main_loop_timing, "_emscripten_set_mousedown_callback": _emscripten_set_mousedown_callback, "_emscripten_set_mousemove_callback": _emscripten_set_mousemove_callback, "_emscripten_set_mouseup_callback": _emscripten_set_mouseup_callback, "_emscripten_set_resize_callback": _emscripten_set_resize_callback, "_emscripten_set_wheel_callback": _emscripten_set_wheel_callback, "_exit": _exit, "_getaddrinfo": _getaddrinfo, "_getenv": _getenv, "_glActiveTexture": _glActiveTexture, "_glAttachShader": _glAttachShader, "_glBindBuffer": _glBindBuffer, "_glBindFramebuffer": _glBindFramebuffer, "_glBindRenderbuffer": _glBindRenderbuffer, "_glBindTexture": _glBindTexture, "_glBlendColor": _glBlendColor, "_glBlendEquationSeparate": _glBlendEquationSeparate, "_glBlendFuncSeparate": _glBlendFuncSeparate, "_glBufferData": _glBufferData, "_glBufferSubData": _glBufferSubData, "_glCheckFramebufferStatus": _glCheckFramebufferStatus, "_glClear": _glClear, "_glClearColor": _glClearColor, "_glClearDepthf": _glClearDepthf, "_glClearStencil": _glClearStencil, "_glColorMask": _glColorMask, "_glCompileShader": _glCompileShader, "_glCompressedTexImage2D": _glCompressedTexImage2D, "_glCompressedTexSubImage2D": _glCompressedTexSubImage2D, "_glCreateProgram": _glCreateProgram, "_glCreateShader": _glCreateShader, "_glCullFace": _glCullFace, "_glDeleteBuffers": _glDeleteBuffers, "_glDeleteFramebuffers": _glDeleteFramebuffers, "_glDeleteProgram": _glDeleteProgram, "_glDeleteRenderbuffers": _glDeleteRenderbuffers, "_glDeleteShader": _glDeleteShader, "_glDeleteTextures": _glDeleteTextures, "_glDepthFunc": _glDepthFunc, "_glDepthMask": _glDepthMask, "_glDetachShader": _glDetachShader, "_glDisable": _glDisable, "_glDisableVertexAttribArray": _glDisableVertexAttribArray, "_glDrawArrays": _glDrawArrays, "_glDrawElements": _glDrawElements, "_glEnable": _glEnable, "_glEnableVertexAttribArray": _glEnableVertexAttribArray, "_glFlush": _glFlush, "_glFramebufferRenderbuffer": _glFramebufferRenderbuffer, "_glFramebufferTexture2D": _glFramebufferTexture2D, "_glFrontFace": _glFrontFace, "_glGenBuffers": _glGenBuffers, "_glGenFramebuffers": _glGenFramebuffers, "_glGenRenderbuffers": _glGenRenderbuffers, "_glGenTextures": _glGenTextures, "_glGenerateMipmap": _glGenerateMipmap, "_glGetActiveAttrib": _glGetActiveAttrib, "_glGetActiveUniform": _glGetActiveUniform, "_glGetAttribLocation": _glGetAttribLocation, "_glGetError": _glGetError, "_glGetFloatv": _glGetFloatv, "_glGetIntegerv": _glGetIntegerv, "_glGetProgramInfoLog": _glGetProgramInfoLog, "_glGetProgramiv": _glGetProgramiv, "_glGetShaderInfoLog": _glGetShaderInfoLog, "_glGetShaderiv": _glGetShaderiv, "_glGetString": _glGetString, "_glGetUniformLocation": _glGetUniformLocation, "_glLinkProgram": _glLinkProgram, "_glPixelStorei": _glPixelStorei, "_glReadPixels": _glReadPixels, "_glRenderbufferStorage": _glRenderbufferStorage, "_glScissor": _glScissor, "_glShaderSource": _glShaderSource, "_glStencilFuncSeparate": _glStencilFuncSeparate, "_glStencilOpSeparate": _glStencilOpSeparate, "_glTexImage2D": _glTexImage2D, "_glTexParameterf": _glTexParameterf, "_glTexParameterfv": _glTexParameterfv, "_glTexParameteri": _glTexParameteri, "_glTexSubImage2D": _glTexSubImage2D, "_glUniform1i": _glUniform1i, "_glUniform1iv": _glUniform1iv, "_glUniform4fv": _glUniform4fv, "_glUniformMatrix3fv": _glUniformMatrix3fv, "_glUniformMatrix4fv": _glUniformMatrix4fv, "_glUseProgram": _glUseProgram, "_glVertexAttribPointer": _glVertexAttribPointer, "_glViewport": _glViewport, "_glutCreateWindow": _glutCreateWindow, "_glutDestroyWindow": _glutDestroyWindow, "_glutInitDisplayMode": _glutInitDisplayMode, "_gmtime": _gmtime, "_gmtime_r": _gmtime_r, "_llvm_ceil_f32": _llvm_ceil_f32, "_llvm_ceil_f64": _llvm_ceil_f64, "_llvm_copysign_f32": _llvm_copysign_f32, "_llvm_cttz_i32": _llvm_cttz_i32, "_llvm_exp2_f32": _llvm_exp2_f32, "_llvm_fabs_f32": _llvm_fabs_f32, "_llvm_fabs_f64": _llvm_fabs_f64, "_llvm_floor_f32": _llvm_floor_f32, "_llvm_floor_f64": _llvm_floor_f64, "_llvm_log10_f32": _llvm_log10_f32, "_llvm_log10_f64": _llvm_log10_f64, "_llvm_log2_f32": _llvm_log2_f32, "_llvm_log2_f64": _llvm_log2_f64, "_llvm_stackrestore": _llvm_stackrestore, "_llvm_stacksave": _llvm_stacksave, "_llvm_trap": _llvm_trap, "_llvm_trunc_f32": _llvm_trunc_f32, "_llvm_trunc_f64": _llvm_trunc_f64, "_localtime": _localtime, "_localtime_r": _localtime_r, "_longjmp": _longjmp, "_mktime": _mktime, "_nanosleep": _nanosleep, "_pthread_cond_destroy": _pthread_cond_destroy, "_pthread_cond_signal": _pthread_cond_signal, "_pthread_cond_wait": _pthread_cond_wait, "_pthread_create": _pthread_create, "_pthread_getspecific": _pthread_getspecific, "_pthread_join": _pthread_join, "_pthread_key_create": _pthread_key_create, "_pthread_mutex_destroy": _pthread_mutex_destroy, "_pthread_mutex_init": _pthread_mutex_init, "_pthread_mutexattr_init": _pthread_mutexattr_init, "_pthread_mutexattr_settype": _pthread_mutexattr_settype, "_pthread_once": _pthread_once, "_pthread_setspecific": _pthread_setspecific, "_strftime": _strftime, "_strftime_l": _strftime_l, "_sysconf": _sysconf, "_system": _system, "_time": _time, "_tzset": _tzset, "_usleep": _usleep, "emscriptenWebGLComputeImageSize": emscriptenWebGLComputeImageSize, "emscriptenWebGLGet": emscriptenWebGLGet, "emscriptenWebGLGetHeapForType": emscriptenWebGLGetHeapForType, "emscriptenWebGLGetIndexed": emscriptenWebGLGetIndexed, "emscriptenWebGLGetShiftForType": emscriptenWebGLGetShiftForType, "emscriptenWebGLGetTexPixelData": emscriptenWebGLGetTexPixelData, "emscriptenWebGLGetUniform": emscriptenWebGLGetUniform, "emscriptenWebGLGetVertexAttrib": emscriptenWebGLGetVertexAttrib, "DYNAMICTOP_PTR": DYNAMICTOP_PTR, "tempDoublePtr": tempDoublePtr, "STACKTOP": STACKTOP, "STACK_MAX": STACK_MAX };
 // EMSCRIPTEN_START_ASM
 var asm =Module["asm"]// EMSCRIPTEN_END_ASM
 (Module.asmGlobalArg, Module.asmLibraryArg, buffer);
@@ -13711,10 +14374,46 @@ var real___GLOBAL__I_000101 = asm["__GLOBAL__I_000101"]; asm["__GLOBAL__I_000101
   return real___GLOBAL__I_000101.apply(null, arguments);
 };
 
+var real___GLOBAL__I_000101_5974 = asm["__GLOBAL__I_000101_5974"]; asm["__GLOBAL__I_000101_5974"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real___GLOBAL__I_000101_5974.apply(null, arguments);
+};
+
+var real___GLOBAL__I_000102 = asm["__GLOBAL__I_000102"]; asm["__GLOBAL__I_000102"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real___GLOBAL__I_000102.apply(null, arguments);
+};
+
+var real___GLOBAL__I_000103 = asm["__GLOBAL__I_000103"]; asm["__GLOBAL__I_000103"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real___GLOBAL__I_000103.apply(null, arguments);
+};
+
+var real___GLOBAL__I_000105 = asm["__GLOBAL__I_000105"]; asm["__GLOBAL__I_000105"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real___GLOBAL__I_000105.apply(null, arguments);
+};
+
+var real___GLOBAL__sub_I_Anim_cpp = asm["__GLOBAL__sub_I_Anim_cpp"]; asm["__GLOBAL__sub_I_Anim_cpp"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real___GLOBAL__sub_I_Anim_cpp.apply(null, arguments);
+};
+
 var real___GLOBAL__sub_I_Draw_cpp = asm["__GLOBAL__sub_I_Draw_cpp"]; asm["__GLOBAL__sub_I_Draw_cpp"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return real___GLOBAL__sub_I_Draw_cpp.apply(null, arguments);
+};
+
+var real___GLOBAL__sub_I_Entity_cpp = asm["__GLOBAL__sub_I_Entity_cpp"]; asm["__GLOBAL__sub_I_Entity_cpp"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real___GLOBAL__sub_I_Entity_cpp.apply(null, arguments);
 };
 
 var real___GLOBAL__sub_I_Icosphere_cpp = asm["__GLOBAL__sub_I_Icosphere_cpp"]; asm["__GLOBAL__sub_I_Icosphere_cpp"] = function() {
@@ -13759,6 +14458,18 @@ var real___GLOBAL__sub_I_Particles_cpp = asm["__GLOBAL__sub_I_Particles_cpp"]; a
   return real___GLOBAL__sub_I_Particles_cpp.apply(null, arguments);
 };
 
+var real___GLOBAL__sub_I_Proto_cpp = asm["__GLOBAL__sub_I_Proto_cpp"]; asm["__GLOBAL__sub_I_Proto_cpp"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real___GLOBAL__sub_I_Proto_cpp.apply(null, arguments);
+};
+
+var real___GLOBAL__sub_I_SPVRemapper_cpp = asm["__GLOBAL__sub_I_SPVRemapper_cpp"]; asm["__GLOBAL__sub_I_SPVRemapper_cpp"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real___GLOBAL__sub_I_SPVRemapper_cpp.apply(null, arguments);
+};
+
 var real___GLOBAL__sub_I_Sky_cpp = asm["__GLOBAL__sub_I_Sky_cpp"]; asm["__GLOBAL__sub_I_Sky_cpp"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -13769,6 +14480,12 @@ var real___GLOBAL__sub_I_Styler_cpp = asm["__GLOBAL__sub_I_Styler_cpp"]; asm["__
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return real___GLOBAL__sub_I_Styler_cpp.apply(null, arguments);
+};
+
+var real___GLOBAL__sub_I_TracyClient_cpp = asm["__GLOBAL__sub_I_TracyClient_cpp"]; asm["__GLOBAL__sub_I_TracyClient_cpp"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real___GLOBAL__sub_I_TracyClient_cpp.apply(null, arguments);
 };
 
 var real___GLOBAL__sub_I_Type_cpp = asm["__GLOBAL__sub_I_Type_cpp"]; asm["__GLOBAL__sub_I_Type_cpp"] = function() {
@@ -13795,6 +14512,12 @@ var real___GLOBAL__sub_I_builtin_types_cpp = asm["__GLOBAL__sub_I_builtin_types_
   return real___GLOBAL__sub_I_builtin_types_cpp.apply(null, arguments);
 };
 
+var real___GLOBAL__sub_I_doc_cpp = asm["__GLOBAL__sub_I_doc_cpp"]; asm["__GLOBAL__sub_I_doc_cpp"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real___GLOBAL__sub_I_doc_cpp.apply(null, arguments);
+};
+
 var real___GLOBAL__sub_I_iostream_cpp = asm["__GLOBAL__sub_I_iostream_cpp"]; asm["__GLOBAL__sub_I_iostream_cpp"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -13819,22 +14542,22 @@ var real____cxx_global_var_init = asm["___cxx_global_var_init"]; asm["___cxx_glo
   return real____cxx_global_var_init.apply(null, arguments);
 };
 
-var real____cxx_global_var_init_1797 = asm["___cxx_global_var_init_1797"]; asm["___cxx_global_var_init_1797"] = function() {
-  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
-  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
-  return real____cxx_global_var_init_1797.apply(null, arguments);
-};
-
-var real____cxx_global_var_init_1823 = asm["___cxx_global_var_init_1823"]; asm["___cxx_global_var_init_1823"] = function() {
-  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
-  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
-  return real____cxx_global_var_init_1823.apply(null, arguments);
-};
-
 var real____cxx_global_var_init_36 = asm["___cxx_global_var_init_36"]; asm["___cxx_global_var_init_36"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return real____cxx_global_var_init_36.apply(null, arguments);
+};
+
+var real____cxx_global_var_init_5393 = asm["___cxx_global_var_init_5393"]; asm["___cxx_global_var_init_5393"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real____cxx_global_var_init_5393.apply(null, arguments);
+};
+
+var real____cxx_global_var_init_575 = asm["___cxx_global_var_init_575"]; asm["___cxx_global_var_init_575"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real____cxx_global_var_init_575.apply(null, arguments);
 };
 
 var real____emscripten_environ_constructor = asm["___emscripten_environ_constructor"]; asm["___emscripten_environ_constructor"] = function() {
@@ -13915,10 +14638,22 @@ var real__llvm_bswap_i32 = asm["_llvm_bswap_i32"]; asm["_llvm_bswap_i32"] = func
   return real__llvm_bswap_i32.apply(null, arguments);
 };
 
+var real__llvm_maxnum_f32 = asm["_llvm_maxnum_f32"]; asm["_llvm_maxnum_f32"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real__llvm_maxnum_f32.apply(null, arguments);
+};
+
 var real__llvm_maxnum_f64 = asm["_llvm_maxnum_f64"]; asm["_llvm_maxnum_f64"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return real__llvm_maxnum_f64.apply(null, arguments);
+};
+
+var real__llvm_minnum_f32 = asm["_llvm_minnum_f32"]; asm["_llvm_minnum_f32"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real__llvm_minnum_f32.apply(null, arguments);
 };
 
 var real__llvm_minnum_f64 = asm["_llvm_minnum_f64"]; asm["_llvm_minnum_f64"] = function() {
@@ -13979,6 +14714,12 @@ var real__pthread_mutex_lock = asm["_pthread_mutex_lock"]; asm["_pthread_mutex_l
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return real__pthread_mutex_lock.apply(null, arguments);
+};
+
+var real__pthread_mutex_trylock = asm["_pthread_mutex_trylock"]; asm["_pthread_mutex_trylock"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return real__pthread_mutex_trylock.apply(null, arguments);
 };
 
 var real__pthread_mutex_unlock = asm["_pthread_mutex_unlock"]; asm["_pthread_mutex_unlock"] = function() {
@@ -14063,10 +14804,34 @@ var __GLOBAL__I_000101 = Module["__GLOBAL__I_000101"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["__GLOBAL__I_000101"].apply(null, arguments) };
+var __GLOBAL__I_000101_5974 = Module["__GLOBAL__I_000101_5974"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["__GLOBAL__I_000101_5974"].apply(null, arguments) };
+var __GLOBAL__I_000102 = Module["__GLOBAL__I_000102"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["__GLOBAL__I_000102"].apply(null, arguments) };
+var __GLOBAL__I_000103 = Module["__GLOBAL__I_000103"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["__GLOBAL__I_000103"].apply(null, arguments) };
+var __GLOBAL__I_000105 = Module["__GLOBAL__I_000105"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["__GLOBAL__I_000105"].apply(null, arguments) };
+var __GLOBAL__sub_I_Anim_cpp = Module["__GLOBAL__sub_I_Anim_cpp"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["__GLOBAL__sub_I_Anim_cpp"].apply(null, arguments) };
 var __GLOBAL__sub_I_Draw_cpp = Module["__GLOBAL__sub_I_Draw_cpp"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["__GLOBAL__sub_I_Draw_cpp"].apply(null, arguments) };
+var __GLOBAL__sub_I_Entity_cpp = Module["__GLOBAL__sub_I_Entity_cpp"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["__GLOBAL__sub_I_Entity_cpp"].apply(null, arguments) };
 var __GLOBAL__sub_I_Icosphere_cpp = Module["__GLOBAL__sub_I_Icosphere_cpp"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -14095,6 +14860,14 @@ var __GLOBAL__sub_I_Particles_cpp = Module["__GLOBAL__sub_I_Particles_cpp"] = fu
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["__GLOBAL__sub_I_Particles_cpp"].apply(null, arguments) };
+var __GLOBAL__sub_I_Proto_cpp = Module["__GLOBAL__sub_I_Proto_cpp"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["__GLOBAL__sub_I_Proto_cpp"].apply(null, arguments) };
+var __GLOBAL__sub_I_SPVRemapper_cpp = Module["__GLOBAL__sub_I_SPVRemapper_cpp"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["__GLOBAL__sub_I_SPVRemapper_cpp"].apply(null, arguments) };
 var __GLOBAL__sub_I_Sky_cpp = Module["__GLOBAL__sub_I_Sky_cpp"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -14103,6 +14876,10 @@ var __GLOBAL__sub_I_Styler_cpp = Module["__GLOBAL__sub_I_Styler_cpp"] = function
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["__GLOBAL__sub_I_Styler_cpp"].apply(null, arguments) };
+var __GLOBAL__sub_I_TracyClient_cpp = Module["__GLOBAL__sub_I_TracyClient_cpp"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["__GLOBAL__sub_I_TracyClient_cpp"].apply(null, arguments) };
 var __GLOBAL__sub_I_Type_cpp = Module["__GLOBAL__sub_I_Type_cpp"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -14119,6 +14896,10 @@ var __GLOBAL__sub_I_builtin_types_cpp = Module["__GLOBAL__sub_I_builtin_types_cp
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["__GLOBAL__sub_I_builtin_types_cpp"].apply(null, arguments) };
+var __GLOBAL__sub_I_doc_cpp = Module["__GLOBAL__sub_I_doc_cpp"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["__GLOBAL__sub_I_doc_cpp"].apply(null, arguments) };
 var __GLOBAL__sub_I_iostream_cpp = Module["__GLOBAL__sub_I_iostream_cpp"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -14135,18 +14916,18 @@ var ___cxx_global_var_init = Module["___cxx_global_var_init"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["___cxx_global_var_init"].apply(null, arguments) };
-var ___cxx_global_var_init_1797 = Module["___cxx_global_var_init_1797"] = function() {
-  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
-  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
-  return Module["asm"]["___cxx_global_var_init_1797"].apply(null, arguments) };
-var ___cxx_global_var_init_1823 = Module["___cxx_global_var_init_1823"] = function() {
-  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
-  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
-  return Module["asm"]["___cxx_global_var_init_1823"].apply(null, arguments) };
 var ___cxx_global_var_init_36 = Module["___cxx_global_var_init_36"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["___cxx_global_var_init_36"].apply(null, arguments) };
+var ___cxx_global_var_init_5393 = Module["___cxx_global_var_init_5393"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["___cxx_global_var_init_5393"].apply(null, arguments) };
+var ___cxx_global_var_init_575 = Module["___cxx_global_var_init_575"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["___cxx_global_var_init_575"].apply(null, arguments) };
 var ___emscripten_environ_constructor = Module["___emscripten_environ_constructor"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -14203,10 +14984,18 @@ var _llvm_bswap_i32 = Module["_llvm_bswap_i32"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["_llvm_bswap_i32"].apply(null, arguments) };
+var _llvm_maxnum_f32 = Module["_llvm_maxnum_f32"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["_llvm_maxnum_f32"].apply(null, arguments) };
 var _llvm_maxnum_f64 = Module["_llvm_maxnum_f64"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["_llvm_maxnum_f64"].apply(null, arguments) };
+var _llvm_minnum_f32 = Module["_llvm_minnum_f32"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["_llvm_minnum_f32"].apply(null, arguments) };
 var _llvm_minnum_f64 = Module["_llvm_minnum_f64"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -14255,6 +15044,10 @@ var _pthread_mutex_lock = Module["_pthread_mutex_lock"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["_pthread_mutex_lock"].apply(null, arguments) };
+var _pthread_mutex_trylock = Module["_pthread_mutex_trylock"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["_pthread_mutex_trylock"].apply(null, arguments) };
 var _pthread_mutex_unlock = Module["_pthread_mutex_unlock"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -14311,14 +15104,50 @@ var stackSave = Module["stackSave"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["stackSave"].apply(null, arguments) };
+var dynCall_dd = Module["dynCall_dd"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_dd"].apply(null, arguments) };
 var dynCall_di = Module["dynCall_di"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["dynCall_di"].apply(null, arguments) };
+var dynCall_ff = Module["dynCall_ff"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_ff"].apply(null, arguments) };
+var dynCall_fff = Module["dynCall_fff"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_fff"].apply(null, arguments) };
+var dynCall_ffffifi = Module["dynCall_ffffifi"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_ffffifi"].apply(null, arguments) };
+var dynCall_ffffifiiiff = Module["dynCall_ffffifiiiff"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_ffffifiiiff"].apply(null, arguments) };
+var dynCall_fffifi = Module["dynCall_fffifi"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_fffifi"].apply(null, arguments) };
+var dynCall_fffifiiiff = Module["dynCall_fffifiiiff"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_fffifiiiff"].apply(null, arguments) };
+var dynCall_fi = Module["dynCall_fi"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_fi"].apply(null, arguments) };
 var dynCall_fii = Module["dynCall_fii"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["dynCall_fii"].apply(null, arguments) };
+var dynCall_fiii = Module["dynCall_fiii"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_fiii"].apply(null, arguments) };
 var dynCall_fiiiii = Module["dynCall_fiiiii"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -14331,6 +15160,18 @@ var dynCall_ii = Module["dynCall_ii"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["dynCall_ii"].apply(null, arguments) };
+var dynCall_iif = Module["dynCall_iif"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_iif"].apply(null, arguments) };
+var dynCall_iiff = Module["dynCall_iiff"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_iiff"].apply(null, arguments) };
+var dynCall_iifff = Module["dynCall_iifff"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_iifff"].apply(null, arguments) };
 var dynCall_iiffff = Module["dynCall_iiffff"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -14343,10 +15184,22 @@ var dynCall_iii = Module["dynCall_iii"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["dynCall_iii"].apply(null, arguments) };
+var dynCall_iiif = Module["dynCall_iiif"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_iiif"].apply(null, arguments) };
 var dynCall_iiii = Module["dynCall_iiii"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["dynCall_iiii"].apply(null, arguments) };
+var dynCall_iiiif = Module["dynCall_iiiif"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_iiiif"].apply(null, arguments) };
+var dynCall_iiiiff = Module["dynCall_iiiiff"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_iiiiff"].apply(null, arguments) };
 var dynCall_iiiii = Module["dynCall_iiiii"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -14355,6 +15208,10 @@ var dynCall_iiiiid = Module["dynCall_iiiiid"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["dynCall_iiiiid"].apply(null, arguments) };
+var dynCall_iiiiiff = Module["dynCall_iiiiiff"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_iiiiiff"].apply(null, arguments) };
 var dynCall_iiiiii = Module["dynCall_iiiiii"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -14463,6 +15320,10 @@ var dynCall_vifffffi = Module["dynCall_vifffffi"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["dynCall_vifffffi"].apply(null, arguments) };
+var dynCall_vifi = Module["dynCall_vifi"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_vifi"].apply(null, arguments) };
 var dynCall_vii = Module["dynCall_vii"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -14515,6 +15376,14 @@ var dynCall_viiif = Module["dynCall_viiif"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
   return Module["asm"]["dynCall_viiif"].apply(null, arguments) };
+var dynCall_viiiffi = Module["dynCall_viiiffi"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_viiiffi"].apply(null, arguments) };
+var dynCall_viiiffiii = Module["dynCall_viiiffiii"] = function() {
+  assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+  assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+  return Module["asm"]["dynCall_viiiffiii"].apply(null, arguments) };
 var dynCall_viiifi = Module["dynCall_viiifi"] = function() {
   assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
   assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
