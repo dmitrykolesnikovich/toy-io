@@ -180,7 +180,7 @@ A massive amount of work has been completed over the course of those three month
 <div class="doc col-12">
     <div class="emscripten_border">
         <canvas class="emscripten app" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
-        <div class="emscripten" id="status">Downloading...</div>
+        <!--<div class="emscripten" id="status">Downloading...</div>-->
         <figure style="overflow:visible;" id="spinner"><div class="spinner"></div><center style="margin-top:0.5em"><strong>emscripten</strong></center></figure>
         <div class="emscripten">
             <progress value="0" max="100" id="progress" hidden=1></progress>    
@@ -204,7 +204,7 @@ A massive amount of work has been completed over the course of those three month
         </footer>
         
         <script type='text/javascript'>
-            var statusElement = document.getElementById('status');
+            // var statusElement = document.getElementById('status');
             var progressElement = document.getElementById('progress');
             var spinnerElement = document.getElementById('spinner');
             var Module = {
@@ -250,7 +250,7 @@ A massive amount of work has been completed over the course of those three month
                         progressElement.style.display = 'none';
                         if (!text) spinnerElement.style.display = 'none';
                     }
-                    statusElement.innerHTML = text;
+                    // statusElement.innerHTML = text;
                 },
                 totalDependencies: 0,
                 monitorRunDependencies: function(left) {
